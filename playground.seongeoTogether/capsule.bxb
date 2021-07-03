@@ -1,0 +1,15 @@
+capsule {
+  id (playground.seongeoTogether)
+  version (0.1.0) //시작
+  format (3)
+  targets {
+    target (bixby-mobile-ko-KR)
+  }
+  runtime-version (4)
+  store-countries {
+    all
+  }
+  device-models {
+    all
+  }
+}

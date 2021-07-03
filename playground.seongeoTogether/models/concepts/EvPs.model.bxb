@@ -1,0 +1,4 @@
+enum (EvPs) {
+  description (__DESCRIPTION__)
+  symbol (evPs)
+}

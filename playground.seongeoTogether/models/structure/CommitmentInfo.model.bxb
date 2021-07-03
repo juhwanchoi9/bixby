@@ -1,0 +1,15 @@
+structure (CommitmentInfo) {
+description (candidate commitmentInfo)
+  property (name) {
+    type (name)
+    min (Required) max (One)
+  }
+  property (gongyakNum){
+    type (gongyakNum)
+    min (Required) max (One)
+  }
+  property (cnddCommitment) {
+    type (cnddCommitment)
+    min (Required) max (One)
+  }
+}

@@ -1,0 +1,47 @@
+structure (candidateInfo) {
+  description (candidateInfo)
+  property (name) {
+    type (name)
+    min (Required) max (One)
+  }
+  property (sggName) {
+    type (sggName)
+    min (Required) max (One)
+  }
+  property (sdName) {
+    type (sdName)
+    min (Required) max (One)
+  }
+  property (wiwName) {
+    type (wiwName)
+    min (Required) max (One)
+  }
+  property (gender) {
+    type (gender)
+    min (Required) max (One)
+  }
+  property (age) {
+    type (age)
+    min (Required) max (One)
+  }
+  property (jdNameResult) {
+    type (jdNameResult)
+    min (Required) max (One)
+  }
+  property (job) {
+    type (job)
+    min (Required) max (One)
+  } 
+  property (num) {
+    type(num)
+    min (Required) max (One)
+  }
+  property (giho) {
+    type(giho)
+    min (Required) max (One)
+  }
+    property (huboId) {
+    type (huboId)
+    min (Required) max (One)
+  }
+}

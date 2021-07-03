@@ -1,0 +1,3 @@
+text (sdName) {
+  description (__DESCRIPTION__)
+}

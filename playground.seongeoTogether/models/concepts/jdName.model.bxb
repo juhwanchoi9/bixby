@@ -1,0 +1,16 @@
+enum (jdName) {
+	description (정당이름 ex.민주당/바른미래당 등)
+  symbol (theminjoo) //더불어민주당
+  symbol (peopleparty) //국민의당
+  symbol (unitedfutureparty) //미래통합당
+  symbol (minsaengdang) //민생당
+  symbol (minjungparty) //민중당
+  symbol (libertyrepublican) //자유공화당 우리공화당   
+  symbol (justice) //정의당 
+  symbol (libertykoreaparty) //자유한국당
+  symbol (bareunmirae) //바른미래당
+  symbol (ourrepublicanparty) //우리공화당 
+  symbol (nrdparty) //국가혁명배당금당
+  symbol (miraehankook) //미래한국당
+  symbol (musosok) //무소속
+}

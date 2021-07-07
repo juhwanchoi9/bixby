@@ -1,0 +1,15 @@
+action (MapPunchOut) {
+  description (__DESCRIPTION__)
+  type(Search)
+  collect {
+    input (point) {
+      type (Point)
+      min (Optional) max (One)
+    }
+    input (addr) {
+      type (Addr)
+      min (Optional) max (One)
+    }
+  }
+  output (PunchOutUrl)
+}

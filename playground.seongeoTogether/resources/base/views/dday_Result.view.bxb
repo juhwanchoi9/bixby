@@ -1,0 +1,29 @@
+result-view{
+  match: dday (this)
+
+  message {
+    template("선거 정보를 알려드릴게요.")
+  }
+
+render {
+    if (this < 0) 
+    {
+      layout-macro (onlyVoteInfo)
+    }
+    else 
+    {
+      layout-macro (dDayAndVoteInfo) {
+      param (dday) {
+				expression (this)
+			}
+    }
+    }
+    
+  }
+  conversation-drivers {
+    conversation-driver {
+      template ("중앙선거관리위원회 홈페이지")
+    }
+  }
+}
+

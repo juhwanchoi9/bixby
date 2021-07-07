@@ -1,0 +1,224 @@
+layout-macro-def (dDayAndVoteInfo) {
+	params {
+		param (dday) {
+			type (dday)
+			min (Optional) max (Many)
+		}
+	}
+	content {
+    partitioned {
+      content {
+        cell-area {
+      slot1 {
+        image {
+          url ("images/vote.png")
+          shape (Circle)
+        }
+      }
+      slot2{
+        content {
+          order (PrimarySecondary)
+          primary ("다음 선거까지 #{value(dday)}일 남았어요!")
+        }
+      }
+    }
+        title-area {
+          slot2 {
+            single-line {
+              text {
+                style (Detail_L)
+                color (Amber)
+                value ("선거 정보")
+              }
+            }
+          }
+        }
+          hbox {
+          content {
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M_Soft)
+                    value ("투표 시간")
+                  }
+                }
+              }
+            }
+            divider
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M)
+                    value ("오전 6시부터 오후 6시까지")
+                  }
+                }
+              }
+            }
+          }
+        }
+        hbox {
+          content {
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M_Soft)
+                    value ("선거권")
+                  }
+                }
+              }
+            }
+            divider
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M)
+                    value ("선거일 현재 만 18세 이상의 국민")
+                  }
+                }
+              }
+            }
+          }
+        }
+      hbox {
+          content {
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M_Soft)
+                    value ("선출 인원")
+                  }
+                }
+              }
+            }
+            divider
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M)
+                    value ("20대 대통령")
+                  }
+                }
+              }
+            }
+          }
+        }
+        hbox {
+          content {
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M_Soft)
+                    value ("임기 기간")
+                  }
+                }
+              }
+            }
+            divider
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M)
+                    value ("5년 (2022.5.10~ 2027.529)")
+                  }
+                }
+              }
+            }
+          }
+        }
+        hbox {
+          content {
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M_Soft)
+                    value ("출마 자격")
+                  }
+                }
+              }
+            }
+            divider
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M)
+                    value ("선거일 현재 25세 이상의 국민")
+                  }
+                }
+              }
+            }
+          }
+        }
+        hbox {
+          content {
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M_Soft)
+                    value ("선거 준비물")
+                  }
+                }
+              }
+            }
+            divider
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M)
+                    value ("주민등록증/운전면허증/여권/학생증")
+                  }
+                }
+              }
+            }
+          }
+        }
+        title-area {
+          slot2 {
+            single-line {
+              text {
+                style (Detail_L)
+                color (Amber)
+                value ("투표 방법")
+              }
+            }
+          }
+        }
+        single-line {
+          text {
+            style (Detail_M)
+            value ("1. 신분증을 제시하고 선거인명부에 서명합니다.")
+          }
+        }
+        single-line {
+          text {
+            style (Detail_M)
+            value ("2. 투표용지 2장을 받습니다.")
+          }
+        }
+        single-line {
+          text {
+            style (Detail_M)
+            value ("3. 한 명의 후보자, 하나의 정당에 기표합니다.")
+          }
+        }
+        single-line {
+          text {
+            style (Detail_M)
+            value ("4. 투표지 2장을 보이지 않게 접어 투표함에 넣습니다.")
+          }
+        }
+      }  
+    }
+	}
+}

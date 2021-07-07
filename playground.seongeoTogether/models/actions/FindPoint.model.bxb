@@ -1,0 +1,75 @@
+action (FindPoint) {
+	type(Search)
+	description (__DESCRIPTION__)
+	collect {
+		input (addr){
+			type (geo.NamedPoint)
+			min (Optional) max (One)
+		}
+		input (evPs){
+			type (EvPs)
+			min (Optional) max (One)
+		}
+		
+		computed-input (countryDivision){
+			type (geo.GeocodedAddress)
+			max (One) min (Optional)
+			compute{
+				if(not empty(addr)){
+					intent{
+						goal : geo.GeocodedAddress
+						value : $expr(addr.point)
+					}
+				}
+				else-if ("exists($user.currentLocation)") {
+					intent{
+						goal : geo.GeocodedAddress
+						route : geo.CurrentLocation
+					}
+				}
+			}
+		}
+		
+		input (near){
+			type (geo.Address)
+			min (Optional) max (One)
+			default-init {
+				intent {
+					goal: geo.CurrentLocation
+				}
+			}
+		}
+	}
+	
+	output (LocationResult){
+		throws{
+			error (NoData){
+				on-catch{
+					halt{
+						dialog{
+							template ("데이터가 정보가 없습니다.")
+						}
+					}
+				}
+			}
+			error (NoResult){
+				on-catch{
+					halt{
+						dialog{
+							template ("정확한 시나 구의 이름을 말씀해주세요.")
+						}
+					}
+				}
+			}
+			error (NoResultVote){
+				on-catch{
+					halt{
+						dialog{
+							template ("말씀하신 지역의 투표소를 찾을 수 없네요")
+						}
+					}
+				}
+			}
+		}
+	}
+}

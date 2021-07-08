@@ -2,4 +2,7 @@
   goal 이름 및 파라미터 정의
 
 # playground.seongeoTogether 0.1.1
-  goal4 (d day) 동작 추가
+  goal 4 (d day) 동작 추가
+
+# playground.seongeoTogether 0.1.2
+  goal 2 (투표소) geo 추가

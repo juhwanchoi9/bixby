@@ -1,14 +1,24 @@
 capsule {
   id (playground.seongeoTogether)
-  version (0.1.1) //dday goal js추가
+  version (0.1.2) //geo 추가
   format (3)
   targets {
     target (bixby-mobile-ko-KR)
   }
-  runtime-version (4)
+  runtime-version (9)
   store-countries {
     all
   }
+  capsule-imports{
+    import (viv.geo){
+      as (geo) version (9.28.1)
+    }
+  }
+
+  // permissions {
+  //   device-location-access
+	// }
+
   device-models {
     all
   }

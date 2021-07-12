@@ -1,5 +1,13 @@
 endpoints {
   action-endpoints {
+    action-endpoint (FindLocation) { //지역 찾기
+      accepted-inputs(addr, evPs, near, locationAddr, point)
+      local-endpoint (FindLocation.js)
+    }
+    action-endpoint (FindPoint) { //주소로 좌표 받아오기
+      accepted-inputs(addr, evPs,countryDivision, near)
+      local-endpoint (FindPoint.js)
+    }
     action-endpoint (VoteDday) { //dday
       local-endpoint (VoteDday.js)
     }

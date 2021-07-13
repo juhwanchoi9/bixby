@@ -1,6 +1,6 @@
 capsule {
   id (playground.seongeoTogether)
-  version (0.1.3) //geo 확인
+  version (0.1.4) //투표소 정보 받아오기
   format (3)
   targets {
     target (bixby-mobile-ko-KR)

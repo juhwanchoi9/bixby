@@ -6,3 +6,7 @@
 
 # playground.seongeoTogether 0.1.2
   goal 2 (투표소) geo 추가
+
+# playground.seongeoTogether 0.1.4
+  goal 2 (투표소) api 연결
+

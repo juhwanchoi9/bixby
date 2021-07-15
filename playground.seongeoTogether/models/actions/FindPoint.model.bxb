@@ -47,7 +47,16 @@ action (FindPoint) {
 				on-catch{
 					halt{
 						dialog{
-							template ("데이터가 정보가 없습니다.")
+							template ("중앙선거관리위원회에서 정보를 제공하지 않았어요. 업데이트 되는 대로 알려드릴게요.")
+						}
+					}
+				}
+			}
+      error (NoData2){
+				on-catch{
+					halt{
+						dialog{
+							template ("이번 선거 지역이 아니네요.")
 						}
 					}
 				}
@@ -65,7 +74,7 @@ action (FindPoint) {
 				on-catch{
 					halt{
 						dialog{
-							template ("말씀하신 지역의 투표소를 찾을 수 없네요")
+							template ("말씀하신 지역의 투표소를 찾을 수 없네요.")
 						}
 					}
 				}

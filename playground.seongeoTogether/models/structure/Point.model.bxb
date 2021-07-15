@@ -1,11 +1,4 @@
 structure (Point) {
 	description (__DESCRIPTION__)
-	property (latitude) {
-		type (latitude)
-		min (Optional) max (One)
-	}
-	property (longitude) {
-		type (longitude)
-		min (Optional) max (One)
-	}
+	role-of (geo.GeoPoint)
 }

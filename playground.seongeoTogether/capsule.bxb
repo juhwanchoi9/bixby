@@ -1,6 +1,6 @@
 capsule {
   id (playground.seongeoTogether)
-  version (0.1.5) //투표소 리스트 view 추가
+  version (0.1.6) //투표소 최종 view 추가
   format (3)
   targets {
     target (bixby-mobile-ko-KR)

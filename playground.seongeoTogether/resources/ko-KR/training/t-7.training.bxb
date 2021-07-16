@@ -1,0 +1,4 @@
+train (t-7s5dqbd4cqnqqbnewwhuew30p) {
+  utterance ([g:GetCandidateInfo] 후보자 보여줘)
+  last-modified (1626428509648)
+}

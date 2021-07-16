@@ -16,3 +16,6 @@
 # playground.seongeoTogether 0.1.6
   goal 2 (투표소) result view 생성
 
+# playground.seongeoTogether 0.1.7
+  goal 1,3 (후보자, 당선자) api 연결
+

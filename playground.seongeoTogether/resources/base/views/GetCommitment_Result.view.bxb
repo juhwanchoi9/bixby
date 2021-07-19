@@ -1,0 +1,66 @@
+result-view {
+	match: CommitmentInfo(this) {
+		from-output : GetCommitment(action){
+    }
+	}
+	message {
+    if (size(this) == 0 )	{
+			template ("등록된 공약이 없네요.")
+		} else {
+			template ("#{value(this.name)}님의 공약입니다!")
+		}
+	}
+	
+	render {
+    list-of (this) {
+      where-each (item) {
+        cell-card {
+          slot1 {
+            if (item.gongyakNum == '약속 하나') {
+              image {
+                url ("images/one.png")
+                shape (Circle)
+              }
+            } else-if (item.gongyakNum == '약속 둘') {
+              image {
+                url ("images/two.png")
+                shape (Circle)
+              }
+            } else-if (item.gongyakNum == '약속 셋') {
+              image {
+                url ("images/three.png")
+                shape (Circle)
+              }
+            } else-if (item.gongyakNum == '약속 넷') {
+              image {
+                url ("images/four.png")
+                shape (Circle)
+              }
+            } else {
+              image {
+                url ("images/five.png")
+                shape (Circle)
+              }
+            }
+        }
+          slot2 {
+            content {
+              order (SecondaryPrimary)
+              primary {
+                template ("#{value(item.cnddCommitment)}")
+              }
+              secondary {
+                template ("#{value(item.gongyakNum)}")
+              }
+            }
+          }
+        }
+      }
+    }
+	}
+  conversation-drivers {
+    conversation-driver {
+      template ("선거 정보 보여줘")
+    }
+  }
+}

@@ -14,12 +14,13 @@ const PageSize = 'pagesize=10'
 const NumOfRows = 50
 
 module.exports.function = function getWinnerInfo(location, jdName) {
-  console.log(location)
+  // console.log(location)
   var url = BaseUrl + ServiceKey + "&" + PageNo + "&" + StartPage + "&" + "numOfRows=50" + "&" + PageSize + "&" + SgID + "&" + SgTypecode
 
   try {
     var res = http.getUrl(url, { format: 'xmljs' })
     var ret = []
+    // console.debug(res.response.body.items.item)
     let List = res.response.body.items.item
     for (let i = 0; i < count; i++) {
       ret.push({
@@ -37,9 +38,7 @@ module.exports.function = function getWinnerInfo(location, jdName) {
         'dugyul': List[i].dugyul
       })
     }
-
-
-    console.debug(ret)
+    // console.debug(ret)
     return ret
   }
   catch (err) {

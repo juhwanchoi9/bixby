@@ -1,0 +1,19 @@
+train (t-05axlb7fbh2r1pirf8cxhjvkf) {
+  utterance ([g:GetCandidateInfo] 이번 선거 후보자 정보 알려줘)
+  plan (Y2Bi0MjJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktOzEvJTEksSfXMS8tn0Maj0j21xBlFMSMQMkAxkAQA)
+  last-modified (1586508587569)
+}
+train (t-08qnpbap627k5bgz6pub3gok8) {
+  utterance ([g:GetCandidateInfo] 후보자 누구있어)
+  plan (Y2Bi0MjJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktOzEvJTEksSfXMS8tn0Maj0j21xBlFMSMQMkAxkAQA)
+  last-modified (1586505428938)
+}
+train (t-0dyysx4942nj4sv339l0ak7r1) {
+  utterance ("[g:GetCandidateInfo] (서귀포)[v:geo.SearchTerm] 후보자 보여줘")
+  plan (fYxBCsIwEEW/rXoAXXkDQcgdxIW4EcFeIDbfNGAzkKZ159kdRRFBHBjm8efxMcXyEiSeUnCepqNET6nEMzdMprbRBWczd/EsWP0xt8ybL3k2hMGoYfa2pTtIiBnzd7bus3S99+wyFj/C21U7+ek40qa6qZhaTDBCgRJjJby41IvnPqZQ0t8d)
+  last-modified (1586503910565)
+}
+train (t-0t5chlzxjtrcxyfaexm3osjcw) {
+  utterance ("[g:GetCandidateInfo] (강원 원주시)[v:geo.SearchTerm] 출마자 정보 검색해서 보여줘")
+  last-modified (1586510681969)
+}

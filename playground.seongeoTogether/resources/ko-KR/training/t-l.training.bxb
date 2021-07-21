@@ -1,0 +1,35 @@
+train (t-lb1wunqn4uu37al99qjv3en6k) {
+  utterance ("[g:GetCandidateInfo] (옹진군)[v:geo.SearchTerm] 후보 누구야")
+  plan (Y2Bj0CjISaxML8ovzUvRK07Nz0tPzQ/JT08tyUgt0ktOzEvJTEksSfXMS8tn0Maj0j21xBlFsVBZZpkeUIWeX2JuakpAfmZeCYMwTMyxtCS/uDQ9PbW4hEESi2BdOdDMVIQZwamJRckZIalFuQysDIwMTAzMDCxAFgOUzQykGcAYBJiALKAcAA==)
+  last-modified (1586421910046)
+}
+train (t-lbe6xo57heqhhxfwkkddff18i) {
+  utterance ([g:FindLocation] 근처에 투표소 어디에 있지)
+  plan (Y2BmUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBE49CmCKomUwMjEDMACQZGRhgNAA=)
+  last-modified (1587085145466)
+}
+train (t-lgub0otvcs19g35cpr10iapuv) {
+  utterance ("[g:GetCandidateInfo] (마포구)[v:geo.SearchTerm]에 누가 나왔는지 보고 싶어")
+  plan (fYxBCsIwEEW/rXoAXXkDQcgdxIW4EcFeIDbfNGAzkKZ159kdRRFBHBjm8efxMcXyEiSeUnCepqNET6nEMzdMprbRBWczd/EsWP0xt8ybL3k2hMGoYfa2pTtIiBnzd7bus3S99+wyFj/C21U7+ek40qa6qZhaTDBCgRJjJby41IvnPqZQ0t8d)
+  last-modified (1587089796295)
+}
+train (t-lhp2b4qnktrodu8cc017kepus) {
+  utterance ([g:VoteDday] 선거 며칠에 해)
+  plan (Y2BikC/ISaxML8ovzUvRK07Nz0tPzQ/JT08tyUgt0ktJSaxkUMajICy/JNUFpIgRCBmgGEgCAA==)
+  last-modified (1626867254692)
+}
+train (t-ln7b10f6dl02v93if7duy8r72) {
+  utterance ("[g:GetWinnerInfo] (제주)[v:geo.SearchTerm] 당선자 검색")
+  plan (fYyxCsJAEETHRP0ArfwAwer+wUpsRDBgHc14OTC7cLkknd/uKkoacWHYx8wwmGN9DyqXGCpP11LFUwv1TDWjG4II415uis2f2o7pPDYXfeidxe5QNqyOGiRh+fW2XdK2855twuqH+RhskOPGiWW81gVjgxkmyJBjaoQP5/bx1usyI8ue)
+  last-modified (1586846530769)
+}
+train (t-log79nmmxfo9c5910tc33hlm7) {
+  utterance ("[g:GetWinnerInfo] (경남)[v:geo.SearchTerm] 누가 됐는지 보여줘")
+  plan (fYyxCsJAEETHRP0ArfwAwer+wUpsRDBgHc14OTC7cLkknd/uKkoacWHYx8wwmGN9DyqXGCpP11LFUwv1TDWjG4II415uis2f2o7pPDYXfeidxe5QNqyOGiRh+fW2XdK2855twuqH+RhskOPGiWW81gVjgxkmyJBjaoQP5/bx1usyI8ue)
+  last-modified (1587089974130)
+}
+train (t-lov73h08ksb6uc78lo1d8zffc) {
+  utterance ([g:VoteDday] 선거 며칠 부터 해)
+  plan (Y2BikC/ISaxML8ovzUvRK07Nz0tPzQ/JT08tyUgt0ktJSaxkUMajICy/JNUFpIgRCBmgGEgCAA==)
+  last-modified (1626867254692)
+}

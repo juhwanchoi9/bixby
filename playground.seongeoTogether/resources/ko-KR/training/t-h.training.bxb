@@ -1,0 +1,25 @@
+train (t-h05a1l914yx7ng98ca48llnot) {
+  utterance ("[g:GetWinnerInfo] (서구)[v:geo.SearchTerm] 당선자 정보 알고싶어")
+  plan (fYyxCsJAEETHRP0ArfwAwer+wUpsRDBgHc14OTC7cLkknd/uKkoacWHYx8wwmGN9DyqXGCpP11LFUwv1TDWjG4II415uis2f2o7pPDYXfeidxe5QNqyOGiRh+fW2XdK2855twuqH+RhskOPGiWW81gVjgxkmyJBjaoQP5/bx1usyI8ue)
+  last-modified (1587014953362)
+}
+train (t-haizsc2j8aliyrdlovlzgaa61) {
+  utterance ("[g:GetWinnerInfo] (서구)[v:geo.SearchTerm] 당선자 알고싶어")
+  plan (fYyxCsJAEETHRP0ArfwAwer+wUpsRDBgHc14OTC7cLkknd/uKkoacWHYx8wwmGN9DyqXGCpP11LFUwv1TDWjG4II415uis2f2o7pPDYXfeidxe5QNqyOGiRh+fW2XdK2855twuqH+RhskOPGiWW81gVjgxkmyJBjaoQP5/bx1usyI8ue)
+  last-modified (1587016705101)
+}
+train (t-hc4opfxxtgc37a3j1hp8c1fmv) {
+  utterance ([g:GetWinnerInfo] 당선자 정보 띄워봐)
+  plan (Y2BiUM3JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ivPzMtLLfLMS8tn0MCjzD21JByhkhEIGaAYSAIA)
+  last-modified (1587085659381)
+}
+train (t-hlna9wsffksux1qa3aqmgp63h) {
+  utterance ([g:GetCandidateInfo] 선거 출마한 후보자 찾아서 보여줘)
+  plan (Y2Bi0MjJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktOzEvJTEksSfXMS8tn0Maj0j21xBlFMSMQMkAxkAQA)
+  last-modified (1586505434376)
+}
+train (t-hum9soz8unovxm95p2zi323ho) {
+  utterance ([g:GetCandidateInfo] 선거 후보 리스트 알려줄래)
+  plan (Y2Bi0MjJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktOzEvJTEksSfXMS8tn0Maj0j21xBlFMSMQMkAxkAQA)
+  last-modified (1586505399301)
+}

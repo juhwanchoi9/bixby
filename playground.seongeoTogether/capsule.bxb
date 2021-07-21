@@ -1,6 +1,6 @@
 capsule {
   id (playground.seongeoTogether)
-  version (0.1.9) //training data 추가
+  version (0.1.8) //후보자, 당선자 goal view 추가
   format (3)
   targets {
     target (bixby-mobile-ko-KR)

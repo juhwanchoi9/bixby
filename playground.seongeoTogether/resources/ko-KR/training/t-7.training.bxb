@@ -1,34 +1,4 @@
-train (t-77yhdlmx7e9xt09ukv9hywih7) {
-  utterance ("[g:GetCandidateInfo] 이번 선거 (광주)[v:geo.SearchTerm]에서  누구 출마했나 찾아봐")
-  last-modified (1586510637908)
-}
-train (t-785xyk128db1g92mf6wc2k1i8) {
-  utterance ("[g:GetCandidateInfo] (제주도 서귀포시)[v:geo.SearchTerm]에서 출마한 후보자 정보 찾아줄래")
-  plan (fYxBCsIwEEW/rXoAXXkDQcgdxIW4EcFeIDbfNGAzkKZ159kdRRFBHBjm8efxMcXyEiSeUnCepqNET6nEMzdMprbRBWczd/EsWP0xt8ybL3k2hMGoYfa2pTtIiBnzd7bus3S99+wyFj/C21U7+ek40qa6qZhaTDBCgRJjJby41IvnPqZQ0t8d)
-  last-modified (1586506985764)
-}
-train (t-7a6ykjn6mcuabwqxbjuu4gh7q) {
-  utterance ("[g:GetWinnerInfo] (마포구)[v:geo.SearchTerm] 당선자 띄워봐")
-  plan (fYyxCsJAEETHRP0ArfwAwer+wUpsRDBgHc14OTC7cLkknd/uKkoacWHYx8wwmGN9DyqXGCpP11LFUwv1TDWjG4II415uis2f2o7pPDYXfeidxe5QNqyOGiRh+fW2XdK2855twuqH+RhskOPGiWW81gVjgxkmyJBjaoQP5/bx1usyI8ue)
-  last-modified (1587085463414)
-}
-train (t-7bez16jbc9pbwx5bkh7ngqvum) {
-  utterance ("[g:GetCandidateInfo] (양천구)[v:geo.SearchTerm] 후보자가 누구니")
-  plan (fYxBCsIwEEW/rXoAXXkDQcgdxIW4EcFeIDbfNGAzkKZ159kdRRFBHBjm8efxMcXyEiSeUnCepqNET6nEMzdMprbRBWczd/EsWP0xt8ybL3k2hMGoYfa2pTtIiBnzd7bus3S99+wyFj/C21U7+ek40qa6qZhaTDBCgRJjJby41IvnPqZQ0t8d)
-  last-modified (1586846100569)
-}
-train (t-7cmjqjwel4mcqvvy3a0zgd0hm) {
-  utterance ([g:FindLocation] 주변 투표소 위치 보고싶어)
-  plan (Y2BmUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBE49CmCKomUwMjEDMACQZGRhgNAA=)
-  last-modified (1586500208010)
-}
-train (t-7d4asglbdguvasgpx2ztlnktq) {
-  utterance ([g:GetWinnerInfo] 누가 당선이야)
-  plan (Y2BiUM3JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ivPzMtLLfLMS8tn0MCjzD21JByhkhEIGaAYSAIA)
-  last-modified (1586508577833)
-}
-train (t-7npysp9nxczn36kq4bjxf0h4k) {
-  utterance ([g:VoteDday] 선거일까지 얼마나 남았어)
-  plan (Y2BikC/ISaxML8ovzUvRK07Nz0tPzQ/JT08tyUgt0ktJSaxkUMajICy/JNUFpIgRCBmgGEgCAA==)
-  last-modified (1626867254692)
+train (t-7s5dqbd4cqnqqbnewwhuew30p) {
+  utterance ([g:GetCandidateInfo] 후보자 보여줘)
+  last-modified (1626428509648)
 }

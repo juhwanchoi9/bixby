@@ -1,0 +1,60 @@
+train (t-b64yogv8bdjb5o5caomfeu0xw) {
+  utterance ("[g:GetWinnerInfo] (단원구)[v:geo.SearchTerm]는 누가 당선됐어")
+  plan (fYyxCsJAEETHRP0ArfwAwer+wUpsRDBgHc14OTC7cLkknd/uKkoacWHYx8wwmGN9DyqXGCpP11LFUwv1TDWjG4II415uis2f2o7pPDYXfeidxe5QNqyOGiRh+fW2XdK2855twuqH+RhskOPGiWW81gVjgxkmyJBjaoQP5/bx1usyI8ue)
+  last-modified (1587089218568)
+}
+train (t-b9g55ten06idkhgwcr1dzfn1m) {
+  utterance ([g:FindLocation] 우리 동네 투표소 보여줘)
+  plan (Y2BmUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBE49CmCKomUwMjEDMACQZGRhgNAA=)
+  last-modified (1587086157011)
+}
+train (t-bbp6zzgjm76cjm3mx0tyv4b6l) {
+  utterance ([g:FindLocation] 투표소 위치 검색)
+  plan (Y2BmUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBE49CmCKomUwMjEDMACQZGRhgNAA=)
+  last-modified (1586500226171)
+}
+train (t-bftui8fqrdx2nnfn11xcxpzcm) {
+  utterance ("[g:GetWinnerInfo] (광주 광산구)[v:geo.SearchTerm] 당선자 띄워봐")
+  plan (fYyxCsJAEETHRP0ArfwAwer+wUpsRDBgHc14OTC7cLkknd/uKkoacWHYx8wwmGN9DyqXGCpP11LFUwv1TDWjG4II415uis2f2o7pPDYXfeidxe5QNqyOGiRh+fW2XdK2855twuqH+RhskOPGiWW81gVjgxkmyJBjaoQP5/bx1usyI8ue)
+  last-modified (1587085589613)
+}
+train (t-bg1463vt6b5n8h6p77jnr0c93) {
+  utterance ([g:FindLocation] 투표소 위치)
+  plan (Y2BmUCzISaxML8ovzUvRK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEkMz+PQROPQpgiqJlMDIxAzAAkGRkYYDQA)
+  last-modified (1586311031365)
+}
+train (t-bgg70z7f8m0bxeq6op5ea7m61) {
+  utterance ("[g:FindLocation] (전주시)[v:Addr] 찾아줘")
+  plan (Y2BhUCzISaxML8ovzUvRK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEkMz+PQR6PQseUlCIGTTwKYKZALWVmYGRgApIMQBoEIYAJLMoAAA==)
+  last-modified (1586246799528)
+}
+train (t-bmwsr431tio2mpx8ty6mg0lq4) {
+  utterance ([g:GetWinnerInfo] 누가 당선이야)
+  plan (Y2BiUM3JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ivPzMtLLfLMS8tn0MCjzD21JByhkhEIGaAYSAIA)
+  last-modified (1586507371928)
+}
+train (t-bohemgje03j0pqjsuu8rdc7a3) {
+  utterance ([g:GetCandidateInfo] 후보자 정보 좀)
+  plan (Y2Bi0MjJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktOzEvJTEksSfXMS8tn0Maj0j21xBlFMSMQMkAxkAQA)
+  last-modified (1586505428378)
+}
+train (t-brn1nd8hnwca40z4cv4x2oceb) {
+  utterance ("[g:GetCandidateInfo] (함양)[v:geo.SearchTerm] 후보자 알려줄래")
+  plan (fYxBCsIwEEW/rXoAXXkDQcgdxIW4EcFeIDbfNGAzkKZ159kdRRFBHBjm8efxMcXyEiSeUnCepqNET6nEMzdMprbRBWczd/EsWP0xt8ybL3k2hMGoYfa2pTtIiBnzd7bus3S99+wyFj/C21U7+ek40qa6qZhaTDBCgRJjJby41IvnPqZQ0t8d)
+  last-modified (1587015647430)
+}
+train (t-bt6ehrftxzyykv9iaqw0bsawu) {
+  utterance ("[g:GetCandidateInfo] (전남 해남군)[v:geo.SearchTerm] 출마자 정보 검색해봐")
+  plan (fYxBCsIwEEW/rXoAXXkDQcgdxIW4EcFeIDbfNGAzkKZ159kdRRFBHBjm8efxMcXyEiSeUnCepqNET6nEMzdMprbRBWczd/EsWP0xt8ybL3k2hMGoYfa2pTtIiBnzd7bus3S99+wyFj/C21U7+ek40qa6qZhaTDBCgRJjJby41IvnPqZQ0t8d)
+  last-modified (1586505515892)
+}
+train (t-btz6glqgay739s6x2px9vwvc1) {
+  utterance ("[g:GetCandidateInfo] (인천광역시)[v:geo.SearchTerm] 선거 출마자 찾아")
+  plan (fYxBCsIwEEW/rXoAXXkDQcgdxIW4EcFeIDbfNGAzkKZ159kdRRFBHBjm8efxMcXyEiSeUnCepqNET6nEMzdMprbRBWczd/EsWP0xt8ybL3k2hMGoYfa2pTtIiBnzd7bus3S99+wyFj/C21U7+ek40qa6qZhaTDBCgRJjJby41IvnPqZQ0t8d)
+  last-modified (1586505519737)
+}
+train (t-bwbeapitc2xrsrl3waqxhnlub) {
+  utterance ([g:FindLocation] 내 주변 투표소 어디에 있어)
+  plan (Y2BmUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBE49CmCKomUwMjEDMACQZGRhgNAA=)
+  last-modified (1587085070667)
+}

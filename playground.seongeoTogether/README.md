@@ -19,6 +19,9 @@
 # playground.seongeoTogether 0.1.7
   goal 1,3 (후보자, 당선자) api 연결
 
-# playground.seongeoTogether 0.1.7
+# playground.seongeoTogether 0.1.8
   goal 1,3 (후보자, 당선자) view 추가
+
+# playground.seongeoTogether 0.1.8
+  학습 데이터 추가
 

@@ -1,0 +1,15 @@
+train (t-emppdzumq7x78j7vfp25nqsue) {
+  utterance ([g:GetWinnerInfo] 당선인)
+  plan (Y2BiUM3JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ivPzMtLLfLMS8tn0MCjzD21JByhkhEIGaAYSAIA)
+  last-modified (1586507307747)
+}
+train (t-eskittdt9ujhtgauwckiok0px) {
+  utterance ([g:FindLocation] 투표소 위치 알고 싶어)
+  plan (Y2BmUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBE49CmCKomUwMjEDMACQZGRhgNAA=)
+  last-modified (1586503917637)
+}
+train (t-et83mic7jzq9chximi001fk1n) {
+  utterance ("[g:FindLocation] (용산구)[v:Addr] 투표소 좀 찾아줘")
+  plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
+  last-modified (1586846137321)
+}

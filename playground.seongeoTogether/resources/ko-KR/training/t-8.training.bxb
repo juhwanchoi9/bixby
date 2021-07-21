@@ -1,0 +1,30 @@
+train (t-8etpgqv7v2pwhg804u05yd2ex) {
+  utterance ([g:VoteDday] 4월 15일에 하는 선거가 뭐야)
+  plan (Y2BikC/ISaxML8ovzUvRK07Nz0tPzQ/JT08tyUgt0ktJSaxkUMajICy/JNUFpIgRCBmgGEgCAA==)
+  last-modified (1626867830640)
+}
+train (t-8jsh6pmzxyegc77x6og8ing0n) {
+  utterance ("[g:GetCandidateInfo] (의정부시)[v:geo.SearchTerm] 후보자 찾아")
+  plan (fYxBCsIwEEW/rXoAXXkDQcgdxIW4EcFeIDbfNGAzkKZ159kdRRFBHBjm8efxMcXyEiSeUnCepqNET6nEMzdMprbRBWczd/EsWP0xt8ybL3k2hMGoYfa2pTtIiBnzd7bus3S99+wyFj/C21U7+ek40qa6qZhaTDBCgRJjJby41IvnPqZQ0t8d)
+  last-modified (1586846112305)
+}
+train (t-8llrpakqmj25icyhj7wyr1k1b) {
+  utterance ("[g:FindLocation] (해남군)[v:Addr]에 투표소 있어")
+  plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
+  last-modified (1587016025504)
+}
+train (t-8n07mebnp9oxkxuwdmiafkiyp) {
+  utterance ([g:FindLocation] 근처에 투표소 있어)
+  plan (Y2BmUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBE49CmCKomUwMjEDMACQZGRhgNAA=)
+  last-modified (1586500188011)
+}
+train (t-8oanuyeok97js4xt9d2q8v7hk) {
+  utterance ([g:GetWinnerInfo] 당선자 보여줘)
+  plan (Y2BiUC3ISaxML8ovzUvRK07Nz0tPzQ/JT08tyUgt0ivPzMtLLfLMS8tn0MCjzD21JByhkhEIGaAYSAIA)
+  last-modified (1585728834354)
+}
+train (t-8zihjazfeuob5v0vfmkfbntou) {
+  utterance ([g:FindLocation] 내 주변 투표소 궁금해)
+  plan (Y2BmUCzISaxML8ovzUvRK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEkMz+PQROPQpgiqJlMDIxAzAAkGRkYYDQA)
+  last-modified (1586331040249)
+}

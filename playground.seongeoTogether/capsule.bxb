@@ -1,6 +1,6 @@
 capsule {
   id (playground.seongeoTogether)
-  version (0.1.9) //training data 추가
+  version (0.1.10) //input값 추가(후보자)
   format (3)
   targets {
     target (bixby-mobile-ko-KR)

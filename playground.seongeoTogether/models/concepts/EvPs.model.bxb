@@ -1,4 +1,4 @@
 enum (EvPs) {
-  description (__DESCRIPTION__)
+  description (사전투표소 발화)
   symbol (evPs)
 }

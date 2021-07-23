@@ -12,5 +12,6 @@ enum (jdName) {
   symbol (ourrepublicanparty) //우리공화당 
   symbol (nrdparty) //국가혁명배당금당
   symbol (miraehankook) //미래한국당
+  symbol (makeourfuture) //미래당
   symbol (musosok) //무소속
 }

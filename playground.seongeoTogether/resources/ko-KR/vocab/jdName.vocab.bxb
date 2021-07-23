@@ -1,3 +1,58 @@
 vocab(jdName) { //정당
+	"theminjoo" {
+		"더불어민주당"
+		"민주당"
+		"더 민주"
+		"더민주"
+	}
+	"peopleparty" {
+		"국민의당"
+		"국민의 당"
+	}
+	"unitedfutureparty" {
+		"미래통합당"
+		"미통당"
+		"미 통당"
+		"미래 통합당"
+    "국민의힘"
+    "국민의 힘"
+	}
+	"minsaengdang" {
+		"민생당"
+	}
+	"minjungparty" {
+		"민중당"
+	}
+	"libertyrepublican" {
+		"자유공화당"
+		"자유 공화당"
+	}
 
+	"justice" {
+		"정의당"
+	}
+	
+	"libertykoreaparty" {
+		"자유한국당"
+		"자한당"
+	}
+	"ourrepublicanparty" {
+		"우리공화당"
+	}
+	"nrdparty" {
+		"국가혁명배당금당"
+		"국가 혁명 배당금당"
+		"혁명배당금당"
+		"배당금당"
+		"혁명배당"
+	}
+	"miraehankook"{
+		"미래한국당"
+	}
+  "makeourfuture"{
+    "미래당"
+  }
+	"musosok" {
+		"무소속"
+	}
 }

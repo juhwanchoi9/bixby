@@ -1,0 +1,30 @@
+train (t-v096ey4s61htd15655k67g33s) {
+  utterance ("[g:GetWinnerInfo] (민생당)[v:jdName:minsaengdang] 이번 선거 당선자 찾아봐")
+  plan (Y2BmUM3JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ivPzMtLLfLMS8tn0MCjzD21JByhUhGPyqwUv8TcVAYmBkYgZgCSjAwgAOUDAA==)
+  last-modified (1587014948307)
+}
+train (t-v0yieexy8l8qj5418mv34yt03) {
+  utterance ([g:GetWinnerInfo] 이번 선거 당선자 정보)
+  plan (Y2BiUM3JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ivPzMtLLfLMS8tn0MCjzD21JByhkhEIGaAYSAIA)
+  last-modified (1587016782108)
+}
+train (t-verke6lxo31nnk5hojic3p8pk) {
+  utterance ([g:GetWinnerInfo] 이번 선거 당선자 정보 알려줘)
+  plan (Y2BiUM3JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ivPzMtLLfLMS8tn0MCjzD21JByhkhEIGaAYSAIA)
+  last-modified (1586846527556)
+}
+train (t-vrxemtsa1ese67hqijaobmx1u) {
+  utterance ("[g:GetWinnerInfo] 선거 당선자 (종로구)[v:geo.SearchTerm]로 보여줘")
+  plan (fYyxCsJAEETHRP0ArfwAwer+wUpsRDBgHc14OTC7cLkknd/uKkoacWHYx8wwmGN9DyqXGCpP11LFUwv1TDWjG4II415uis2f2o7pPDYXfeidxe5QNqyOGiRh+fW2XdK2855twuqH+RhskOPGiWW81gVjgxkmyJBjaoQP5/bx1usyI8ue)
+  last-modified (1587089367103)
+}
+train (t-vv68u385sefxnxl4jctouyzkh) {
+  utterance ([g:GetCandidateInfo] 후보자 정보가 궁금해)
+  plan (Y2Bi0MjJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktOzEvJTEksSfXMS8tn0Maj0j21xBlFMSMQMkAxkAQA)
+  last-modified (1586508614964)
+}
+train (t-vw2qii5c867scntil8obta0e2) {
+  utterance ("[g:FindLocation] 가까운 (사전 투표소)[v:EvPs:evPs] 어디에 있어")
+  plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9C17KAYgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
+  last-modified (1587085176317)
+}

@@ -28,3 +28,6 @@
 # playground.seongeoTogether 0.1.10
   goal 1 (후보자) js에 input값 추가
 
+# playground.seongeoTogether 0.1.13
+  goal 3 (당선자) js에 input값, view 추가
+

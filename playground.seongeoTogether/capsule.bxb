@@ -1,6 +1,6 @@
 capsule {
   id (playground.seongeoTogether)
-  version (0.1.12) //training 추가
+  version (0.1.13) //view, input 추가
   format (3)
   targets {
     target (bixby-mobile-ko-KR)
@@ -11,7 +11,7 @@ capsule {
   }
   capsule-imports{
     import (viv.geo){
-      as (geo) version (9.28.1)
+      as (geo) version (9.28.2) //2021-07-27 업데이트
     }
   }
 

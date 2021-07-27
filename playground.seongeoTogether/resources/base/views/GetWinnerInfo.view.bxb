@@ -1,0 +1,22 @@
+result-view {
+  match: winnerInfo(this) {
+    from-output : GetWinnerInfo(action)
+  }
+  message {
+    if (size(this) == 0 )	{
+      template ("등록된 당선인이 아직 없어요.")
+    }else-if(exists(this.checkCode)){
+      template ("당선자 리스트가 업데이트 되지 않았어요.")
+    } else {
+      template ("이번 선거 당선인을 알려드릴게요.")
+    }
+  }
+  render {
+    layout-macro (winnerInfoList) {
+      param (winnerInfo) {
+        expression (this)
+      }
+    }
+  }
+  
+}

@@ -20,13 +20,12 @@ result-view {
 							slot1 {
 								text {
 									value ("#{value(this.locationResult.location)}")
-									style (Title_S)
+									style (Title_M)
 								}
 							}
 							slot2 {
 								single-line {
 									text {
-										// value ("확인확인")
 										value ("#{value(this.locationResult.addr)}")
 										style (Detail_L)
 									}
@@ -56,7 +55,10 @@ result-view {
 					}
 					
 					spacer
-			
+					spacer
+					spacer
+					spacer
+					spacer
 					
 					partitioned {
 						content {
@@ -176,6 +178,11 @@ result-view {
 				}
 				
 			}
+		}
+	}
+	conversation-drivers {
+		conversation-driver {
+			template ("선거 정보 보여줘")
 		}
 	}
 }

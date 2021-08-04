@@ -31,3 +31,5 @@
 # playground.seongeoTogether 0.1.13
   goal 3 (당선자) js에 input값, view 추가
 
+# playground.seongeoTogether 0.1.14
+  hint와 서수발화를 위한 OrdinalNavigation 추가

@@ -1,6 +1,6 @@
 capsule {
   id (playground.seongeoTogether)
-  version (0.1.13) //view, input 추가
+  version (0.1.14) //hint, OrdinalNavigation 추가
   format (3)
   targets {
     target (bixby-mobile-ko-KR)
@@ -15,9 +15,9 @@ capsule {
     }
   }
 
-  // permissions {
-  //   device-location-access
-	// }
+  permissions {
+    device-location-access
+	}
 
   device-models {
     all

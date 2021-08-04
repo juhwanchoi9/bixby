@@ -1,8 +1,25 @@
 capsule-info {
-  display-name (Example Name)
-  developer-name (Example Developer)
-  description ("Example capsule description")
-  dispatch-name (Example Capsule)
-  // Set your own image for your capsule's icon
-  icon-asset (images/icons/bixby_launcher.png)
+  display-name (선거 투게더)
+  developer-name (사자다리)
+  icon-asset (images/icon.png)
+  description (선거투게더는 국내에서 실시하는 선거에 대한 투표소 위치, 선거 방법, 후보자, 당선자, 공약 정보 등을 제공합니다.)
+  dispatch-name (선거 투게더)
+  search-keywords {
+    keyword (선거정보)
+    keyword (선거)
+    keyword (사전투표)
+    keyword (투표)
+    keyword (후보자)
+    keyword (당선자)
+    keyword (공약)
+  }
+  dispatch-aliases {
+    alias (선거투게더)
+  }
+
+  requested-permissions {
+    permission (device-location-access) {
+      justification (가까운 투표소를 찾기 위해 위치 정보를 사용합니다.)
+    }
+  }
 }

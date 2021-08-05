@@ -33,3 +33,6 @@
 
 # playground.seongeoTogether 0.1.14
   hint와 서수발화를 위한 OrdinalNavigation 추가
+
+# playground.seongeoTogether 0.1.15
+  홈페이지로 punch out을 위해 connectUrl 추가

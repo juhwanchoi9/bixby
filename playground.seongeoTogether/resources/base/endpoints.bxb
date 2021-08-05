@@ -28,5 +28,10 @@ endpoints {
     action-endpoint (VoteDday) { //dday
       local-endpoint (VoteDday.js)
     }
+
+    action-endpoint (ConnectUrl){ //punchout을 위한
+      accepted-inputs (url)
+      local-endpoint (ConnectUrl.js)
+    }
   }
 }

@@ -1,22 +1,47 @@
+train (t-i2p38kxbkzc7dbsiep2na2p7b) {
+  utterance ([g:ConnectUrl] 중앙선거 관리위원회 홈페이지)
+  plan (Y2BikMvJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gsN8mFQxSPvnJ+Xl5pcElqUw8AIhAxQDCQB)
+  last-modified (1586503917928)
+}
 train (t-i6efa8za54rwyk8v7tinheqar) {
   utterance ("[g:GetWinnerInfo] (마포구)[v:geo.SearchTerm] 당선 누구")
   plan (fYyxCsJAEETHRP0ArfwAwer+wUpsRDBgHc14OTC7cLkknd/uKkoacWHYx8wwmGN9DyqXGCpP11LFUwv1TDWjG4II415uis2f2o7pPDYXfeidxe5QNqyOGiRh+fW2XdK2855twuqH+RhskOPGiWW81gVjgxkmyJBjaoQP5/bx1usyI8ue)
   last-modified (1587015922158)
 }
+train (t-i7gvduv1h5s5sg4cmigatq337) {
+  utterance ([g:ConnectUrl] 선거 홈페이지 열어줘)
+  plan (Y2BikCvISaxML8ovzUvRK07Nz0tPzQ/JT08tyUgt0gsN8mFQxSPvnJ+Xl5pcElqUw8AIhAxQDCQB)
+  last-modified (1586496001907)
+}
+train (t-iadccirorfovcs7v67ctn6m1n) {
+  utterance ([g:ConnectUrl] 중앙 선거 관리위원회 홈페이지)
+  plan (Y2BikCvISaxML8ovzUvRK07Nz0tPzQ/JT08tyUgt0gsN8mFQxSPvnJ+Xl5pcElqUw8AIhAxQDCQB)
+  last-modified (1586495936923)
+}
 train (t-icx37nmxkiddup5umj0tzoojx) {
   utterance ([g:VoteDday] 선거 시간은 언제야)
-  plan (Y2BikC/ISaxML8ovzUvRK07Nz0tPzQ/JT08tyUgt0ktJSaxkUMajICy/JNUFpIgRCBmgGEgCAA==)
-  last-modified (1626867830640)
+  plan (Y2BiUC7ISaxML8ovzUvRK07Nz0tPzQ/JT08tyUgt0ktJSawsSS0uwasoLL8k1QWokIERCBmgGEgCAA==)
+  last-modified (1586496069800)
 }
 train (t-iekk89gve9k849fzoskjqiul6) {
   utterance ([g:GetWinnerInfo] 21대 국회의원 선거 당선자가 궁금해)
   plan (Y2BiUM3JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ivPzMtLLfLMS8tn0MCjzD21JByhkhEIGaAYSAIA)
   last-modified (1586507341086)
 }
+train (t-ijlrlzxadqnq4qe45nuvhapnb) {
+  utterance ("[g:GetCandidateInfo] (더불어민주당)[v:jdName:theminjoo] 후보자 보여줘")
+  plan (Y2Bm0MjJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktOzEvJTEksSfXMS8tn0Maj0j21xBlFsSIexVkpfom5qQxMDIxAzAAkGRlAAMoHAA==)
+  last-modified (1586504849977)
+}
 train (t-imv2ddwmxleue0v5rjk953tyj) {
   utterance ("[g:GetCandidateInfo] (세종특별자치시)[v:geo.SearchTerm] 후보에 누가있나 알려줄래")
   plan (fYxBCsIwEEW/rXoAXXkDQcgdxIW4EcFeIDbfNGAzkKZ159kdRRFBHBjm8efxMcXyEiSeUnCepqNET6nEMzdMprbRBWczd/EsWP0xt8ybL3k2hMGoYfa2pTtIiBnzd7bus3S99+wyFj/C21U7+ek40qa6qZhaTDBCgRJjJby41IvnPqZQ0t8d)
   last-modified (1586505514693)
+}
+train (t-io5feivdoeq0y0eut63owqmhf) {
+  utterance ([g:ConnectUrl] 선거 사이트 띄워줘)
+  plan (Y2BikMvJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gsN8mFQxSPvnJ+Xl5pcElqUw8AIhAxQDCQB)
+  last-modified (1587087787073)
 }
 train (t-iwa0k9ro8nyytqhuo2ugdtxc1) {
   utterance ("[g:GetWinnerInfo] (종로구)[v:geo.SearchTerm] 누가 뽑혔어")

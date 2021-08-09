@@ -1,6 +1,6 @@
 capsule {
   id (playground.seongeoTogether)
-  version (0.1.15) //connectUrl 추가
+  version (0.1.16) //학습 추가
   format (3)
   targets {
     target (bixby-mobile-ko-KR)

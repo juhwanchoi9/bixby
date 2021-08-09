@@ -3,6 +3,16 @@ train (t-31bug3xy9n4vpo29rentmh3j8) {
   plan (Y2Bi0MjJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktOzEvJTEksSfXMS8tn0Maj0j21xBlFMSMQMkAxkAQA)
   last-modified (1586505440946)
 }
+train (t-358v2gy7bwfvym6yca4fklp86) {
+  utterance ("[g:FindLocation] (완산구)[v:Addr] (사전투표장소)[v:EvPs:evPs] 보여줘")
+  plan (Y2BlUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIrwKXMsCihk08SiAWQN1FQsDIwMTAzOQZgCyIBAGmKFyDAA=)
+  last-modified (1587088661584)
+}
+train (t-3fdyholuws6gwdx34d7664jna) {
+  utterance ("[g:GetCandidateInfo] (정의당)[v:jdName:justice] 출마자 정보 보여줘")
+  plan (Y2Bm0MjJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktOzEvJTEksSfXMS8tn0Maj0j21xBlFsSIexVkpfom5qQxMDIxAzAAkGRlAAMoHAA==)
+  last-modified (1586510493604)
+}
 train (t-3fllgufub3j3eskao9wsq7n6n) {
   utterance ([g:FindLocation] 투표소 정보 알려줘)
   plan (Y2BmUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBE49CmCKomUwMjEDMACQZGRhgNAA=)
@@ -12,6 +22,16 @@ train (t-3fnh4mmz1sge1ckot90zfw88g) {
   utterance ("[g:GetWinnerInfo] (군포)[v:geo.SearchTerm]는 당선자가 누구야")
   plan (fYyxCsJAEETHRP0ArfwAwer+wUpsRDBgHc14OTC7cLkknd/uKkoacWHYx8wwmGN9DyqXGCpP11LFUwv1TDWjG4II415uis2f2o7pPDYXfeidxe5QNqyOGiRh+fW2XdK2855twuqH+RhskOPGiWW81gVjgxkmyJBjaoQP5/bx1usyI8ue)
   last-modified (1587089176399)
+}
+train (t-3hnmhw6anef4gotrnpx5n2d1t) {
+  utterance ("[g:FindLocation] (사전투표소)[v:EvPs:evPs] (강남구)[v:Addr] 안내해")
+  plan (Y2BlUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIrwKXMsCihk08SiAWQN1FQsDIwMTAzOQZgCyIBAGmKFyDAA=)
+  last-modified (1586503911052)
+}
+train (t-3tvfzxe8cln5y1dam1l8xgda3) {
+  utterance ("[g:FindLocation]이 근처에 (사전 투표소)[v:EvPs:evPs] 어디 잇어")
+  plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9C17KAYgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
+  last-modified (1586500515962)
 }
 train (t-3yhk2qjytjgbxhnxyqlv92zda) {
   utterance ("[g:GetCandidateInfo] (서대문구)[v:geo.SearchTerm] 후보자 궁금해")

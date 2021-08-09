@@ -1,3 +1,8 @@
+train (t-d28mo4r9lef67gammx06dvmsi) {
+  utterance ("[g:FindLocation] (사전투표)[v:EvPs:evPs]하러 갈래")
+  plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9C17KAYgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
+  last-modified (1586500488355)
+}
 train (t-d9amzw6fp1ha89p6i1silni55) {
   utterance ([g:GetWinnerInfo] 당선 정보 알고싶어)
   plan (Y2BiUM3JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ivPzMtLLfLMS8tn0MCjzD21JByhkhEIGaAYSAIA)
@@ -12,6 +17,11 @@ train (t-dacx42tvpwzm6cgsxroie6gi3) {
   utterance ([g:GetWinnerInfo] 선거 당선 누가 됐어)
   plan (Y2BiUM3JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ivPzMtLLfLMS8tn0MCjzD21JByhkhEIGaAYSAIA)
   last-modified (1586507315052)
+}
+train (t-ddf2jw5294ts8lyfpo68z8uyx) {
+  utterance ("[g:FindLocation] (사전투표소)[v:EvPs:evPs] 장소 찾아봐")
+  plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9C17KAYgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
+  last-modified (1586500426104)
 }
 train (t-ddzjpjlw44gwrjkyh3zj94hhc) {
   utterance ("[g:GetWinnerInfo] (서울시)[v:geo.SearchTerm] 선거 당선자 띄워봐")

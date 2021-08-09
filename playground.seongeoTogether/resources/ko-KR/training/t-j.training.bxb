@@ -18,6 +18,11 @@ train (t-joa7usi0srwucltbqx14gl2y0) {
   plan (fYxBCsIwEEW/rXoAXXkDQcgdxIW4EcFeIDbfNGAzkKZ159kdRRFBHBjm8efxMcXyEiSeUnCepqNET6nEMzdMprbRBWczd/EsWP0xt8ybL3k2hMGoYfa2pTtIiBnzd7bus3S99+wyFj/C21U7+ek40qa6qZhaTDBCgRJjJby41IvnPqZQ0t8d)
   last-modified (1587086801282)
 }
+train (t-jpzj9b7dysx91mgvzdao5ugn5) {
+  utterance ("[g:FindLocation] (문래동)[v:Addr]쪽에 (사전투표소)[v:EvPs:evPs] 검색")
+  plan (Y2BlUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIrwKXMsCihk08SiAWQN1FQsDIwMTAzOQZgCyIBAGmKFyDAA=)
+  last-modified (1586504449852)
+}
 train (t-jre6wt1ppsz0zxt8lrvo1sqry) {
   utterance ("[g:FindLocation] (광주시 오포읍)[v:Addr] 근처 투표소 검색해줘")
   plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)

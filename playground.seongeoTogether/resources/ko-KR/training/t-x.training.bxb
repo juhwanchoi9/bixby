@@ -18,6 +18,11 @@ train (t-xcugd95skk9laxwpe66o736hr) {
   plan (Y2BiUM7JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktJSawsSS0uwasoLL8k1QWokIERCBmgGEgCAA==)
   last-modified (1586507608373)
 }
+train (t-xfjia2tun4dcrei3yghk5vf44) {
+  utterance ([g:VoteDday:continue:*] 정보 보여줘)
+  plan (Y2BiUM7JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktJSawsSS0uwasoLL8k1QWokIERCBmgGEgCAA==)
+  last-modified (1586508264104)
+}
 train (t-xh4y8miuq8jynokehd6oiq2nl) {
   utterance ("[g:GetCandidateInfo] (서구)[v:geo.SearchTerm] 후보자 정보 알고싶어")
   plan (fYxBCsIwEEW/rXoAXXkDQcgdxIW4EcFeIDbfNGAzkKZ159kdRRFBHBjm8efxMcXyEiSeUnCepqNET6nEMzdMprbRBWczd/EsWP0xt8ybL3k2hMGoYfa2pTtIiBnzd7bus3S99+wyFj/C21U7+ek40qa6qZhaTDBCgRJjJby41IvnPqZQ0t8d)

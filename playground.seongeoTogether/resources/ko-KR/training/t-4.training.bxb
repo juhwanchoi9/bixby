@@ -3,10 +3,20 @@ train (t-41vcye17at2mpirjulcd4132d) {
   plan (fYxBCsIwEEW/rXoAXXkDQcgdxIW4EcFeIDbfNGAzkKZ159kdRRFBHBjm8efxMcXyEiSeUnCepqNET6nEMzdMprbRBWczd/EsWP0xt8ybL3k2hMGoYfa2pTtIiBnzd7bus3S99+wyFj/C21U7+ek40qa6qZhaTDBCgRJjJby41IvnPqZQ0t8d)
   last-modified (1587086460379)
 }
+train (t-44s6278l4qa2wz1daz077u43x) {
+  utterance ("[g:FindLocation] (사전투표소)[v:EvPs:evPs] 어디에 있어")
+  plan (Y2BhUCzISaxML8ovzUvRK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEkMz+PQR6PQteygGIGTTwKYKZALWVmYGRgApIMQBoEIYAJLMoAAA==)
+  last-modified (1586331107402)
+}
 train (t-45gsmb7a8q47wokje85rf8y33) {
   utterance ("[g:GetWinnerInfo] (대구 달서구)[v:geo.SearchTerm] 당선자 누구야")
   plan (fYyxCsJAEETHRP0ArfwAwer+wUpsRDBgHc14OTC7cLkknd/uKkoacWHYx8wwmGN9DyqXGCpP11LFUwv1TDWjG4II415uis2f2o7pPDYXfeidxe5QNqyOGiRh+fW2XdK2855twuqH+RhskOPGiWW81gVjgxkmyJBjaoQP5/bx1usyI8ue)
   last-modified (1587085495365)
+}
+train (t-4fbe9rbrdprlu3uevdfq67pzp) {
+  utterance ("[g:GetWinnerInfo] (민주당)[v:jdName:theminjoo] 선거 당선자 띄워봐")
+  plan (Y2BmUM3JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ivPzMtLLfLMS8tn0MCjzD21JByhUhGPyqwUv8TcVAYmBkYgZgCSjAwgAOUDAA==)
+  last-modified (1586502394514)
 }
 train (t-4gh20ggpvm3hasym00p3p0nhm) {
   utterance ("[g:GetCandidateInfo] (부산 강서)[v:geo.SearchTerm] 후보자 보여줘")

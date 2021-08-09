@@ -1,12 +1,32 @@
+train (t-82vs0i1dbung8hz6d6x5i0tm1) {
+  utterance ("[g:FindLocation] (미추홀구)[v:Addr] (사전투표소)[v:EvPs:evPs] 어디에 있어")
+  plan (Y2BlUCzISaxML8ovzUvRK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEkMz+PQR6PQseUlCK8ClzLAooZNPEogFkDdRULAyMDEwMzkGYAsiAQBpihcgwA)
+  last-modified (1586484069939)
+}
+train (t-82y5pold7ohir8f9l17sqkf26) {
+  utterance ("[g:GetCandidateInfo] (자유한국당)[v:jdName:libertykoreaparty] 출마한 사람 정보 알려줘")
+  plan (Y2Bm0MjJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktOzEvJTEksSfXMS8tn0Maj0j21xBlFsSIexVkpfom5qQxMDIxAzAAkGRlAAMoHAA==)
+  last-modified (1586510503522)
+}
+train (t-88hcqojliixnwqni459r0444t) {
+  utterance ("[g:GetCandidateInfo] (미 통당)[v:jdName:unitedfutureparty] 후보자 보여줘")
+  plan (Y2Bm0MjJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktOzEvJTEksSfXMS8tn0Maj0j21xBlFsSIexVkpfom5qQxMDIxAzAAkGRlAAMoHAA==)
+  last-modified (1587091679244)
+}
 train (t-8etpgqv7v2pwhg804u05yd2ex) {
   utterance ([g:VoteDday] 4월 15일에 하는 선거가 뭐야)
-  plan (Y2BikC/ISaxML8ovzUvRK07Nz0tPzQ/JT08tyUgt0ktJSaxkUMajICy/JNUFpIgRCBmgGEgCAA==)
-  last-modified (1626867830640)
+  plan (Y2BiUC7ISaxML8ovzUvRK07Nz0tPzQ/JT08tyUgt0ktJSawsSS0uwasoLL8k1QWokIERCBmgGEgCAA==)
+  last-modified (1586496072747)
 }
 train (t-8jsh6pmzxyegc77x6og8ing0n) {
   utterance ("[g:GetCandidateInfo] (의정부시)[v:geo.SearchTerm] 후보자 찾아")
   plan (fYxBCsIwEEW/rXoAXXkDQcgdxIW4EcFeIDbfNGAzkKZ159kdRRFBHBjm8efxMcXyEiSeUnCepqNET6nEMzdMprbRBWczd/EsWP0xt8ybL3k2hMGoYfa2pTtIiBnzd7bus3S99+wyFj/C21U7+ek40qa6qZhaTDBCgRJjJby41IvnPqZQ0t8d)
   last-modified (1586846112305)
+}
+train (t-8k64pfdlcbzaskj3wqdiiuttv) {
+  utterance ("[g:FindLocation] 우리 동네 (사전투표소)[v:EvPs:evPs] 보여줘")
+  plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9C17KAYgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
+  last-modified (1587086229955)
 }
 train (t-8llrpakqmj25icyhj7wyr1k1b) {
   utterance ("[g:FindLocation] (해남군)[v:Addr]에 투표소 있어")

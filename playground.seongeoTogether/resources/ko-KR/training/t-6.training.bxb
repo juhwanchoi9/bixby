@@ -1,3 +1,8 @@
+train (t-60ijwhlhdra3xe8ww5nyciobq) {
+  utterance ("[g:FindLocation] 내 주변 (사전투표소)[v:EvPs:evPs] 어디에 있어")
+  plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9C17KAYgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
+  last-modified (1587027085271)
+}
 train (t-65lvq2c6ulzauw5au4emura9b) {
   utterance ("[g:GetWinnerInfo] (세종)[v:geo.SearchTerm] 투표 결과 띄워줘")
   plan (fYyxCsJAEETHRP0ArfwAwer+wUpsRDBgHc14OTC7cLkknd/uKkoacWHYx8wwmGN9DyqXGCpP11LFUwv1TDWjG4II415uis2f2o7pPDYXfeidxe5QNqyOGiRh+fW2XdK2855twuqH+RhskOPGiWW81gVjgxkmyJBjaoQP5/bx1usyI8ue)
@@ -12,4 +17,29 @@ train (t-6kdiweakzspuznsvdcu4dvr9d) {
   utterance ("[g:GetWinnerInfo] (서울특별시)[v:geo.SearchTerm]에서 당선된 사람이 궁금해")
   plan (fYyxCsJAEETHRP0ArfwAwer+wUpsRDBgHc14OTC7cLkknd/uKkoacWHYx8wwmGN9DyqXGCpP11LFUwv1TDWjG4II415uis2f2o7pPDYXfeidxe5QNqyOGiRh+fW2XdK2855twuqH+RhskOPGiWW81gVjgxkmyJBjaoQP5/bx1usyI8ue)
   last-modified (1586507398542)
+}
+train (t-6o3hxzoujlzo1hpzn03g5z3jm) {
+  utterance ("[g:GetWinnerInfo] (미래통합당)[v:jdName:unitedfutureparty] 당선자 띄워봐")
+  plan (Y2BmUM3JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ivPzMtLLfLMS8tn0MCjzD21JByhUhGPyqwUv8TcVAYmBkYgZgCSjAwgAOUDAA==)
+  last-modified (1587446261072)
+}
+train (t-6rqagd9mr4pzmp9mc5tmzc3hb) {
+  utterance ("[g:FindLocation] (사전투표소)[v:EvPs:evPs] (완산구)[v:Addr] 찾아줘")
+  plan (Y2BlUCzISaxML8ovzUvRK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEkMz+PQR6PQseUlCK8ClzLAooZNPEogFkDdRULAyMDEwMzkGYAsiAQBpihcgwA)
+  last-modified (1586246746976)
+}
+train (t-6rxyvez2uf0u6t2v1gwat7hc5) {
+  utterance ([g:ConnectUrl] 중앙 선거 관리위원회 홈페이지)
+  plan (Y2BikCvISaxML8ovzUvRK07Nz0tPzQ/JT08tyUgt0gsN8mFQxSPvnJ+Xl5pcElqUw8AIhAxQDCQB)
+  last-modified (1586495935786)
+}
+train (t-6vbuxd9dy0lw4jeiqre0jdv32) {
+  utterance ("[g:FindLocation] (사전투표소)[v:EvPs:evPs] 알려줄래")
+  plan (Y2BhUCzISaxML8ovzUvRK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEkMz+PQR6PQteygGIGTTwKYKZALWVmYGRgApIMQBoEIYAJLMoAAA==)
+  last-modified (1586310967250)
+}
+train (t-6xwhomnqv8x25aj5c0sc1o31e) {
+  utterance ("[g:FindLocation] (사전 투표)[v:EvPs:evPs] 하고 싶어")
+  plan (Y2BhUCzISaxML8ovzUvRK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEkMz+PQR6PQteygGIGTTwKYKZALWVmYGRgApIMQBoEIYAJLMoAAA==)
+  last-modified (1586311561377)
 }

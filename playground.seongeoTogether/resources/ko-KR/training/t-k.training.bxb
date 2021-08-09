@@ -1,7 +1,3 @@
-train (t-kzzagiarduqiidrwuc3zlzohq) {
-  utterance ("[g:FindLocation] (상암)[v:Addr] 투표소 찾아줘")
-  last-modified (1626098037543)
-}
 train (t-k1xfjm4tnirgvxxiskcfe4okf) {
   utterance ([g:FindLocation] 투표소 정보 찾아봐)
   plan (Y2BmUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBE49CmCKomUwMjEDMACQZGRhgNAA=)
@@ -49,6 +45,6 @@ train (t-kvq2e3zgwuhcxpuhd0bnvvoyg) {
 }
 train (t-kwh81h1t2axnl27viuizjf70s) {
   utterance ([g:FindLocation] 투표소)
-  plan (Y2BmUCzISaxML8ovzUvRK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEkMz+PQROPQpgiqJlMDIxAzAAkGRkYYDQA)
-  last-modified (1626867830640)
+  plan (Y2Bi0CzISaxML8ovzUvRK07Nz0tPzQ/JT08tyUgt0vPJT04syczPC0otLs0pYVDHo9QtMy8FppyBEQgZoBhIAgA=)
+  last-modified (1585643458614)
 }

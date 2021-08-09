@@ -1,3 +1,8 @@
+train (t-u07ckuy4emblhsp5fdkcyh9kt) {
+  utterance ([g:ConnectUrl] 홈페이지에서 보고싶어)
+  plan (Y2BikMvJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gsN8mFQxSPvnJ+Xl5pcElqUw8AIhAxQDCQB)
+  last-modified (1587016910055)
+}
 train (t-u1i5ib4wdgz0bzithomr90rr6) {
   utterance ([g:VoteDday] 이번 선거 정보 알려줘)
   plan (Y2BiUM7JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktJSawsSS0uwasoLL8k1QWokIERCBmgGEgCAA==)

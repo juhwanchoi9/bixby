@@ -13,7 +13,22 @@ train (t-0dyysx4942nj4sv339l0ak7r1) {
   plan (fYxBCsIwEEW/rXoAXXkDQcgdxIW4EcFeIDbfNGAzkKZ159kdRRFBHBjm8efxMcXyEiSeUnCepqNET6nEMzdMprbRBWczd/EsWP0xt8ybL3k2hMGoYfa2pTtIiBnzd7bus3S99+wyFj/C21U7+ek40qa6qZhaTDBCgRJjJby41IvnPqZQ0t8d)
   last-modified (1586503910565)
 }
+train (t-0j9b9oyrkvm1kklj5oj1eim2g) {
+  utterance ("[g:FindLocation] (대전광역시)[v:Addr] (사전투표소)[v:EvPs:evPs] 다 보여줘")
+  plan (Y2BlUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIrwKXMsCihk08SiAWQN1FQsDIwMTAzOQZgCyIBAGmKFyDAA=)
+  last-modified (1586504594926)
+}
 train (t-0t5chlzxjtrcxyfaexm3osjcw) {
   utterance ("[g:GetCandidateInfo] (강원 원주시)[v:geo.SearchTerm] 출마자 정보 검색해서 보여줘")
   last-modified (1586510681969)
+}
+train (t-0ub9plrr7pow406e5tnfg970h) {
+  utterance ([g:ConnectUrl] 중앙선거관리위원회 홈페이지)
+  plan (Y2BikMvJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gsN8mFQxSPvnJ+Xl5pcElqUw8AIhAxQDCQB)
+  last-modified (1586503910677)
+}
+train (t-0ypiyt82iyspntnhzq7ac8pd3) {
+  utterance ("[g:FindLocation] 주변 (사전투표)[v:EvPs:evPs] 리스트 찾아줘")
+  plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9C17KAYgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
+  last-modified (1586500310266)
 }

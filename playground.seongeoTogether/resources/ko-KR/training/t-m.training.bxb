@@ -1,3 +1,8 @@
+train (t-m0eiwq31g5rlntd597leiggsc) {
+  utterance ("[g:FindLocation] (서교초)[v:Addr]쪽에 (사전투표소)[v:EvPs:evPs] 있나")
+  plan (Y2BlUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIrwKXMsCihk08SiAWQN1FQsDIwMTAzOQZgCyIBAGmKFyDAA=)
+  last-modified (1586504451231)
+}
 train (t-m1nzlwelc0hl7eef0viwi826m) {
   utterance ([g:GetCandidateInfo] 후보자 보여줘)
   plan (Y2Bi0CjISaxML8ovzUvRK07Nz0tPzQ/JT08tyUgt0ktOzEvJTEksSfXMS8tn0Maj0j21xBlFMSMQMkAxkAQA)
@@ -23,10 +28,20 @@ train (t-mfxtug4jhunbg24fmlwhksgpo) {
   plan (Y2BikM5KzcurLNYrSS0uSU4sKC7NSdVLSUmsBPGxSobll6S6ABUwMAIhAxQDSQA=)
   last-modified (1586509503890)
 }
+train (t-mgb8o6fur5lws2pokcxvdf4b7) {
+  utterance ("[g:GetWinnerInfo] (무소속)[v:jdName:musosok] 당선 정보 찾아봐")
+  plan (Y2BmUM3JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ivPzMtLLfLMS8tn0MCjzD21JByhUhGPyqwUv8TcVAYmBkYgZgCSjAwgAOUDAA==)
+  last-modified (1586846543605)
+}
 train (t-mlbc3tkph360x515d5u6a88xn) {
   utterance ("[g:GetWinnerInfo] (전남)[v:geo.SearchTerm] 누가 뽑혔는지 보여줘")
   plan (fYyxCsJAEETHRP0ArfwAwer+wUpsRDBgHc14OTC7cLkknd/uKkoacWHYx8wwmGN9DyqXGCpP11LFUwv1TDWjG4II415uis2f2o7pPDYXfeidxe5QNqyOGiRh+fW2XdK2855twuqH+RhskOPGiWW81gVjgxkmyJBjaoQP5/bx1usyI8ue)
   last-modified (1587087677066)
+}
+train (t-mn7v83vncqt89xomamgff3xpi) {
+  utterance ("[g:FindLocation] (사전 투표)[v:EvPs:evPs]")
+  plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9C17KAYgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
+  last-modified (1586507607012)
 }
 train (t-mv1w9lmke8xi3q3brlpfe43gf) {
   utterance ([g:GetWinnerInfo] 당선자 정보 알려줄래)

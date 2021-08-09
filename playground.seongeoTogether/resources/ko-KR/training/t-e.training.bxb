@@ -1,7 +1,22 @@
+train (t-ecsq9y31ns0ykhn50a90e9pld) {
+  utterance ([g:VoteDday:continue:*] 선거 정보 보여줘)
+  plan (Y2BiUM7JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktJSawsSS0uwasoLL8k1QWokIERCBmgGEgCAA==)
+  last-modified (1586508254821)
+}
+train (t-ejmwv3drnj706z7jhsuispeii) {
+  utterance ("[g:FindLocation] 근처에 (사전투표소)[v:EvPs:evPs]가 있나 검색해줘")
+  plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9C17KAYgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
+  last-modified (1586500354228)
+}
 train (t-emppdzumq7x78j7vfp25nqsue) {
   utterance ([g:GetWinnerInfo] 당선인)
   plan (Y2BiUM3JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ivPzMtLLfLMS8tn0MCjzD21JByhkhEIGaAYSAIA)
   last-modified (1586507307747)
+}
+train (t-eoo5mw8fkoptzl9kqozmlszt4) {
+  utterance ("[g:GetCandidateInfo] (국민의당)[v:jdName:peopleparty] 후보자 보여줘")
+  plan (Y2Bm0MjJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktOzEvJTEksSfXMS8tn0Maj0j21xBlFsSIexVkpfom5qQxMDIxAzAAkGRlAAMoHAA==)
+  last-modified (1586504864446)
 }
 train (t-eskittdt9ujhtgauwckiok0px) {
   utterance ([g:FindLocation] 투표소 위치 알고 싶어)

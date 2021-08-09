@@ -1,3 +1,8 @@
+train (t-l2xk7qsaelkttgu47pre3sqlx) {
+  utterance ("[g:FindLocation] (사전투표소)[v:EvPs:evPs] (월드컵북로 396)[v:Addr] 찾아줄래")
+  plan (Y2BlUCzISaxML8ovzUvRK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEkMz+PQR6PQseUlCK8ClzLAooZNPEogFkDdRULAyMDEwMzkGYAsiAQBpihcgwA)
+  last-modified (1586311412914)
+}
 train (t-lb1wunqn4uu37al99qjv3en6k) {
   utterance ("[g:GetCandidateInfo] (옹진군)[v:geo.SearchTerm] 후보 누구야")
   plan (Y2Bj0CjISaxML8ovzUvRK07Nz0tPzQ/JT08tyUgt0ktOzEvJTEksSfXMS8tn0Maj0j21xBlFsVBZZpkeUIWeX2JuakpAfmZeCYMwTMyxtCS/uDQ9PbW4hEESi2BdOdDMVIQZwamJRckZIalFuQysDIwMTAzMDCxAFgOUzQykGcAYBJiALKAcAA==)
@@ -15,8 +20,8 @@ train (t-lgub0otvcs19g35cpr10iapuv) {
 }
 train (t-lhp2b4qnktrodu8cc017kepus) {
   utterance ([g:VoteDday] 선거 며칠에 해)
-  plan (Y2BikC/ISaxML8ovzUvRK07Nz0tPzQ/JT08tyUgt0ktJSaxkUMajICy/JNUFpIgRCBmgGEgCAA==)
-  last-modified (1626867830640)
+  plan (Y2BiUC7ISaxML8ovzUvRK07Nz0tPzQ/JT08tyUgt0ktJSawsSS0uwasoLL8k1QWokIERCBmgGEgCAA==)
+  last-modified (1586312272655)
 }
 train (t-ln7b10f6dl02v93if7duy8r72) {
   utterance ("[g:GetWinnerInfo] (제주)[v:geo.SearchTerm] 당선자 검색")
@@ -30,6 +35,6 @@ train (t-log79nmmxfo9c5910tc33hlm7) {
 }
 train (t-lov73h08ksb6uc78lo1d8zffc) {
   utterance ([g:VoteDday] 선거 며칠 부터 해)
-  plan (Y2BikC/ISaxML8ovzUvRK07Nz0tPzQ/JT08tyUgt0ktJSaxkUMajICy/JNUFpIgRCBmgGEgCAA==)
-  last-modified (1626867830641)
+  plan (Y2BiUC7ISaxML8ovzUvRK07Nz0tPzQ/JT08tyUgt0ktJSawsSS0uwasoLL8k1QWokIERCBmgGEgCAA==)
+  last-modified (1586496089226)
 }

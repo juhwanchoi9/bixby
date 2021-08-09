@@ -1,3 +1,8 @@
+train (t-12jmb3i231lzkapx03lmi8frp) {
+  utterance ("[g:FindLocation] (용산구)[v:Addr] (사전투표소)[v:EvPs:evPs] 어디에 있어")
+  plan (Y2BlUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIrwKXMsCihk08SiAWQN1FQsDIwMTAzOQZgCyIBAGmKFyDAA=)
+  last-modified (1586507595925)
+}
 train (t-186f8wr3tvy6ixe51rhgtsyez) {
   utterance ([g:FindLocation] 내 주변 투표소 검색해줘)
   plan (Y2BmUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBE49CmCKomUwMjEDMACQZGRhgNAA=)
@@ -7,6 +12,11 @@ train (t-1ic8zf8gtlhrfdze2ph5lw8um) {
   utterance ([g:VoteDday] 선거 언제 하는지 궁금해)
   plan (Y2BiUM7JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktJSawsSS0uwasoLL8k1QWokIERCBmgGEgCAA==)
   last-modified (1586507596518)
+}
+train (t-1llez9r1zkqktn90o4k8x8ru8) {
+  utterance ([g:ConnectUrl] 중앙 선거 관리 위원회 홈페이지)
+  plan (Y2BikMvJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gsN8mFQxSPvnJ+Xl5pcElqUw8AIhAxQDCQB)
+  last-modified (1586507596394)
 }
 train (t-1m3l0kxqqqxa78c1stqf3xnbf) {
   utterance ("[g:GetWinnerInfo] (서울시)[v:geo.SearchTerm] 선거 당선자 리스트 보여줘")

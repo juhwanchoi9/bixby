@@ -18,10 +18,30 @@ train (t-ck7129k2qws1muo0k8od9kcjo) {
   plan (fYyxCsJAEETHRP0ArfwAwer+wUpsRDBgHc14OTC7cLkknd/uKkoacWHYx8wwmGN9DyqXGCpP11LFUwv1TDWjG4II415uis2f2o7pPDYXfeidxe5QNqyOGiRh+fW2XdK2855twuqH+RhskOPGiWW81gVjgxkmyJBjaoQP5/bx1usyI8ue)
   last-modified (1586846580426)
 }
+train (t-ckftisg4cos0dg66923d3uhev) {
+  utterance ([g:VoteDday:continue:*] 정보 알고 싶어)
+  plan (Y2BiUM7JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktJSawsSS0uwasoLL8k1QWokIERCBmgGEgCAA==)
+  last-modified (1586508248889)
+}
 train (t-clfwvly4uhtkr8ptl8gvjxn5k) {
   utterance ("[g:FindLocation] (동두천)[v:Addr]에 투표소 좀 찾아줄래")
   plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
   last-modified (1587016127886)
+}
+train (t-cm88m9p4c9lp8sftpm3eoz39q) {
+  utterance ("[g:FindLocation] (익산 모현동)[v:Addr]에 있는 (사전투표소)[v:EvPs:evPs] 검색해줘")
+  plan (Y2BlUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIrwKXMsCihk08SiAWQN1FQsDIwMTAzOQZgCyIBAGmKFyDAA=)
+  last-modified (1586504456251)
+}
+train (t-cmhc4ozlw501srafoxhirladg) {
+  utterance ([g:ConnectUrl] 홈페이지)
+  plan (Y2BikMvJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gsN8mFQxSPvnJ+Xl5pcElqUw8AIhAxQDCQB)
+  last-modified (1586507602189)
+}
+train (t-cmjaqf6cv96itrhf4l41mqxgi) {
+  utterance ([g:ConnectUrl] 선거 사이트로 연결)
+  plan (Y2BikMvJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gsN8mFQxSPvnJ+Xl5pcElqUw8AIhAxQDCQB)
+  last-modified (1587087813645)
 }
 train (t-cmvto3f5a4ao9qx2ipuxem8tv) {
   utterance ("[g:GetWinnerInfo] (서울 강서구)[v:geo.SearchTerm]에서 당선 조회해줘")
@@ -32,6 +52,10 @@ train (t-csmhfvo8hihhjy3pzv3l5fd9h) {
   utterance ([g:GetWinnerInfo] 당선자 누구 누구 있어)
   plan (Y2BiUM3JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ivPzMtLLfLMS8tn0MCjzD21JByhkhEIGaAYSAIA)
   last-modified (1586507488079)
+}
+train (t-cu9be10bhxqsj6bwv7dt1m3ky) {
+  utterance ("[g:GetCandidateInfo] 이번 선거때 (국가혁명배당금당)[v:jdName:nrdparty]에서 누구나와")
+  last-modified (1586510510562)
 }
 train (t-cxegzeqtmtp8x4q7k5lw6td0u) {
   utterance ("[g:FindLocation] (강원도)[v:Addr] 투표소 알려줘")

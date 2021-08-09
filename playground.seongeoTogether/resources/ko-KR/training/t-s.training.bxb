@@ -8,6 +8,11 @@ train (t-s1zzgeskdgfi0mdpx9m1qpzp5) {
   plan (Y2BlUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIrwKXMsCihk08SiAWQN1FQsDIwMTAzOQZgCyIBAGmKFyDAA=)
   last-modified (1586504506947)
 }
+train (t-s73suk5pp0vsxjvn12wnkzszb) {
+  utterance ([g:VoteDday:continue:*] 선거 정보)
+  plan (Y2BiUM7JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktJSawsSS0uwasoLL8k1QWokIERCBmgGEgCAA==)
+  last-modified (1586508258739)
+}
 train (t-sb48wznunb019b9o18y5mvpoy) {
   utterance ([g:VoteDday] 선거 몇 일 뒤야)
   plan (Y2BiUM7JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktJSawsSS0uwasoLL8k1QWokIERCBmgGEgCAA==)

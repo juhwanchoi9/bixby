@@ -1,6 +1,6 @@
 capsule {
   id (lionbridge.seongeoTogether)
-	version (0.2.7)
+	version (2.0.0) //210407 재보궐선거
 format (3)
   targets {
     target (bixby-mobile-ko-KR)

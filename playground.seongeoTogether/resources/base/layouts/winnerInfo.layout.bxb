@@ -17,34 +17,48 @@ layout-macro-def (winnerInfoList) {
 							image-url //("#{value(flower.imageUrls[0])}")
 							{
 								if(this.jdNameResult == '더불어민주당') {
-									template ("images/minju.jpg")
-								} else-if (this.jdNameResult == '국민의당') {
-									template ("images/kookmin.png")
-								} else-if (this.jdNameResult == '미래통합당') {
-									template ("images/miraetonghap.jpg")
-								} else-if (this.jdNameResult == '미래한국당') {
-									template ("images/miraehankook.png")
-								} else-if (this.jdNameResult == '민생당') {
-									template ("images/minsang.jpg")
-								} else-if (this.jdNameResult == '민중당') {
-									template ("images/minjoong.png")
-								} else-if (this.jdNameResult == '자유공화당') {
-									template ("images/jayougonghwa.jpg")
-								} else-if (this.jdNameResult == '정의당') {
-									template ("images/justice.PNG")
-								} else-if (this.jdNameResult == '자유한국당') {
-									template ("images/jayouhankook.jpg")
-								} else-if (this.jdNameResult == '바른미래당') {
-									template ("images/bareunmirae.jpg")
-								} else-if (this.jdNameResult == '우리공화당') {
-									template ("images/woorigonghwa.jpg")
-								} else-if (this.jdNameResult == '국가혁명배당금당') {
-									template ("images/kooka.png")
-								} else-if (this.jdNameResult == '무소속') {
-									template ("images/moo.png")
-								} else {
-									template ("images/man.png")
-								}
+                    template ("images/minju.jpg")
+                  } else-if (this.jdNameResult == '국민의당') {
+                    template ("images/kookmin.png")
+                  } else-if (this.jdNameResult == '미래통합당') {
+                    template ("images/miraetonghap.jpg")
+                  } else-if (this.jdNameResult == '국민의힘') {
+                    template ("images/ppp.png")
+                  } else-if (this.jdNameResult == '미래한국당') {
+                    template ("images/miraehankook.png")
+                  } else-if (this.jdNameResult == '민생당') { 
+                    template ("images/minsang.jpg")
+                  } else-if (this.jdNameResult == '민중당') {
+                    template ("images/minjoong.png")
+                  } else-if (this.jdNameResult == '자유공화당') {
+                    template ("images/jayougonghwa.jpg")
+                  } else-if (this.jdNameResult == '정의당') {
+                    template ("images/justice.PNG")
+                  } else-if (this.jdNameResult == '자유한국당') {
+                    template ("images/jayouhankook.jpg")
+                  } else-if (this.jdNameResult == '바른미래당') {
+                    template ("images/bareunmirae.jpg")
+                  } else-if (this.jdNameResult == '우리공화당') {
+                    template ("images/woorigonghwa.jpg")
+                  } else-if (this.jdNameResult == '국가혁명배당금당') {
+                    template ("images/kooka.png")
+                  } else-if (this.jdNameResult == '진보당') {
+                    template ("images/jinbo.PNG")
+                  } else-if (this.jdNameResult == '자유민주당') {
+                    template ("images/jayou.jpg")
+                  } else-if (this.jdNameResult == '기본소득당') {
+                    template ("images/kibon.png")
+                  } else-if (this.jdNameResult == '미래당') {
+                    template ("images/mirae.png")
+                  } else-if (this.jdNameResult == '국가혁명당') {
+                    template ("images/hyukmyeong.PNG")
+                  } else-if (this.jdNameResult == '여성의당') {
+                    template ("images/yeoseong.PNG")
+                  } else-if (this.jdNameResult == '무소속') {
+                    template ("images/moo.png")
+                  }else {
+                    template ("images/man.png")
+                  }
 							}
 							title-area {
 								halign (Start)

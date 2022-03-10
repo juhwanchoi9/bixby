@@ -14,7 +14,7 @@ structure (candidateInfo) {
   }
   property (wiwName) {
     type (wiwName)
-    min (Required) max (One)
+    min (Optional) max (One)
   }
   property (gender) {
     type (gender)

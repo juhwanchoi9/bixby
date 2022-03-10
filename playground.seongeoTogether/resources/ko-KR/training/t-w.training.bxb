@@ -18,6 +18,11 @@ train (t-w60wc3085vvxtvjivryl5vsoc) {
   plan (Y2Bm0MjJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktOzEvJTEksSfXMS8tn0Maj0j21xBlFsSIexVkpfom5qQxMDIxAzAAkGRlAAMoHAA==)
   last-modified (1586505510350)
 }
+train (t-wj5dh9v5kffsqy9h5me05es28) {
+  utterance ("[g:GetWinnerInfo] (국민의힘)[v:jdName:unitedfutureparty] 당선자 보여줘")
+  plan (Y2BhUM3JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ivPzMtLLfLMS8tn0MCjzD21JByhUhGPyqwUv8TcVLx2FqeHVBakJuenpDIwMzAyMAFJBiANghDABBZlAAA=)
+  last-modified (1619761643539)
+}
 train (t-wlb1pdlrrcj1fg0907hdem0go) {
   utterance ("[g:FindLocation] (중구)[v:Addr]에서 투표하려면 어디로 가야해")
   plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)

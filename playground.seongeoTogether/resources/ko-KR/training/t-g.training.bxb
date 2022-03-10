@@ -18,6 +18,11 @@ train (t-gamiuntmz147kcz2svxsjjfos) {
   plan (Y2Bi0MjJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktOzEvJTEksSfXMS8tn0Maj0j21xBlFMSMQMkAxkAQA)
   last-modified (1586505390153)
 }
+train (t-gdqw2paxmc4vvxl3xzrgyx0wr) {
+  utterance ([g:GetCandidateInfo] 2021 재보궐 선거 후보자 보여줘)
+  plan (Y2Bm0MjJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktOzEvJTEksSfXMS8tn0Maj0j21xBlFsSoexcXpIZUFqcn5KakMTAyMQMwAJBkZGGA0AA==)
+  last-modified (1616984298726)
+}
 train (t-ghywenpdzw7pyyt3b8o2sy1zx) {
   utterance ("[g:FindLocation] (서울 양천구)[v:Addr] (사전투표)[v:EvPs:evPs] 정보")
   plan (Y2BlUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIrwKXMsCihk08SiAWQN1FQsDIwMTAzOQZgCyIBAGmKFyDAA=)

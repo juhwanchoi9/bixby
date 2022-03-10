@@ -1,0 +1,9 @@
+enum (sgTypecode) {
+  description (__DESCRIPTION__)
+  symbol (sgTypecode3)
+  symbol (sgTypecode4)
+  symbol (sgTypecode5)
+  symbol (sgTypecode6)
+  // symbol (시도의회의원선거)
+  // symbol (구시군의회의원선거)
+}

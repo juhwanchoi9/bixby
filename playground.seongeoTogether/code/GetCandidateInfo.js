@@ -1,23 +1,45 @@
-
+/******************** require ********************/
 var config = require('config')
 var http = require("http")
 var console = require("console")
 var fail = require('fail')
-
+/******************** Constant ********************/
 const KEY = secret.get('key')
 const BaseUrl = 'http://apis.data.go.kr/9760000/PofelcddInfoInqireService/getPofelcddRegistSttusInfoInqire?ServiceKey='
-const ServiceKey = 'eQ0IAR7m%2BdkRw3fKhm8tjYGaVM6CwJe18Pt4ztgBb%2BAkkGeZloUhMKfQYT7qtMibLDoW5cYXnaA2ihOXlH0yPg%3D%3D'
+const ServiceKey = '1ue1B%2F%2BAyZt6YT5FD9QwHPsG%2BIAXeOU0zhlXlNKevbrnJPbJ81zInGB0jcGQ2QJWfqdHMsZUudy4fPjX0%2F1flQ%3D%3D'
 const PageNo = 'pageNo=1'
-const SgID = 'sgId=20200415'
-const SgTypecode = 'sgTypecode=2'
+const SgID = 'sgId=20210407' //20200415
+//const SgTypecode = 'sgTypecode=3' //2  //기본값 시도지사 선거
 const NumOfRows = 30
+/******************** Function ********************/
+/******************** Function(Main) ********************/
+module.exports.function = function getCandidateInfo(location, jdName, sgTypecode) {
+  if(sgTypecode){
+    if(sgTypecode == "sgTypecode4"){
+      SgTypecode = 'sgTypecode=4'
+    } else if(sgTypecode == "sgTypecode5"){
+      SgTypecode = 'sgTypecode=5'
+    } else if(sgTypecode == "sgTypecode6"){
+      SgTypecode = 'sgTypecode=6'
+    } else {
+      SgTypecode = 'sgTypecode=3'
+    }
+  } else {
+    SgTypecode = 'sgTypecode=3'
+  }
 
-module.exports.function = function getCandidateInfo(location, jdName) {
   var url = BaseUrl + ServiceKey + "&" + PageNo + "&" + SgID + "&numOfRows=30" + "&" + SgTypecode
+
+  var sdNameUrl
+  var sggNameUrl
+
   if (location) {
     //시 이름으로 들어왔을 때
     var test = location.name.valueOf()
     var test2 = location.unstructuredAddress.valueOf()
+    if(location.unstructuredAddress.valueOf().indexOf("서울특별시 한국") != -1){
+      test2 = location.unstructuredAddress.valueOf().substr(0,5);
+    }
     if (test == "제주도") { test = "제주특별자치도" }
     if (test2 == "제주도") { test2 = "제주특별자치도" }
     if (test2.indexOf(",") != -1) {
@@ -49,74 +71,67 @@ module.exports.function = function getCandidateInfo(location, jdName) {
 
     if (test == test2) { //시정보만
       if (location.placeCategory == "administrative-region") {
-        url += "&sdName=" + encodeURIComponent(test2) //서울특별시
+        sdNameUrl = test2 //서울특별시
       } else if (test.substr(test3.length - 1, 1) == "군") {
-        url += "&sggName=" + encodeURIComponent(test)
+        sggNameUrl = test
       }
     } else if (str) {
-      console.debug(str)
       if (test3 == "제주도") {
         test3 = "제주특별자치도"
       }
       if (test4 == "제주도") { test4 = "제주특별자치도" }
       var test3last = test3.substr(test3.length - 1, 1)
       var test4last = test4.substr(test4.length - 1, 1)
-
-      if (test3last == "시" && test4last == "구") { //서울시 마포구
-        console.debug("1" + test3) //수원시
-        url += "&sdName=" + encodeURIComponent(test3);
-        url += "&sggName=" + encodeURIComponent(test4);
+	  if (test3 == "세종특별자치시" && test4last == "로") {
+        sdNameUrl = test3;
+      } else if (test3last == "시" && test4last == "구") { //서울시 마포구
+        sdNameUrl = test3;
+        sggNameUrl = test4;
       } else if (test3last == "도" || test4last == "시") { //경기도 수원시 
-        console.debug("2" + test3)
-        url += "&sdName=" + encodeURIComponent(test3);
-        url += "&sggName=" + encodeURIComponent(test4);
+        sdNameUrl = test3;
+        sggNameUrl = test4;
       } else if (test3last == "도" && test4last == "군") { //경상남도 함양군
-        console.debug("3" + test3)
-        url += "&sdName=" + encodeURIComponent(test3);
-        url += "&sggName=" + encodeURIComponent(test4);
+        sdNameUrl = test3;
+        sggNameUrl = test4;
       } else if (test4last == "시" && test3last == "구") { //마포구 서울시
-        url += "&sdName=" + encodeURIComponent(test4);
-        url += "&sggName=" + encodeURIComponent(test3);
+        sdNameUrl = test4;
+        sggNameUrl = test3;
       } else if (test4last == "도" || test3last == "시") {
-        url += "&sdName=" + encodeURIComponent(test4);
-        url += "&sggName=" + encodeURIComponent(test3);
+        sdNameUrl = test4;
+        sggNameUrl = test3;
       } else if (test4last == "도" && test3last == "군") {
-        url += "&sdName=" + encodeURIComponent(test4);
-        url += "&sggName=" + encodeURIComponent(test3);
+        sdNameUrl = test4;
+        sggNameUrl = test3;
       }
     } else if (location.placeCategory == "street-square") {
       var str2 = test2.split(' ')
-      url += "&sdName=" + encodeURIComponent(str2[0]);  //경기도
-      url += "&sggName=" + encodeURIComponent(str2[1]);
+      sdNameUrl = str2[0];  //경기도
+      sggNameUrl = str2[1];
     } else if (location.placeCategory == "city-town-village") {
-      console.debug("구정보")
       if (location.unstructuredAddress.substr(location.unstructuredAddress.length - 1) == "군") { //강화군
-        url += "&sdName=" + encodeURIComponent(location.name);
-        url += "&sggName=" + encodeURIComponent(test2);
+        sdNameUrl = location.name;
+        sggNameUrl = test2;
       } else {
-        url += "&sdName=" + encodeURIComponent(test2);  //서울특별시
-        url += "&sggName=" + encodeURIComponent(location.name);
+        sdNameUrl = test2;  //서울특별시
+        sggNameUrl = location.name;
       }
     } else if (location.placeCategory != "city-town-village" || location.placeCategory != "street-square") {
       var str2 = test2.split(' ')
-      // console.debug(str2) //경기도 파주시 파주읍 파주리
-      url += "&sdName=" + encodeURIComponent(str2[0]);  //경기도
-      url += "&sggName=" + encodeURIComponent(str2[1]);
+      sdNameUrl = str2[0];  //경기도
+      sggNameUrl = str2[1];
     } else {
-      //구정보
-      // console.debug("나머지")
-      url += "&sdName=" + encodeURIComponent(test2);  //서울특별시
-      url += "&sggName=" + encodeURIComponent(location.name);
+      sdNameUrl = test2;  //서울특별시
+      sggNameUrl = location.name;
     }
-  }
+  }    
+
   if (jdName) {
-    console.debug(jdName)
     if (jdName == "theminjoo") {
       url += "&jdName=" + encodeURIComponent("더불어민주당");
     } else if (jdName == "peopleparty") {
       url += "&jdName=" + encodeURIComponent("국민의당");
     } else if (jdName == "unitedfutureparty") {
-      url += "&jdName=" + encodeURIComponent("미래통합당");
+      url += "&jdName=" + encodeURIComponent("국민의힘");
     } else if (jdName == "minsaengdang") {
       url += "&jdName=" + encodeURIComponent("민생당");
     } else if (jdName == "minjungparty") {
@@ -133,12 +148,61 @@ module.exports.function = function getCandidateInfo(location, jdName) {
       url += "&jdName=" + encodeURIComponent("우리공화당");
     } else if (jdName == "nrdparty") {
       url += "&jdName=" + encodeURIComponent("국가혁명배당금당");
+    } else if (jdName == "makeourfuture") {
+      url += "&jdName=" + encodeURIComponent("미래당");
     } else if (jdName == "musosok") {
       url += "&jdName=" + encodeURIComponent("무소속");
     } else {
       throw fail.checkedError("NojdName", "NojdName")
     }
   }
+
+  
+    /////////////////////////////////////////20210407 선거
+    var sgTypecodeCheck
+    if(!sggNameUrl && !sdNameUrl){
+      if(jdName){
+        sdNameUrl = ""
+        sggNameUrl = ""
+      }else{
+        sggNameUrl = "서울" //서울,부산 지역 아닌 없는 경우와 구분하기 위함
+        sdNameUrl = ""
+        }
+        
+      }else if(!sggNameUrl){
+        sggNameUrl = ""
+      }
+
+     if(sdNameUrl.indexOf('서울')!=-1 || sdNameUrl.indexOf('부산')!=-1 ||
+          sdNameUrl.indexOf('경기')!=-1 || sdNameUrl.indexOf('울산')!=-1 ||
+          sdNameUrl.indexOf('경상남도')!=-1 || sdNameUrl.indexOf('충청북도')!=-1 ||
+          sdNameUrl.indexOf('전라남도')!=-1 || sdNameUrl.indexOf('충청남도')!=-1 ||
+          sdNameUrl.indexOf('전라북도')!=-1){
+            if(sggNameUrl){
+              if(sggNameUrl.indexOf('강북')!=-1 || sggNameUrl.indexOf('송파')!=-1 || sggNameUrl.indexOf('영등포')!=-1){
+              }else{
+                sggNameUrl = "" //api 시 값만 보냄
+              }
+            }
+        //선거구가 맞음
+        sgTypecodeCheck = "선거구"
+        }else if(!jdName){
+          //선거구가 아닐때
+          if(!sdNameUrl && sggNameUrl == "서울"){
+  
+          } else {
+            throw fail.checkedError("NoData2", "NoData2")
+          }
+      }
+
+   if (sggNameUrl!="" && sdNameUrl){
+     url += "&sdName=" + encodeURIComponent(sdNameUrl) + "&sggName=" + encodeURIComponent(sggNameUrl)
+   } else if (sdNameUrl && !sggNameUrl){
+     url += "&sdName=" + encodeURIComponent(sdNameUrl)
+     } else {
+       url
+     } 
+    /////////////////////////////////////////////////////////////
 
   try {
     var res = http.getUrl(url, { format: 'xmljs' })
@@ -185,11 +249,23 @@ module.exports.function = function getCandidateInfo(location, jdName) {
         })
       }
     }
-    console.debug(ret)
     return ret
 
   }
   catch (err) {
-
+    if (res.response) {
+      if (res.response.header.resultCode) {
+        if (res.response.header.resultCode == 'INFO-00' && res.response.body.totalCount == 0) {
+          throw fail.checkedError("NoResult", "NoResult")
+        }
+      }
+    } else if (res.result.code) {
+      if (res.result.code == 'INFO-03') {
+        if (!sgTypecodeCheck) {
+          throw fail.checkedError("NoData", "NoData")
+        }
+        throw fail.checkedError("NoData3", "NoData3")
+      }
+    }
   }
 }

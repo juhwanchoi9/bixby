@@ -8,6 +8,11 @@ train (t-m1nzlwelc0hl7eef0viwi826m) {
   plan (Y2Bi0CjISaxML8ovzUvRK07Nz0tPzQ/JT08tyUgt0ktOzEvJTEksSfXMS8tn0Maj0j21xBlFMSMQMkAxkAQA)
   last-modified (1585728789267)
 }
+train (t-m3p6mzpn5em5dl49bwqa1lkxo) {
+  utterance ("[g:GetCandidateInfo] (경기도)[v:geo.SearchTerm] (시도의회)[v:sgTypecode:sgTypecode5] 후보자 알려줘")
+  plan (fYxBCsIwEEV/bdW9rjyAIAi5g7gQNyKYC8RmTAM2I0lacePZDRFBQTqbmffn8THF6mrZnb3VhkQgdoZYsqHYkBe1ctpqFWnvLoz1gLmjuP2RlwNyMPJxo5o1YdbbXqSfOKiW9JGti5h/sk0XOXTGUIhY/Amf99T21XEi5etGkm8xQYERSlQYpxuJikxV2sj8njJ7yXgB)
+  last-modified (1616726012525)
+}
 train (t-m44y5mu4o23tnfhdgknlolo28) {
   utterance ([g:FindLocation] 투표소가 어디 있는지 알고 싶어)
   plan (Y2BmUCzISaxML8ovzUvRK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEkMz+PQROPQpgiqJlMDIxAzAAkGRkYYDQA)

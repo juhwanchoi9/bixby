@@ -1,25 +1,42 @@
 capsule {
-  id (playground.seongeoTogether)
-  version (0.1.16) //학습 추가
-  format (3)
+  id (lionbridge.seongeoTogether)
+	version (0.2.7)
+format (3)
   targets {
     target (bixby-mobile-ko-KR)
   }
-  runtime-version (9)
+  
   store-countries {
+    only{
+      allow (KR)
+    }
+  }
+  store-sections{
+    section (NewsAndMagazines){
+      visibility-constraints{
+        country-constraints{
+          allowed-list{
+            allow (KR)
+          }
+        }
+      }
+    }
+  }
+
+  device-models {
     all
   }
+
   capsule-imports{
     import (viv.geo){
-      as (geo) version (9.28.2) //2021-07-27 업데이트
+      as (geo) version (9.27.21) // 2021/06/04
     }
+  }
+
+  runtime-version (9){
   }
 
   permissions {
     device-location-access
 	}
-
-  device-models {
-    all
-  }
 }

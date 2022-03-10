@@ -18,6 +18,11 @@ train (t-hcgluc913osbc92tu8rdqsfwx) {
   plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9C17KAYgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
   last-modified (1586500497211)
 }
+train (t-hh86jney6jhxr9n8v86bxx0if) {
+  utterance ("[g:FindLocation] (대전)[v:Addr] (사전 투표소)[v:EvPs:evPs] 알려줘")
+  plan (Y2BlUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIrwKXMsCihk08SiAWQN1FQsDIwMTAzOQZgCyIBAGmKFyDAA=)
+  last-modified (1616649858786)
+}
 train (t-hlna9wsffksux1qa3aqmgp63h) {
   utterance ([g:GetCandidateInfo] 선거 출마한 후보자 찾아서 보여줘)
   plan (Y2Bi0MjJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktOzEvJTEksSfXMS8tn0Maj0j21xBlFMSMQMkAxkAQA)

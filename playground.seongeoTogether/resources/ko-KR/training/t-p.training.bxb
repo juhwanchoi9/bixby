@@ -33,3 +33,8 @@ train (t-px9if3fzv09wrhdvnpzyyp0kj) {
   plan (Y2Bi0MjJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktOzEvJTEksSfXMS8tn0Maj0j21xBlFMSMQMkAxkAQA)
   last-modified (1586505430185)
 }
+train (t-pxajy0gkcv7y8bjesc0szpukg) {
+  utterance ("[g:GetWinnerInfo] (부산)[v:geo.SearchTerm] (시장)[v:sgTypecode:sgTypecode3] 당선자 리스트 보여줘")
+  plan (fYyxCsJAEEQnJmqvlR8gWN0/WImNCAasYzJeDsyt3F0SbPx2j4hoIdlm980+BnOsb0bsxZlKU3mK1ZRcNENNp3pjLd3eXgWbEW3HcP6aY4Ve5487S6mIRWc6FX/qUDSsjmJswPKTbdsgvtWaPmD1J3z2se2n48TClXVO12CGBBOkyDCNNyIlA2VxY+D3pIMXjRc=)
+  last-modified (1617153071906)
+}

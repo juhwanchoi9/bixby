@@ -43,15 +43,30 @@ train (t-xm3rfssx5d2tiqnmcgg3dwyp1) {
   plan (Y2BiUM7JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktJSawsSS0uwasoLL8k1QWokIERCBmgGEgCAA==)
   last-modified (1586507608533)
 }
+train (t-xqyrc94gy7e4jts2dmmuqkvdk) {
+  utterance ("[g:GetCandidateInfo] (경상남도)[v:geo.SearchTerm] (의장선거)[v:sgTypecode:sgTypecode4] 후보자 보여줘")
+  plan (fYxBCsIwEEV/bdW9rjyAIAi5g7gQNyKYC8RmTAM2I0lacePZDRFBQTqbmffn8THF6mrZnb3VhkQgdoZYsqHYkBe1ctpqFWnvLoz1gLmjuP2RlwNyMPJxo5o1YdbbXqSfOKiW9JGti5h/sk0XOXTGUIhY/Amf99T21XEi5etGkm8xQYERSlQYpxuJikxV2sj8njJ7yXgB)
+  last-modified (1616719450557)
+}
 train (t-xszsnv3c2ta2n3kah0ua5zwln) {
   utterance ("[g:FindLocation] (합정동)[v:Addr]에 (사전투표소)[v:EvPs:evPs] 있어")
   plan (Y2BlUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIrwKXMsCihk08SiAWQN1FQsDIwMTAzOQZgCyIBAGmKFyDAA=)
   last-modified (1586504593778)
 }
+train (t-xtd76z5obz2l4a1m05sjpmbo6) {
+  utterance ("[g:FindLocation] 2021년 재보궐 선거 (사전투표소)[v:EvPs:evPs] 보여줘")
+  plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9C17KAYgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
+  last-modified (1616984297014)
+}
 train (t-xtds14p0bks1xjkdkduublsf7) {
   utterance ("[g:GetWinnerInfo] (세종특별자치시)[v:geo.SearchTerm] 당선자 누가있나 알려줄래")
   plan (fYyxCsJAEETHRP0ArfwAwer+wUpsRDBgHc14OTC7cLkknd/uKkoacWHYx8wwmGN9DyqXGCpP11LFUwv1TDWjG4II415uis2f2o7pPDYXfeidxe5QNqyOGiRh+fW2XdK2855twuqH+RhskOPGiWW81gVjgxkmyJBjaoQP5/bx1usyI8ue)
   last-modified (1587014916667)
+}
+train (t-xu2s1loqk9zwfmj8y4frav8c6) {
+  utterance ([g:ConnectNaver] 2021년 재·보궐선거 정보 확인하기)
+  plan (Y2BikMvJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gsN8mFQxyPvnJ+Xl5pc4pdYllrEwAiEDFAMJAE=)
+  last-modified (1617150929756)
 }
 train (t-xzeyozzwhr29lje9dro8n0rgv) {
   utterance ("[g:GetWinnerInfo] (국민의당)[v:jdName:peopleparty]에서 나온 당선자 알려줘")

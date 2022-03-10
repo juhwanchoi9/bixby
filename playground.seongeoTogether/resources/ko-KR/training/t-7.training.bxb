@@ -1,3 +1,13 @@
+train (t-72cnxhco7aib61vnqas7klnoc) {
+  utterance ([g:VoteDday] 재보궐선거 얼마나 남았어)
+  plan (Y2BiUM7JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktJSawsSS0uwasoLL8k1QWokIERCBmgGEgCAA==)
+  last-modified (1616648765723)
+}
+train (t-755da246t3iii3dmzrbcmmg4w) {
+  utterance ("[g:GetCandidateInfo] (충남)[v:geo.SearchTerm] (구시군의회의원선거)[v:sgTypecode:sgTypecode6] 후보자 보여줘")
+  plan (fYxBCsIwEEV/bdW9rjyAIAi5g7gQNyKYC8RmTAM2I0lacePZDRFBQTqbmffn8THF6mrZnb3VhkQgdoZYsqHYkBe1ctpqFWnvLoz1gLmjuP2RlwNyMPJxo5o1YdbbXqSfOKiW9JGti5h/sk0XOXTGUIhY/Amf99T21XEi5etGkm8xQYERSlQYpxuJikxV2sj8njJ7yXgB)
+  last-modified (1616719421550)
+}
 train (t-77yhdlmx7e9xt09ukv9hywih7) {
   utterance ("[g:GetCandidateInfo] 이번 선거 (광주)[v:geo.SearchTerm]에서  누구 출마했나 찾아봐")
   last-modified (1586510637908)
@@ -30,8 +40,7 @@ train (t-7d4asglbdguvasgpx2ztlnktq) {
 train (t-7gm3kl2blp4ud0mhcmasr3rs2) {
   utterance ([g:ConnectWinnerUrl] 21대 국회의원 당선자 바로 조회하기)
   plan (Y2BikMvJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gsN8mHQxiPvnJ+Xl5pcEp4JpIpCi3IYGIGQAYqBJAA=)
-  enabled (false)
-  last-modified (1628511514590)
+  last-modified (1587536882168)
 }
 train (t-7npysp9nxczn36kq4bjxf0h4k) {
   utterance ([g:VoteDday] 선거일까지 얼마나 남았어)
@@ -41,7 +50,7 @@ train (t-7npysp9nxczn36kq4bjxf0h4k) {
 train (t-7pduoo0s6lxo2vedc9mqkghr1) {
   utterance ([g:ConnectUrl] 선거 홈페이지 궁금해)
   plan (Y2BikCvISaxML8ovzUvRK07Nz0tPzQ/JT08tyUgt0gsN8mFQxSPvnJ+Xl5pcElqUw8AIhAxQDCQB)
-  last-modified (1586496008709)
+  last-modified (1616727758383)
 }
 train (t-7pqh7emvl42cnbn9dyb7f9322) {
   utterance ("[g:FindLocation] (서초구)[v:Addr] (사전투표)[v:EvPs:evPs] 하려면 어디로 가야 해")

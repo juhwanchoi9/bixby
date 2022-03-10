@@ -1,0 +1,22 @@
+input-view{ 
+  match: sgTypecode(this){
+    to-input:GetWinnerInfo(action) 
+    }
+
+message{ 
+  template ("어떤 선거의 당선자를 알려드릴까요?")
+}
+
+
+render { 
+      selection-of (this){    
+     where-each (sgTypecode) {
+         layout-macro (sgTypeCode_list){    
+          param (aa){
+            expression(sgTypecode)
+          }
+      }
+    }
+    }
+  }
+}

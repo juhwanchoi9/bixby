@@ -28,6 +28,11 @@ train (t-kddqims94n1wrbrni85tl5rgm) {
   plan (fYxBCsIwEEW/rXoAXXkDQcgdxIW4EcFeIDbfNGAzkKZ159kdRRFBHBjm8efxMcXyEiSeUnCepqNET6nEMzdMprbRBWczd/EsWP0xt8ybL3k2hMGoYfa2pTtIiBnzd7bus3S99+wyFj/C21U7+ek40qa6qZhaTDBCgRJjJby41IvnPqZQ0t8d)
   last-modified (1586510751058)
 }
+train (t-kiw858lqf1hq8bfzq3kxaurjq) {
+  utterance ("[g:GetCandidateInfo] (부산)[v:geo.SearchTerm](시장)[v:sgTypecode:sgTypecode3] 선거 후보자 알고싶어")
+  plan (fYxBCsIwEEV/bdW9rjyAIAi5g7gQNyKYC8RmTAM2I0lacePZDRFBQTqbmffn8THF6mrZnb3VhkQgdoZYsqHYkBe1ctpqFWnvLoz1gLmjuP2RlwNyMPJxo5o1YdbbXqSfOKiW9JGti5h/sk0XOXTGUIhY/Amf99T21XEi5etGkm8xQYERSlQYpxuJikxV2sj8njJ7yXgB)
+  last-modified (1616727088518)
+}
 train (t-kjcrc7fug7cnhcjznffhtuqym) {
   utterance ([g:VoteDday] 투표 어떻게 해)
   plan (Y2BiUM7JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktJSawsSS0uwasoLL8k1QWokIERCBmgGEgCAA==)
@@ -47,4 +52,9 @@ train (t-kwh81h1t2axnl27viuizjf70s) {
   utterance ([g:FindLocation] 투표소)
   plan (Y2Bi0CzISaxML8ovzUvRK07Nz0tPzQ/JT08tyUgt0vPJT04syczPC0otLs0pYVDHo9QtMy8FppyBEQgZoBhIAgA=)
   last-modified (1585643458614)
+}
+train (t-kworfk2jzov6r962f4nk3fzu3) {
+  utterance ("[g:GetCandidateInfo:prompt] (두 번째)[v:viv.common.Ordinal:2]")
+  enabled (false)
+  last-modified (1616722339238)
 }

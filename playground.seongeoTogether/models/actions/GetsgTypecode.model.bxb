@@ -1,0 +1,5 @@
+action (GetsgTypecode) {
+      type (Calculation)
+
+  output (sgTypecode)
+}

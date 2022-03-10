@@ -193,25 +193,25 @@ layout-macro-def (onlyVoteInfo) {
         single-line {
           text {
             style (Detail_M)
-            value ("1. 신분증을 제시하고 선거인명부에 서명합니다.")
+            value ("1. 신분증명서를 제시하여 본인임을 확인받습니다.")
           }
         }
         single-line {
           text {
             style (Detail_M)
-            value ("2. 투표용지 2장을 받습니다.")
+            value ("2. 투표용지를 받습니다.")
           }
         }
         single-line {
           text {
             style (Detail_M)
-            value ("3. 한 명의 후보자, 하나의 정당에 기표합니다.")
+            value ("3. 기표소에 비치된 용구로 기표합니다.")
           }
         }
         single-line {
           text {
             style (Detail_M)
-            value ("4. 투표지 1장을 보이지 않게 접어 투표함에 넣습니다.")
+            value ("4. 투표지를 접은 다음 투표함에 넣고 나갑니다.")
           }
         }
       }  

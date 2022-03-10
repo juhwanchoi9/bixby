@@ -33,8 +33,18 @@ train (t-4l53iwihob1hnach4n212mpzw) {
   plan (Y2BiUM3JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ivPzMtLLfLMS8tn0MCjzD21JByhkhEIGaAYSAIA)
   last-modified (1586507380872)
 }
+train (t-4noekvdmkm8j1dykdu20rj2oj) {
+  utterance ([g:ConnectNaver] 2021년 재보궐선거 정보 확인하기)
+  plan (Y2BikMvJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gsN8mFQxyPvnJ+Xl5pc4pdYllrEwAiEDFAMJAE=)
+  last-modified (1617151039221)
+}
 train (t-4tsyrb3tlnmv7vc26usv2hcjh) {
   utterance ("[g:GetCandidateInfo] (서초구)[v:geo.SearchTerm]에 나온 후보자 보여줘")
   plan (fYxBCsIwEEW/rXoAXXkDQcgdxIW4EcFeIDbfNGAzkKZ159kdRRFBHBjm8efxMcXyEiSeUnCepqNET6nEMzdMprbRBWczd/EsWP0xt8ybL3k2hMGoYfa2pTtIiBnzd7bus3S99+wyFj/C21U7+ek40qa6qZhaTDBCgRJjJby41IvnPqZQ0t8d)
   last-modified (1587087206018)
+}
+train (t-4wv5qmf3hc1jtphwlc71vbeua) {
+  utterance ("[g:GetCandidateInfo] 재보궐선거 (서울)[v:geo.SearchTerm] (시장)[v:sgTypecode:sgTypecode3] 후보 알고 싶어")
+  plan (fYxBCsIwEEV/bdW9rjyAIAi5g7gQNyKYC8RmTAM2I0lacePZDRFBQTqbmffn8THF6mrZnb3VhkQgdoZYsqHYkBe1ctpqFWnvLoz1gLmjuP2RlwNyMPJxo5o1YdbbXqSfOKiW9JGti5h/sk0XOXTGUIhY/Amf99T21XEi5etGkm8xQYERSlQYpxuJikxV2sj8njJ7yXgB)
+  last-modified (1616719367646)
 }

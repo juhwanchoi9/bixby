@@ -3,6 +3,11 @@ train (t-f3xxfw2eyzl59dilv1lpelmjo) {
   plan (Y2BlUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIrwKXMsCihk08SiAWQN1FQsDIwMTAzOQZgCyIBAGmKFyDAA=)
   last-modified (1586504599196)
 }
+train (t-f5iw2k9bt5fu7jc1dybye85px) {
+  utterance ("[g:GetCandidateInfo] (대구 달서구)[v:viv.geo.SearchTerm] 후보자 누구야")
+  plan (fYxBCsIwEEW/rXoAXXkDQcgdxIW4EcFeIDbfNGAzkKZ159kdRRFBHBjm8efxMcXyEiSeUnCepqNET6nEMzdMprbRBWczd/EsWP0xt8ybL3k2hMGoYfa2pTtIiBnzd7bus3S99+wyFj/C21U7+ek40qa6qZhaTDBCgRJjJby41IvnPqZQ0t8d)
+  last-modified (1615259770173)
+}
 train (t-fg78jxpgrw4cmxh4tqkdz9zf3) {
   utterance ([g:GetCandidateInfo] 후보자 정보 검색할래)
   plan (Y2Bi0MjJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktOzEvJTEksSfXMS8tn0Maj0j21xBlFMSMQMkAxkAQA)

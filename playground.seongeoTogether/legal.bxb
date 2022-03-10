@@ -1,0 +1,9 @@
+legal {
+  country-documents {
+    store-country(KR)
+    
+    privacy-policy {
+      url(https://sajadari.github.io/2020-04-10-seongeoTogether-policy/)
+    }
+  }
+}

@@ -1,5 +1,5 @@
 result-view{
-  match: dday (this)
+  match: ddaytest (this)
 
   message {
     template("선거 정보를 알려드릴게요.")
@@ -13,7 +13,7 @@ render {
     else 
     {
       layout-macro (dDayAndVoteInfo) {
-      param (dday) {
+      param (ddaytest) {
 				expression (this)
 			}
     }
@@ -21,6 +21,9 @@ render {
     
   }
   conversation-drivers {
+    // conversation-driver {
+    //   template ("2021년 재·보궐선거 정보 확인하기")
+    // }
     conversation-driver {
       template ("중앙선거관리위원회 홈페이지")
     }

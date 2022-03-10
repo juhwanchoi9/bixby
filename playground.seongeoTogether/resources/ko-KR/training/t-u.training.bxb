@@ -13,10 +13,20 @@ train (t-u3vqffvutx9nn7gjnlsppocq2) {
   plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
   last-modified (1587015962226)
 }
+train (t-u6hi20z8h1n8mmg76zoqfkdii) {
+  utterance ([g:VoteDday] 보궐선거 정보)
+  plan (Y2BiUM7JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktJSawsSS0uwasoLL8k1QWokIERCBmgGEgCAA==)
+  last-modified (1616984226626)
+}
 train (t-u6wll3gxyqx9gpr7meumw6sbj) {
   utterance ("[g:FindLocation] (용산구)[v:Addr]에 투표소 궁금해")
   plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
   last-modified (1586846182581)
+}
+train (t-u7nh8rhp6kvfdks5qov6oxynw) {
+  utterance ([g:FindLocation] 우리 동네 투표소 어디로 가)
+  plan (Y2BmUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBE49CmCKomUwMjEDMACQZGRhgNAA=)
+  last-modified (1617670959064)
 }
 train (t-ubghlsjxenfcvkoqrhu5chebt) {
   utterance ("[g:GetCandidateInfo] (종로구)[v:geo.SearchTerm] 후보자 보여줘")

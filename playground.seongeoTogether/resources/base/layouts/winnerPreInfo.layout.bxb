@@ -1,0 +1,718 @@
+layout-macro-def (winnerPreInfo) {
+	content {
+		partitioned {
+      content {
+        cell-area {
+           slot1 {
+        image {
+          url ("images/good.png")
+          shape (Circle)
+        }
+      }
+      slot2{
+        content {
+          order (SecondaryPrimary)
+          primary ("66.2%")
+          secondary ("2020년 4월 15일 국회의원 선거 투표율")
+        }
+      }
+    }
+    title-area {
+          slot2 {
+            single-line {
+              text {
+                style (Detail_M)
+                color (Amber)
+                value ("정당별 의석수")
+              }
+            }
+          }
+        }
+          hbox {
+          content {
+            vbox {
+              content {
+                single-line {
+                  image {
+                    url ("/images/winner.png")
+                    style (Title_XS)
+                  }
+                }
+              }
+            }
+          }
+        }
+        title-area {
+          slot2 {
+            single-line {
+              text {
+                style (Detail_M)
+                color (Amber)
+                value ("비례대표 의석수")
+              }
+            }
+          }
+        }
+        hbox {
+          content {
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M)
+                    value ("더불어시민당")
+                  }
+                }
+              }
+            }
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M_Soft)
+                    value ("17석")
+                  }
+                }
+              }
+            }
+          }
+        }
+        hbox {
+          content {
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M)
+                    value ("미래한국당")
+                  }
+                }
+              }
+            }
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M_Soft)
+                    value ("19석")
+                  }
+                }
+              }
+            }
+          }
+        }
+        hbox {
+          content {
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M)
+                    value ("정의당")
+                  }
+                }
+              }
+            }
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M_Soft)
+                    value ("5석")
+                  }
+                }
+              }
+            }
+          }
+        }
+        hbox {
+          content {
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M)
+                    value ("국민의당")
+                  }
+                }
+              }
+            }
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M_Soft)
+                    value ("3석")
+                  }
+                }
+              }
+            }
+          }
+        }
+        hbox {
+          content {
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M)
+                    value ("열린민주당")
+                  }
+                }
+              }
+            }
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M_Soft)
+                    value ("3석")
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        title-area {
+          slot2 {
+            single-line {
+              text {
+                style (Detail_M)
+                color (Amber)
+                value ("지역별 의석수")
+              }
+            }
+          }
+        }
+      hbox {
+          content {
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M)
+                    value ("서울")
+                  }
+                }
+              }
+            }
+            divider
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M_Soft)
+                    value ("더불어민주당 41석")
+                  }
+                }
+              }
+            }
+         
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M_Soft)
+                    value ("미래통합당 8석")
+                  }
+                }
+              }
+            }
+          }
+        }
+        
+        hbox {
+          content {
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M)
+                    value ("경기")
+                  }
+                }
+              }
+            }
+            divider
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M_Soft)
+                    value ("더불어민주당 51석")
+                  }
+                }
+              }
+            }
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M_Soft)
+                    value ("미래통합당 7석")
+                  }
+                }
+              }
+            }
+          }
+        }
+        hbox {
+          content {
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M)
+                    value ("인천")
+                  }
+                }
+              }
+            }
+            divider
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M_Soft)
+                    value ("더불어민주당 11석")
+                  }
+                }
+              }
+            }
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M_Soft)
+                    value ("미래통합당 1석")
+                  }
+                }
+              }
+            }
+          }
+        }
+        hbox {
+          content {
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M)
+                    value ("세종")
+                  }
+                }
+              }
+            }
+            divider
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M_Soft)
+                    value ("더불어민주당 2석")
+                  }
+                }
+              }
+            }
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M_Soft)
+                    value ("미래통합당 0석")
+                  }
+                }
+              }
+            }
+          }
+        }
+        hbox {
+          content {
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M)
+                    value ("충북")
+                  }
+                }
+              }
+            }
+            divider
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M_Soft)
+                    value ("더불어민주당 5석")
+                  }
+                }
+              }
+            }
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M_Soft)
+                    value ("미래통합당 3석")
+                  }
+                }
+              }
+            }
+          }
+        }
+        hbox {
+          content {
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M)
+                    value ("충남")
+                  }
+                }
+              }
+            }
+            divider
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M_Soft)
+                    value ("더불어민주당 6석")
+                  }
+                }
+              }
+            }
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M_Soft)
+                    value ("미래통합당 5석")
+                  }
+                }
+              }
+            }
+          }
+        }
+        hbox {
+          content {
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M)
+                    value ("대전")
+                  }
+                }
+              }
+            }
+            divider
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M_Soft)
+                    value ("더불어민주당 7석")
+                  }
+                }
+              }
+            }
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M_Soft)
+                    value ("미래통합당 0석")
+                  }
+                }
+              }
+            }
+          }
+        }
+        hbox {
+          content {
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M)
+                    value ("전북")
+                  }
+                }
+              }
+            }
+            divider
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M_Soft)
+                    value ("더불어민주당 9석")
+                  }
+                }
+              }
+            }
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M_Soft)
+                    value ("미래통합당 0석")
+                  }
+                }
+              }
+            }
+          }
+        }
+        hbox {
+          content {
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M)
+                    value ("광주")
+                  }
+                }
+              }
+            }
+            divider
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M_Soft)
+                    value ("더불어민주당 8석")
+                  }
+                }
+              }
+            }
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M_Soft)
+                    value ("미래통합당 0석")
+                  }
+                }
+              }
+            }
+          }
+        }
+        hbox {
+          content {
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M)
+                    value ("전남")
+                  }
+                }
+              }
+            }
+            divider
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M_Soft)
+                    value ("더불어민주당 10석")
+                  }
+                }
+              }
+            }
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M_Soft)
+                    value ("미래통합당 0석")
+                  }
+                }
+              }
+            }
+          }
+        }
+        hbox {
+          content {
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M)
+                    value ("경북")
+                  }
+                }
+              }
+            }
+            divider
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M_Soft)
+                    value ("더불어민주당 0석")
+                  }
+                }
+              }
+            }
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M_Soft)
+                    value ("미래통합당 13석")
+                  }
+                }
+              }
+            }
+          }
+        }
+        hbox {
+          content {
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M)
+                    value ("경남")
+                  }
+                }
+              }
+            }
+            divider
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M_Soft)
+                    value ("더불어민주당 3석")
+                  }
+                }
+              }
+            }
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M_Soft)
+                    value ("미래통합당 12석")
+                  }
+                }
+              }
+            }
+          }
+        }
+        hbox {
+          content {
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M)
+                    value ("대구")
+                  }
+                }
+              }
+            }
+            divider
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M_Soft)
+                    value ("더불어민주당 0석")
+                  }
+                }
+              }
+            }
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M_Soft)
+                    value ("미래통합당 11석")
+                  }
+                }
+              }
+            }
+          }
+        }
+        hbox {
+          content {
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M)
+                    value ("울산")
+                  }
+                }
+              }
+            }
+            divider
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M_Soft)
+                    value ("더불어민주당 1석")
+                  }
+                }
+              }
+            }
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M_Soft)
+                    value ("미래통합당 5석")
+                  }
+                }
+              }
+            }
+          }
+        }
+        hbox {
+          content {
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M)
+                    value ("부산")
+                  }
+                }
+              }
+            }
+            divider
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M_Soft)
+                    value ("더불어민주당 3석")
+                  }
+                }
+              }
+            }
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M_Soft)
+                    value ("미래통합당 15석")
+                  }
+                }
+              }
+            }
+          }
+        }
+      }  
+    }
+	}
+}

@@ -1,5 +1,5 @@
 action (VoteDday) {
 	description ()
 	type(Constructor)
-	output (dday)
+	output (ddaytest)
 }

@@ -1,3 +1,8 @@
+train (t-t020jja8r0c1y0tl1j90lszn4) {
+  utterance ("[g:GetCandidateInfo] (미래당)[v:jdName:makeourfuture] 후보자 보여줘")
+  plan (Y2Bh0MjJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktOzEvJTEksSfXMS8tn0Maj0j21xBlFsSIexVkpfom5qQyqeJQUp4dUFqQm56ekMjAzMDIwAUkGIA2CEMAEFmUAAA==)
+  last-modified (1617670480344)
+}
 train (t-t4nrnmb7mqm4txwqovzg5ypk9) {
   utterance ("[g:GetCandidateInfo] (미통당)[v:jdName:unitedfutureparty]에서 나온 후보자 정보 알려줘")
   plan (Y2Bm0MjJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktOzEvJTEksSfXMS8tn0Maj0j21xBlFsSIexVkpfom5qQxMDIxAzAAkGRlAAMoHAA==)
@@ -22,6 +27,16 @@ train (t-tfwb1ebnvm4yqxljao9xtq78s) {
   utterance ([g:FindLocation] 내 주변 투표소 리스트 보여줘)
   plan (Y2BmUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBE49CmCKomUwMjEDMACQZGRhgNAA=)
   last-modified (1586500188836)
+}
+train (t-tl0lq3da91uf0laqbrksqwdae) {
+  utterance ("[g:GetCandidateInfo] (울산시 남구)[v:geo.SearchTerm] 후보자 알려줘")
+  plan (fYxNCsIwEIVfa9W9rjyAIAi5g7gQNyLYC8RmTAM2I0lacePZHSqCgnQ2834+HqZYXR37c3DGkorE3hKXbCnVFFSlvXFGJ9r7C2M9QO4obX/g5QAcbfm4UcWGMOtcp6RTB92QObLzCfNPtmkTx9ZaigmLP+HzLmtfGyfSoapLCg0myJBjhAJj0RCX9a6Qj96/Lxcl/Qs=)
+  last-modified (1616727197088)
+}
+train (t-tq25dg70gd8dmvbtlahjbgc74) {
+  utterance ("[g:GetCandidateInfo] (서울시)[v:geo.SearchTerm] 후보자 보여줘")
+  plan (fYxNCsIwEIVfa9W9rjyAIAi5g7gQNyLYC8RmTAM2I0lacePZHSqCgnQ2834+HqZYXR37c3DGkorE3hKXbCnVFFSlvXFGJ9r7C2M9QO4obX/g5QAcbfm4UcWGMOtcp6RTB92QObLzCfNPtmkTx9ZaigmLP+HzLmtfGyfSoapLCg0myJBjhAJj0RCX9a6Qj96/Lxcl/Qs=)
+  last-modified (1617151137508)
 }
 train (t-tts9rayn3ipv0eaft20y4krsf) {
   utterance ("[g:GetWinnerInfo] (민주당)[v:jdName:theminjoo] 당선자 띄워봐")

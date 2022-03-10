@@ -1,3 +1,8 @@
+train (t-c8sg3fisvmtu8prp8t6c1ne4h) {
+  utterance ("[g:GetCandidateInfo] 2021년 (서울시)[v:geo.SearchTerm] 재보궐 선거 후보자 보여줘")
+  plan (fYxNCsIwEIVfa9W9rjyAIAi5g7gQNyLYC8RmTAM2I0lacePZHSqCgnQ2834+HqZYXR37c3DGkorE3hKXbCnVFFSlvXFGJ9r7C2M9QO4obX/g5QAcbfm4UcWGMOtcp6RTB92QObLzCfNPtmkTx9ZaigmLP+HzLmtfGyfSoapLCg0myJBjhAJj0RCX9a6Qj96/Lxcl/Qs=)
+  last-modified (1616984300655)
+}
 train (t-cal1vfhagkcuvevl7bp8ya5b1) {
   utterance ([g:FindLocation] 이 주변 투표소 보여줘)
   plan (Y2BmUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBE49CmCKomUwMjEDMACQZGRhgNAA=)
@@ -22,6 +27,11 @@ train (t-ckftisg4cos0dg66923d3uhev) {
   utterance ([g:VoteDday:continue:*] 정보 알고 싶어)
   plan (Y2BiUM7JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktJSawsSS0uwasoLL8k1QWokIERCBmgGEgCAA==)
   last-modified (1586508248889)
+}
+train (t-clbtdjapoyp7p1zeltwfsxj7o) {
+  utterance ("[g:FindLocation] (해남)[v:Addr] (사전투표소)[v:EvPs:evPs] 있어")
+  plan (Y2BlUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIrwKXMsCihk08SiAWQN1FQsDIwMTAzOQZgCyIBAGmKFyDAA=)
+  last-modified (1616375733800)
 }
 train (t-clfwvly4uhtkr8ptl8gvjxn5k) {
   utterance ("[g:FindLocation] (동두천)[v:Addr]에 투표소 좀 찾아줄래")

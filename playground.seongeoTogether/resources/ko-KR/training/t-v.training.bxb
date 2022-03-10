@@ -33,3 +33,8 @@ train (t-vw2qii5c867scntil8obta0e2) {
   plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9C17KAYgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
   last-modified (1587085176317)
 }
+train (t-vzhqakn5rzn68elxo93iq8et0) {
+  utterance ([g:FindLocation] 2021 재보궐 선거 투표소 알려줘)
+  plan (Y2BmUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBE49CmCKomUwMjEDMACQZGRhgNAA=)
+  last-modified (1616984295360)
+}

@@ -43,6 +43,11 @@ train (t-8oanuyeok97js4xt9d2q8v7hk) {
   plan (Y2BiUC3ISaxML8ovzUvRK07Nz0tPzQ/JT08tyUgt0ivPzMtLLfLMS8tn0MCjzD21JByhkhEIGaAYSAIA)
   last-modified (1585728834354)
 }
+train (t-8vci46b9w1pjxoxvda49ncu9r) {
+  utterance ("[g:GetCandidateInfo] 2021년 (서울시)[v:geo.SearchTerm] 보궐 선거 후보자 알려줘")
+  plan (fYxNCsIwEIVfa9W9rjyAIAi5g7gQNyLYC8RmTAM2I0lacePZHSqCgnQ2834+HqZYXR37c3DGkorE3hKXbCnVFFSlvXFGJ9r7C2M9QO4obX/g5QAcbfm4UcWGMOtcp6RTB92QObLzCfNPtmkTx9ZaigmLP+HzLmtfGyfSoapLCg0myJBjhAJj0RCX9a6Qj96/Lxcl/Qs=)
+  last-modified (1616984301297)
+}
 train (t-8zihjazfeuob5v0vfmkfbntou) {
   utterance ([g:FindLocation] 내 주변 투표소 궁금해)
   plan (Y2BmUCzISaxML8ovzUvRK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEkMz+PQROPQpgiqJlMDIxAzAAkGRkYYDQA)

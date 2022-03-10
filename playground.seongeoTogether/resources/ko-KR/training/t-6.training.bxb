@@ -18,6 +18,11 @@ train (t-6kdiweakzspuznsvdcu4dvr9d) {
   plan (fYyxCsJAEETHRP0ArfwAwer+wUpsRDBgHc14OTC7cLkknd/uKkoacWHYx8wwmGN9DyqXGCpP11LFUwv1TDWjG4II415uis2f2o7pPDYXfeidxe5QNqyOGiRh+fW2XdK2855twuqH+RhskOPGiWW81gVjgxkmyJBjaoQP5/bx1usyI8ue)
   last-modified (1586507398542)
 }
+train (t-6mfoq6l6ddgacbrzq95n8u24e) {
+  utterance ([g:VoteDday] 부산시 보궐선거)
+  plan (Y2BiUM7JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktJSawsSS0uwasoLL8k1QWokIERCBmgGEgCAA==)
+  last-modified (1616984227676)
+}
 train (t-6o3hxzoujlzo1hpzn03g5z3jm) {
   utterance ("[g:GetWinnerInfo] (미래통합당)[v:jdName:unitedfutureparty] 당선자 띄워봐")
   plan (Y2BmUM3JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ivPzMtLLfLMS8tn0MCjzD21JByhUhGPyqwUv8TcVAYmBkYgZgCSjAwgAOUDAA==)

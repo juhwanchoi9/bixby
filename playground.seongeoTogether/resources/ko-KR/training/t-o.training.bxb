@@ -1,0 +1,45 @@
+train (t-o0qcl0i5eda0yhh54joblwoc3) {
+  utterance ("[g:GetCandidateInfo] (강원도 태백시)[v:geo.SearchTerm] 이번 선거 후보에 누가 나왔는지 궁금해")
+  plan (fYxBCsIwEEW/rXoAXXkDQcgdxIW4EcFeIDbfNGAzkKZ159kdRRFBHBjm8efxMcXyEiSeUnCepqNET6nEMzdMprbRBWczd/EsWP0xt8ybL3k2hMGoYfa2pTtIiBnzd7bus3S99+wyFj/C21U7+ek40qa6qZhaTDBCgRJjJby41IvnPqZQ0t8d)
+  last-modified (1586510775814)
+}
+train (t-o1rb5uxvpf4o9b78t1jih88rt) {
+  utterance ([g:GetWinnerInfo] 당선자 찾아봐)
+  plan (Y2BiUM3JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ivPzMtLLfLMS8tn0MCjzD21JByhkhEIGaAYSAIA)
+  last-modified (1587014546379)
+}
+train (t-o5l0q93mkvclql5ax52qvg19l) {
+  utterance ("[g:GetCandidateInfo] (강남구)[v:geo.SearchTerm]의 후보자 보여줘")
+  plan (fYxBCsIwEEW/rXoAXXkDQcgdxIW4EcFeIDbfNGAzkKZ159kdRRFBHBjm8efxMcXyEiSeUnCepqNET6nEMzdMprbRBWczd/EsWP0xt8ybL3k2hMGoYfa2pTtIiBnzd7bus3S99+wyFj/C21U7+ek40qa6qZhaTDBCgRJjJby41IvnPqZQ0t8d)
+  last-modified (1586509111941)
+}
+train (t-oshgluizzoyk6vixsd440ro10) {
+  utterance ("[g:GetWinnerInfo] (서울)[v:geo.SearchTerm] 누가 당선됐는지 보여줘")
+  plan (fYyxCsJAEETHRP0ArfwAwer+wUpsRDBgHc14OTC7cLkknd/uKkoacWHYx8wwmGN9DyqXGCpP11LFUwv1TDWjG4II415uis2f2o7pPDYXfeidxe5QNqyOGiRh+fW2XdK2855twuqH+RhskOPGiWW81gVjgxkmyJBjaoQP5/bx1usyI8ue)
+  last-modified (1587087331932)
+}
+train (t-otxxx5jdcravdu5we9tyjwazz) {
+  utterance ("[g:FindLocation] (사전투표소)[v:EvPs:evPs]가 어디 있는지 알고 싶어")
+  plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9C17KAYgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
+  last-modified (1586507607184)
+}
+train (t-ov1p2uzwx1jsp1y5px5bakkd0) {
+  utterance ("[g:FindLocation] (서초구)[v:Addr] 투표장소 보여줘")
+  plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
+  last-modified (1587088572399)
+}
+train (t-owq2etgcvsfra5hqojq9iwg4o) {
+  utterance ("[g:GetCandidateInfo] (양천구)[v:geo.SearchTerm] 후보자 확인해")
+  plan (fYxBCsIwEEW/rXoAXXkDQcgdxIW4EcFeIDbfNGAzkKZ159kdRRFBHBjm8efxMcXyEiSeUnCepqNET6nEMzdMprbRBWczd/EsWP0xt8ybL3k2hMGoYfa2pTtIiBnzd7bus3S99+wyFj/C21U7+ek40qa6qZhaTDBCgRJjJby41IvnPqZQ0t8d)
+  last-modified (1586846118660)
+}
+train (t-oyy8ezbcs5awmit2m12ratttf) {
+  utterance ("[g:GetCandidateInfo] 이번에 (정의당)[v:jdName:justice]에서 나오는 사람 정보 좀 알려줘")
+  plan (Y2Bm0MjJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktOzEvJTEksSfXMS8tn0Maj0j21xBlFsSIexVkpfom5qQxMDIxAzAAkGRlAAMoHAA==)
+  last-modified (1586510657414)
+}
+train (t-oz5iht6p8da8wlygl63jg0v2y) {
+  utterance ("[g:GetCandidateInfo] (민생당)[v:jdName:minsaengdang] 누구 나오나 찾아봐")
+  plan (Y2Bm0MjJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktOzEvJTEksSfXMS8tn0Maj0j21xBlFsSIexVkpfom5qQxMDIxAzAAkGRlAAMoHAA==)
+  last-modified (1586510554362)
+}

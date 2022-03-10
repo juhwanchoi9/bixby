@@ -1,0 +1,56 @@
+action (FindLocation) {
+	type (Search)
+	description (__DESCRIPTION__)
+	collect {
+		input (addr){
+			type (Addr)
+			min (Optional) max (One)
+		}
+		
+		input (evPs){
+			type (EvPs)
+			min (Optional) max (One)
+		}
+		
+		input (near){
+			type (Near)
+			min (Optional) max (One)
+		}
+	
+		
+		input (locationAddr) {
+			type (LocationResult)
+			min (Required) max (One)
+			default-init {
+				if(exists(addr)) {
+					intent {
+						goal: FindPoint
+						value: geo.SearchTerm$expr(addr)
+						value: $expr(evPs)
+					}
+				} else-if(!exists(addr)) {
+					intent {
+						goal: FindPoint
+						value: $expr(near)
+						value: $expr(evPs)
+					}
+				}
+			}
+		}
+		input (point) {
+			type (geo.NamedPoint)
+			default-init {
+				intent {
+					goal : geo.NamedPoint
+					value : geo.SearchTerm$expr(locationAddr.addr)
+				}
+			}
+			default-select {
+				with-rule {
+					select-first
+				}
+			}
+		}
+	}
+	output (Result)
+}

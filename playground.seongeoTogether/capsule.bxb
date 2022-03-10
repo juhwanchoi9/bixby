@@ -1,0 +1,25 @@
+capsule {
+  id (playground.seongeoTogether)
+  version (0.1.16) //학습 추가
+  format (3)
+  targets {
+    target (bixby-mobile-ko-KR)
+  }
+  runtime-version (9)
+  store-countries {
+    all
+  }
+  capsule-imports{
+    import (viv.geo){
+      as (geo) version (9.28.2) //2021-07-27 업데이트
+    }
+  }
+
+  permissions {
+    device-location-access
+	}
+
+  device-models {
+    all
+  }
+}

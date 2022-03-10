@@ -1,0 +1,63 @@
+layout-macro-def(Location_List) {
+	params {
+		param (location) {
+			type (LocationResult)
+			min (Required)
+			max (One)
+		}
+	}
+	
+	content {
+		compound-card{
+			content{
+				thumbnail-card {
+					image-position (End)
+					image-aspect-ratio(1:1)
+					image-object-fit (Cover)
+					image-object-position (Center)
+					image-size (Small)
+					image-url {
+						if(location.floor == '1층') {
+								template ("images/firstf.png")
+						} else-if (location.floor == '2층') {
+								template ("images/secondf.png")
+						} else {
+								template ("images/thirdf.png")
+						}
+					}
+				title-area {
+					slot1 {
+						text {
+							value {
+								template ("[#{value(location.location)}]")
+							}
+							style (Title_XS)
+						}
+					}
+					slot2 {
+						single-line {
+							text {
+								value {
+									template ("[#{value(location.placeName)}]")
+								}
+								style (Detail_M_Soft)
+							}
+						}
+						}
+						slot3 {
+							single-line {
+								text {
+									value {
+										template ("[#{value(location.addr)}]")
+									}
+									style (Detail_M_Soft)
+								}
+							}
+						}
+					}
+				}
+				}
+			}
+		}
+	}
+

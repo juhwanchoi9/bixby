@@ -1,0 +1,35 @@
+train (t-j17q2rglrhhrk6khbauxj3bdf) {
+  utterance ("[g:FindLocation] (계양)[v:Addr] 투표소 찾아줘")
+  plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
+  last-modified (1587447569129)
+}
+train (t-j1xohpdo13iv49g9poxc95jg7) {
+  utterance ("[g:FindLocation] (대전시)[v:Addr] 투표소는 어디")
+  plan (Y2BhUCzISaxML8ovzUvRK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEkMz+PQR6PQseUlCIGTTwKYKZALWVmYGRgApIMQBoEIYAJLMoAAA==)
+  last-modified (1586331153377)
+}
+train (t-ji5y2mlit5ke60mtdmlt0sx1t) {
+  utterance ("[g:FindLocation] (금강송면)[v:Addr] 투표소")
+  plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
+  last-modified (1586504445482)
+}
+train (t-joa7usi0srwucltbqx14gl2y0) {
+  utterance ("[g:GetCandidateInfo] (강남구)[v:geo.SearchTerm]에 누가 나왔어")
+  plan (fYxBCsIwEEW/rXoAXXkDQcgdxIW4EcFeIDbfNGAzkKZ159kdRRFBHBjm8efxMcXyEiSeUnCepqNET6nEMzdMprbRBWczd/EsWP0xt8ybL3k2hMGoYfa2pTtIiBnzd7bus3S99+wyFj/C21U7+ek40qa6qZhaTDBCgRJjJby41IvnPqZQ0t8d)
+  last-modified (1587086801282)
+}
+train (t-jpzj9b7dysx91mgvzdao5ugn5) {
+  utterance ("[g:FindLocation] (문래동)[v:Addr]쪽에 (사전투표소)[v:EvPs:evPs] 검색")
+  plan (Y2BlUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIrwKXMsCihk08SiAWQN1FQsDIwMTAzOQZgCyIBAGmKFyDAA=)
+  last-modified (1586504449852)
+}
+train (t-jre6wt1ppsz0zxt8lrvo1sqry) {
+  utterance ("[g:FindLocation] (광주시 오포읍)[v:Addr] 근처 투표소 검색해줘")
+  plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
+  last-modified (1586504448804)
+}
+train (t-jrk9j303ipijbzae0xknfl5vs) {
+  utterance ("[g:FindLocation] (광흥창)[v:Addr] 투표 장소 어디에 있어")
+  plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
+  last-modified (1587013510787)
+}

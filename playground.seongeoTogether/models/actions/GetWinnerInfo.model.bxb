@@ -1,0 +1,45 @@
+action (GetWinnerInfo) {
+  type(Calculation)
+  description (To get Winner information)
+  collect {
+    input (location){
+      type (geo.NamedPoint)
+      min (Optional) max (One)
+    }
+      input (jdName) {
+      type (jdName)
+      min (Optional) max (One)
+    }
+  }
+  output (winnerInfo) {
+    throws{
+			// error (NoData){
+			// 	on-catch{
+			// 		halt{
+			// 			dialog{
+			// 				template ("2020년 4월 15일 선거 당선자가 업데이트 되면 알려드릴게요.")
+			// 			}
+			// 		}
+			// 	}
+			// }
+			error (NojdName){
+				on-catch{
+					halt{
+						dialog{
+							template ("정당명을 정확하게 말씀해주세요.")
+						}
+					}
+				}
+			}
+			error (NoResult){
+				on-catch{
+					halt{
+						dialog{
+							template ("보다 정확한 선거구를 말씀해주세요.")
+						}
+					}
+				}
+			}
+		}
+  }
+}

@@ -1,0 +1,4 @@
+enum (EvPs) {
+  description (사전투표소 발화)
+  symbol (evPs)
+}

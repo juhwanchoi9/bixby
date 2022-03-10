@@ -1,0 +1,10 @@
+train (t-29nnryr55w7n3yvke6y6hytsf) {
+  utterance ([g:GetCandidateInfo] 이번 선거 후보인 보여줘)
+  plan (Y2Bm0MjJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktOzEvJTEksSfXMS8tn0Maj0j21xBlFsSoexcXpIZUFqcn5KakMTAyMQMwAJBkZGGA0AA==)
+  last-modified (1616746809407)
+}
+train (t-2jbznwjzxicogun567pa0x746) {
+  utterance ([g:VoteDday] 재보궐선거)
+  plan (Y2BiUM7JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktJSawsSS0uwasoLL8k1QWokIERCBmgGEgCAA==)
+  last-modified (1616984311664)
+}

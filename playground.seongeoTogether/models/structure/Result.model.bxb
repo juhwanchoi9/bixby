@@ -1,0 +1,15 @@
+structure (Result) {
+	description (__DESCRIPTION__)
+	property (locationResult) {
+		type (LocationResult)
+		min (Optional) max (One)
+	}
+	property (point) {
+		type (Point)
+		min (Optional) max (One)
+	}
+	property (addr) {
+		type (Addr)
+		min (Optional) max (One)
+	}
+}

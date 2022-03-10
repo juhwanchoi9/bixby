@@ -1,0 +1,45 @@
+train (t-w0jztmb6la07imz6ig0jsebpc) {
+  utterance ([g:FindLocation] 내 주변 투표소 가려면 어떻게 가)
+  plan (Y2BmUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBE49CmCKomUwMjEDMACQZGRhgNAA=)
+  last-modified (1587085383020)
+}
+train (t-w2vjufwpbf43x75ve5ittyekk) {
+  utterance ([g:GetWinnerInfo] 당선자 정보 좀)
+  plan (Y2BiUM3JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ivPzMtLLfLMS8tn0MCjzD21JByhkhEIGaAYSAIA)
+  last-modified (1587014546765)
+}
+train (t-w406i8n7wbi1x2t645h9ztd92) {
+  utterance ([g:FindLocation] 주변에 투표소 있어)
+  plan (Y2BmUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBE49CmCKomUwMjEDMACQZGRhgNAA=)
+  last-modified (1586507608216)
+}
+train (t-w60wc3085vvxtvjivryl5vsoc) {
+  utterance ("[g:GetCandidateInfo] (우리공화당)[v:jdName:ourrepublicanparty]에서 출마한 사람 정보 검색해줄래")
+  plan (Y2Bm0MjJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktOzEvJTEksSfXMS8tn0Maj0j21xBlFsSIexVkpfom5qQxMDIxAzAAkGRlAAMoHAA==)
+  last-modified (1586505510350)
+}
+train (t-wlb1pdlrrcj1fg0907hdem0go) {
+  utterance ("[g:FindLocation] (중구)[v:Addr]에서 투표하려면 어디로 가야해")
+  plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
+  last-modified (1586507608308)
+}
+train (t-wlljnra62be3mm79g0v02pmz3) {
+  utterance ([g:VoteDday] 선거 정보 보여줘)
+  plan (Y2BiUM7JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktJSawsSS0uwasoLL8k1QWokIERCBmgGEgCAA==)
+  last-modified (1586507608417)
+}
+train (t-wqarvke7wmlvnhqn751hci0nv) {
+  utterance ("[g:FindLocation] (나주)[v:Addr]에 투표소 어디있어")
+  plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
+  last-modified (1587015911630)
+}
+train (t-wz4fp8rpk5lt1lqs3q3tgxgix) {
+  utterance ("[g:GetWinnerInfo] (국민의당)[v:jdName:peopleparty] 당선자 보여줘")
+  plan (Y2BmUM3JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ivPzMtLLfLMS8tn0MCjzD21JByhUhGPyqwUv8TcVAYmBkYgZgCSjAwgAOUDAA==)
+  last-modified (1586846595480)
+}
+train (t-wzcq67wxk9c4sgw1ix9pp1j5d) {
+  utterance ("[g:GetWinnerInfo] (미통당)[v:jdName:unitedfutureparty] 당선자 찾아")
+  plan (Y2BmUM3JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ivPzMtLLfLMS8tn0MCjzD21JByhUhGPyqwUv8TcVAYmBkYgZgCSjAwgAOUDAA==)
+  last-modified (1587014990213)
+}

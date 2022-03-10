@@ -1,0 +1,20 @@
+train (t-f3xxfw2eyzl59dilv1lpelmjo) {
+  utterance ("[g:FindLocation] (사전투표소)[v:EvPs:evPs] (광주송정역)[v:Addr] 근처로 검색해봐")
+  plan (Y2BlUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIrwKXMsCihk08SiAWQN1FQsDIwMTAzOQZgCyIBAGmKFyDAA=)
+  last-modified (1586504599196)
+}
+train (t-fg78jxpgrw4cmxh4tqkdz9zf3) {
+  utterance ([g:GetCandidateInfo] 후보자 정보 검색할래)
+  plan (Y2Bi0MjJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktOzEvJTEksSfXMS8tn0Maj0j21xBlFMSMQMkAxkAQA)
+  last-modified (1586505429793)
+}
+train (t-fjpb2dqwb3z7yvtcasjqhwd75) {
+  utterance ("[g:GetCandidateInfo] (미래 통합당)[v:jdName:unitedfutureparty]에 누구 나왔어")
+  plan (Y2Bm0MjJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktOzEvJTEksSfXMS8tn0Maj0j21xBlFsSIexVkpfom5qQxMDIxAzAAkGRlAAMoHAA==)
+  last-modified (1587091767083)
+}
+train (t-fkdagk3g8jngonnnf3p740ymv) {
+  utterance ("[g:FindLocation] (강원 홍천군 두촌면)[v:Addr] 투표소")
+  plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
+  last-modified (1586503918041)
+}

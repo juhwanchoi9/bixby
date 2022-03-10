@@ -1,0 +1,35 @@
+train (t-t4nrnmb7mqm4txwqovzg5ypk9) {
+  utterance ("[g:GetCandidateInfo] (미통당)[v:jdName:unitedfutureparty]에서 나온 후보자 정보 알려줘")
+  plan (Y2Bm0MjJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktOzEvJTEksSfXMS8tn0Maj0j21xBlFsSIexVkpfom5qQxMDIxAzAAkGRlAAMoHAA==)
+  last-modified (1586505522887)
+}
+train (t-t6qs5zqexfbvz6f39auq3t8il) {
+  utterance ("[g:FindLocation] (사전투표소)[v:EvPs:evPs] (명지동)[v:Addr] 위치 알려줘")
+  plan (Y2BlUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIrwKXMsCihk08SiAWQN1FQsDIwMTAzOQZgCyIBAGmKFyDAA=)
+  last-modified (1586503924997)
+}
+train (t-tc7ebyvmudkrnjtfnwbecfh9b) {
+  utterance ("[g:FindLocation] 주변에 있는 (사전 투표소)[v:EvPs:evPs] 정보 찾아줘")
+  plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9C17KAYgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
+  last-modified (1586500535767)
+}
+train (t-tcc04e2uyrzz8x35hlh77zb5w) {
+  utterance ("[g:GetWinnerInfo] (인천광역시)[v:geo.SearchTerm] 선거 당선자 찾아")
+  plan (fYyxCsJAEETHRP0ArfwAwer+wUpsRDBgHc14OTC7cLkknd/uKkoacWHYx8wwmGN9DyqXGCpP11LFUwv1TDWjG4II415uis2f2o7pPDYXfeidxe5QNqyOGiRh+fW2XdK2855twuqH+RhskOPGiWW81gVjgxkmyJBjaoQP5/bx1usyI8ue)
+  last-modified (1587014579179)
+}
+train (t-tfwb1ebnvm4yqxljao9xtq78s) {
+  utterance ([g:FindLocation] 내 주변 투표소 리스트 보여줘)
+  plan (Y2BmUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBE49CmCKomUwMjEDMACQZGRhgNAA=)
+  last-modified (1586500188836)
+}
+train (t-tts9rayn3ipv0eaft20y4krsf) {
+  utterance ("[g:GetWinnerInfo] (민주당)[v:jdName:theminjoo] 당선자 띄워봐")
+  plan (Y2BmUM3JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ivPzMtLLfLMS8tn0MCjzD21JByhUhGPyqwUv8TcVAYmBkYgZgCSjAwgAOUDAA==)
+  last-modified (1587085430435)
+}
+train (t-twldgyj9qrnne8y62zzx1wquu) {
+  utterance ([g:FindLocation] 내 주변에 있는 투표소 알려줘)
+  plan (Y2BmUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBE49CmCKomUwMjEDMACQZGRhgNAA=)
+  last-modified (1587085207883)
+}

@@ -1,0 +1,10 @@
+train (t-yoae5cot1ubva6x5zkhoukunz) {
+  utterance ("[g:FindLocation] 내 주변 (사전투표소)[v:EvPs:evPs] 가려면 어떻게 가")
+  plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9C17KAYgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
+  last-modified (1587085368987)
+}
+train (t-ys4mw02j5tbraqcz7udn8t4a3) {
+  utterance ("[g:FindLocation] (강원도 속초)[v:Addr] 투표소 찾아줘")
+  plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
+  last-modified (1587446323104)
+}

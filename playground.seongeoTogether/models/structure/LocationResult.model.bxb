@@ -1,0 +1,35 @@
+structure (LocationResult) {
+	description (__DESCRIPTION__)
+	property (location) {
+		type (Location)
+		min (Optional) max (One)
+	}
+	property (sdName) {
+		type (sdName)
+		min (Optional) max (One)
+	}
+	property (wiwName) {
+		type (wiwName)
+		min (Optional) max (One)
+	}
+	property (addr) {
+		type (Addr)
+		min (Optional) max (One)
+	}
+	property (evPs) {
+		type (EvPs)
+		min (Optional) max (One)
+	}
+	property (checkCurLocation){
+		type (CheckCurLocation)
+		min (Optional) max (One)
+	}
+	property (placeName) {
+		type (PlaceName)
+		min (Optional) max (One)
+	}
+	property (floor) {
+		type (Floor)
+		min (Optional) max (One)
+	}	
+}

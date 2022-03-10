@@ -1,0 +1,89 @@
+layout-macro-def (candidateInfoList) {
+	params {
+		param (candidateInfo) {
+			type (candidateInfo)
+			min (Optional) max (Many)
+		}
+	}
+	content {
+		section{
+			content{
+				for-each (candidateInfo) {
+					as (this){
+						thumbnail-card {
+							image-position (Start)
+							image-aspect-ratio(1:1)
+							image-object-fit (Cover)
+							image-url //("#{value(flower.imageUrls[0])}")
+							{
+								if(this.jdNameResult == '더불어민주당') {
+									template ("images/minju.jpg")
+								} else-if (this.jdNameResult == '국민의당') {
+									template ("images/kookmin.png")
+								} else-if (this.jdNameResult == '미래통합당') {
+									template ("images/miraetonghap.jpg")
+								} else-if (this.jdNameResult == '미래한국당') {
+									template ("images/miraehankook.png")
+								} else-if (this.jdNameResult == '민생당') { 
+									template ("images/minsang.jpg")
+								} else-if (this.jdNameResult == '민중당') {
+									template ("images/minjoong.png")
+								} else-if (this.jdNameResult == '자유공화당') {
+									template ("images/jayougonghwa.jpg")
+								} else-if (this.jdNameResult == '정의당') {
+									template ("images/justice.PNG")
+								} else-if (this.jdNameResult == '자유한국당') {
+									template ("images/jayouhankook.jpg")
+								} else-if (this.jdNameResult == '바른미래당') {
+									template ("images/bareunmirae.jpg")
+								} else-if (this.jdNameResult == '우리공화당') {
+									template ("images/woorigonghwa.jpg")
+								} else-if (this.jdNameResult == '국가혁명배당금당') {
+									template ("images/kooka.png")
+								} else-if (this.jdNameResult == '무소속') {
+									template ("images/moo.png")
+								} else {
+									template ("images/man.png")
+								}
+							}
+							title-area {
+								halign (Start)
+								slot1 {
+									text {
+										value ("기호 #{value(this.giho)}번.  #{value(this.name)}")
+										style (Title_S)
+									}
+								}
+								slot2 {
+									paragraph {
+										value {
+											template ("#{value(this.sggName)} / #{value(this.gender)}성 (#{value(this.age)}세)")
+										}
+										style (Detail_L)
+									}
+								}
+								slot3 {
+									single-line {
+										text {
+											value {
+												template ("직업 : #{value(this.job)}")
+											}
+											style (Detail_M_Soft)
+										}
+									}
+								}
+							}
+							// on-click {
+							// 	intent{
+							// 		goal : GetCommitment
+							// 		value : $expr(this.huboId)
+              //     value : $expr(this.name)
+							// 	}
+							// }
+						}
+					}
+				}
+			}
+		}
+	}
+}

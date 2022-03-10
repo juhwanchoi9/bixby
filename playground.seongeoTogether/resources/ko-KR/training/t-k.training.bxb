@@ -1,0 +1,50 @@
+train (t-k1xfjm4tnirgvxxiskcfe4okf) {
+  utterance ([g:FindLocation] 투표소 정보 찾아봐)
+  plan (Y2BmUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBE49CmCKomUwMjEDMACQZGRhgNAA=)
+  last-modified (1586500185068)
+}
+train (t-k38yk9szw28csu82usg3rcx2d) {
+  utterance ("[g:FindLocation] (대전 중구)[v:Addr] 투표소 가려면 어떻게 가")
+  plan (Y2BhUCzISaxML8ovzUvRK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEkMz+PQR6PQseUlCIGTTwKYKZALWVmYGRgApIMQBoEIYAJLMoAAA==)
+  last-modified (1586311262274)
+}
+train (t-k6wtg4wkictmd1na2e0k977q6) {
+  utterance ([g:GetWinnerInfo] 당선자 정보 볼 수 있어)
+  plan (Y2BiUM3JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ivPzMtLLfLMS8tn0MCjzD21JByhkhEIGaAYSAIA)
+  last-modified (1586507361075)
+}
+train (t-k79o5819lhhzfxnhbmm3o0oyl) {
+  utterance ([g:GetCandidateInfo] 후보자 누구누구있어)
+  plan (Y2Bi0MjJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktOzEvJTEksSfXMS8tn0Maj0j21xBlFMSMQMkAxkAQA)
+  last-modified (1586505388962)
+}
+train (t-k9horozlpq3fu5l5ouy8ajfn4) {
+  utterance ("[g:GetCandidateInfo] (강서구)[v:geo.SearchTerm]에 출마한 후보자 보여줘")
+  plan (fYxBCsIwEEW/rXoAXXkDQcgdxIW4EcFeIDbfNGAzkKZ159kdRRFBHBjm8efxMcXyEiSeUnCepqNET6nEMzdMprbRBWczd/EsWP0xt8ybL3k2hMGoYfa2pTtIiBnzd7bus3S99+wyFj/C21U7+ek40qa6qZhaTDBCgRJjJby41IvnPqZQ0t8d)
+  last-modified (1587086312019)
+}
+train (t-kddqims94n1wrbrni85tl5rgm) {
+  utterance ("[g:GetCandidateInfo] 이번 선거 (울산)[v:geo.SearchTerm]에서 나오는 사람 정보 검색해줄래")
+  plan (fYxBCsIwEEW/rXoAXXkDQcgdxIW4EcFeIDbfNGAzkKZ159kdRRFBHBjm8efxMcXyEiSeUnCepqNET6nEMzdMprbRBWczd/EsWP0xt8ybL3k2hMGoYfa2pTtIiBnzd7bus3S99+wyFj/C21U7+ek40qa6qZhaTDBCgRJjJby41IvnPqZQ0t8d)
+  last-modified (1586510751058)
+}
+train (t-kjcrc7fug7cnhcjznffhtuqym) {
+  utterance ([g:VoteDday] 투표 어떻게 해)
+  plan (Y2BiUM7JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktJSawsSS0uwasoLL8k1QWokIERCBmgGEgCAA==)
+  last-modified (1587087762842)
+}
+train (t-kkwpcobjwfsqh0025wqpl2n6t) {
+  utterance ("[g:FindLocation] (용산구)[v:Addr] 투표소 보여줄래")
+  plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
+  last-modified (1586846143074)
+}
+train (t-kvq2e3zgwuhcxpuhd0bnvvoyg) {
+  utterance ([g:FindLocation] 투표소 위치 보여줘봐)
+  plan (Y2BmUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBE49CmCKomUwMjEDMACQZGRhgNAA=)
+  last-modified (1586500202827)
+}
+train (t-kwh81h1t2axnl27viuizjf70s) {
+  utterance ([g:FindLocation] 투표소)
+  plan (Y2Bi0CzISaxML8ovzUvRK07Nz0tPzQ/JT08tyUgt0vPJT04syczPC0otLs0pYVDHo9QtMy8FppyBEQgZoBhIAgA=)
+  last-modified (1585643458614)
+}

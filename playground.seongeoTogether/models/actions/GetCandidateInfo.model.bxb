@@ -1,0 +1,45 @@
+action (GetCandidateInfo) {
+  type(Calculation)
+  description (To get Candidate information)
+  collect {
+    input (location){
+      type (geo.NamedPoint)
+      min (Optional) max (One)
+    }
+      input (jdName) {
+      type (jdName)
+      min (Optional) max (One)
+    }
+  }
+  output (candidateInfo) {
+    throws{
+			error (NoData){
+				on-catch{
+					halt{
+						dialog{
+							template ("해당 데이터는 아직 준비되지 않았습니다. 빠르게 준비해드릴게요.")
+						}
+					}
+				}
+			}
+			error (NojdName){
+				on-catch{
+					halt{
+						dialog{
+							template ("정당명을 정확하게 말씀해주세요.")
+						}
+					}
+				}
+			}
+			error (NoResult){
+				on-catch{
+					halt{
+						dialog{
+							template ("보다 정확한 선거구를 말씀해주세요.")
+						}
+					}
+				}
+			}
+		}
+  }
+}

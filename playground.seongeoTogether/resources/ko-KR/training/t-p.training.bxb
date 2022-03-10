@@ -1,0 +1,35 @@
+train (t-p6kkp6fxiy9fmzuu2e4dnwu3k) {
+  utterance ("[g:FindLocation] 투표소 중에 (서울 도화동)[v:Addr]에 있는거 보여줘")
+  plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
+  last-modified (1586507607306)
+}
+train (t-paje76iaqyhho9qge1ijgdy16) {
+  utterance ("[g:GetWinnerInfo] (더불어민주당)[v:jdName:theminjoo] 당선자 보여줘")
+  plan (Y2BmUM3JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ivPzMtLLfLMS8tn0MCjzD21JByhUhGPyqwUv8TcVAYmBkYgZgCSjAwgAOUDAA==)
+  last-modified (1586846581474)
+}
+train (t-pg40j80snx3gmddevwc61jjiw) {
+  utterance ("[g:GetWinnerInfo] (강원도 평창)[v:geo.SearchTerm] 당선자 확인해")
+  plan (fYyxCsJAEETHRP0ArfwAwer+wUpsRDBgHc14OTC7cLkknd/uKkoacWHYx8wwmGN9DyqXGCpP11LFUwv1TDWjG4II415uis2f2o7pPDYXfeidxe5QNqyOGiRh+fW2XdK2855twuqH+RhskOPGiWW81gVjgxkmyJBjaoQP5/bx1usyI8ue)
+  last-modified (1587014930510)
+}
+train (t-podrtvek8ldzjsi0u5w3wcifh) {
+  utterance ("[g:FindLocation] (사전투표소)[v:EvPs:evPs] 가고 싶어")
+  plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9C17KAYgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
+  last-modified (1586507607262)
+}
+train (t-pvwi5u1unvwzzcgzkn0hrvk5r) {
+  utterance ("[g:GetCandidateInfo] (경상북도 포항시)[v:geo.SearchTerm] 출마자 누구야")
+  plan (fYxBCsIwEEW/rXoAXXkDQcgdxIW4EcFeIDbfNGAzkKZ159kdRRFBHBjm8efxMcXyEiSeUnCepqNET6nEMzdMprbRBWczd/EsWP0xt8ybL3k2hMGoYfa2pTtIiBnzd7bus3S99+wyFj/C21U7+ek40qa6qZhaTDBCgRJjJby41IvnPqZQ0t8d)
+  last-modified (1586510683778)
+}
+train (t-pwlm39hyiy56wqncmf1w8jrqn) {
+  utterance ("[g:FindLocation] (용산구)[v:Addr]에 투표소 보고싶어")
+  plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
+  last-modified (1586845717499)
+}
+train (t-px9if3fzv09wrhdvnpzyyp0kj) {
+  utterance ([g:GetCandidateInfo] 후보자 정보를 찾아줘)
+  plan (Y2Bi0MjJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktOzEvJTEksSfXMS8tn0Maj0j21xBlFMSMQMkAxkAQA)
+  last-modified (1586505430185)
+}

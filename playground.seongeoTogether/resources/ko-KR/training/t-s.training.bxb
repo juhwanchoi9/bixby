@@ -1,0 +1,55 @@
+train (t-s1qrjw2j7zn5tgnzg3rgp3l9g) {
+  utterance ("[g:FindLocation] (은평구)[v:Addr]에 있는 (사전투표소)[v:EvPs:evPs] 위치 보여줘")
+  plan (Y2BlUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIrwKXMsCihk08SiAWQN1FQsDIwMTAzOQZgCyIBAGmKFyDAA=)
+  last-modified (1586504593259)
+}
+train (t-s1zzgeskdgfi0mdpx9m1qpzp5) {
+  utterance ("[g:FindLocation] (사전투표소)[v:EvPs:evPs] (강원도 태백시 황지동)[v:Addr]에 있는지 찾아줄래")
+  plan (Y2BlUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIrwKXMsCihk08SiAWQN1FQsDIwMTAzOQZgCyIBAGmKFyDAA=)
+  last-modified (1586504506947)
+}
+train (t-s73suk5pp0vsxjvn12wnkzszb) {
+  utterance ([g:VoteDday:continue:*] 선거 정보)
+  plan (Y2BiUM7JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktJSawsSS0uwasoLL8k1QWokIERCBmgGEgCAA==)
+  last-modified (1586508258739)
+}
+train (t-sb48wznunb019b9o18y5mvpoy) {
+  utterance ([g:VoteDday] 선거 몇 일 뒤야)
+  plan (Y2BiUM7JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktJSawsSS0uwasoLL8k1QWokIERCBmgGEgCAA==)
+  last-modified (1586507607707)
+}
+train (t-sbxfjsmesz81nyp9r9gik4qvr) {
+  utterance ("[g:GetWinnerInfo] (미래통합당)[v:jdName:unitedfutureparty] 당선자가 누구니")
+  plan (Y2BmUM3JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ivPzMtLLfLMS8tn0MCjzD21JByhUhGPyqwUv8TcVAYmBkYgZgCSjAwgAOUDAA==)
+  last-modified (1587014988969)
+}
+train (t-sh81f8tt3g5i9rdnek10yrar2) {
+  utterance ("[g:GetCandidateInfo] 이번선거에 (민생당)[v:jdName:minsaengdang]에서 누구나와")
+  plan (Y2Bm0MjJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktOzEvJTEksSfXMS8tn0Maj0j21xBlFsSIexVkpfom5qQxMDIxAzAAkGRlAAMoHAA==)
+  last-modified (1586505512144)
+}
+train (t-shks6zo26tgvzrqepol3p4kxt) {
+  utterance ("[g:GetCandidateInfo] (제주)[v:geo.SearchTerm] 출마자 검색")
+  plan (fYxBCsIwEEW/rXoAXXkDQcgdxIW4EcFeIDbfNGAzkKZ159kdRRFBHBjm8efxMcXyEiSeUnCepqNET6nEMzdMprbRBWczd/EsWP0xt8ybL3k2hMGoYfa2pTtIiBnzd7bus3S99+wyFj/C21U7+ek40qa6qZhaTDBCgRJjJby41IvnPqZQ0t8d)
+  last-modified (1586510685754)
+}
+train (t-so46p89zosr9k0ppnio88nxv9) {
+  utterance ("[g:FindLocation] (계양구)[v:Addr] 투표소 어디")
+  plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
+  last-modified (1587016082164)
+}
+train (t-su8djeiypre7ymay5p970eun6) {
+  utterance ("[g:GetWinnerInfo] (서울시)[v:geo.SearchTerm] 당선자 띄워봐")
+  plan (fYyxCsJAEETHRP0ArfwAwer+wUpsRDBgHc14OTC7cLkknd/uKkoacWHYx8wwmGN9DyqXGCpP11LFUwv1TDWjG4II415uis2f2o7pPDYXfeidxe5QNqyOGiRh+fW2XdK2855twuqH+RhskOPGiWW81gVjgxkmyJBjaoQP5/bx1usyI8ue)
+  last-modified (1587027185849)
+}
+train (t-svaprgva6tpbxfqwzfp87byed) {
+  utterance ([g:VoteDday] 선거일 검색해줘)
+  plan (Y2BiUM7JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktJSawsSS0uwasoLL8k1QWokIERCBmgGEgCAA==)
+  last-modified (1586503924920)
+}
+train (t-syjuz5i07ed0ep8bflzuruhvr) {
+  utterance ("[g:FindLocation] (종로3가역)[v:Addr] 주변 (사전투표소)[v:EvPs:evPs] 알려줘")
+  plan (Y2BlUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIrwKXMsCihk08SiAWQN1FQsDIwMTAzOQZgCyIBAGmKFyDAA=)
+  last-modified (1586504270963)
+}

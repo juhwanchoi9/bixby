@@ -1,0 +1,36 @@
+action (GetCommitment) {
+  type(Calculation)
+  description (Get Candidate Commitment)
+  collect{
+    input (huboId) {
+      type(huboId)
+      min (Required) max (One)
+    }
+    input(name) {
+      type(name)
+      min (Required) max(One)
+    }
+  }
+  output (CommitmentInfo) {
+		throws{
+			error (NoData){
+				on-catch{
+					halt{
+						dialog{
+							template ("해당 데이터는 아직 준비되지 않았습니다. 빠르게 준비해드릴게요.")
+						}
+					}
+				}
+			}
+			error (NoResult){
+				on-catch{
+					halt{
+						dialog{
+							template ("후보자의 공약이 아직 등록되지 않았어요. ")
+						}
+					}
+				}
+			}
+		}
+	}    
+}

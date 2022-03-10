@@ -1,0 +1,50 @@
+train (t-90igy9y45pcr4hmg62klkrb77) {
+  utterance ("[g:FindLocation] (종로구)[v:Addr] (사전투표)[v:EvPs:evPs] 정보 보여줘")
+  plan (Y2BlUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIrwKXMsCihk08SiAWQN1FQsDIwMTAzOQZgCyIBAGmKFyDAA=)
+  last-modified (1587088455352)
+}
+train (t-94c4tmxcsv1u8rgpsxr6v4uzq) {
+  utterance ([g:GetCandidateInfo] 후보자 정보 알려줘)
+  plan (Y2Bi0MjJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktOzEvJTEksSfXMS8tn0Maj0j21xBlFMSMQMkAxkAQA)
+  last-modified (1586505389585)
+}
+train (t-99v0e6dvam06c3cv9spmwkgl3) {
+  utterance ("[g:GetWinnerInfo] (서울시)[v:geo.SearchTerm] 선거 결과 띄워줘")
+  plan (fYyxCsJAEETHRP0ArfwAwer+wUpsRDBgHc14OTC7cLkknd/uKkoacWHYx8wwmGN9DyqXGCpP11LFUwv1TDWjG4II415uis2f2o7pPDYXfeidxe5QNqyOGiRh+fW2XdK2855twuqH+RhskOPGiWW81gVjgxkmyJBjaoQP5/bx1usyI8ue)
+  last-modified (1587089884505)
+}
+train (t-9liiji5r66hbm7o25gi3ujkw0) {
+  utterance ([g:ConnectUrl] 중앙선거관리 위원회 홈페이지)
+  plan (Y2BikCvISaxML8ovzUvRK07Nz0tPzQ/JT08tyUgt0gsN8mFQxSPvnJ+Xl5pcElqUw8AIhAxQDCQB)
+  last-modified (1586495973930)
+}
+train (t-9m1dofxgxl7dutpog40nkd13q) {
+  utterance ("[g:FindLocation] (무안)[v:Addr]에 투표소 위치")
+  plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
+  last-modified (1587015904750)
+}
+train (t-9mpyxcenhc65e0l72h0vppe2c) {
+  utterance ("[g:GetCandidateInfo] (경기도)[v:geo.SearchTerm] 선거출마자 정보 찾아봐")
+  plan (fYxBCsIwEEW/rXoAXXkDQcgdxIW4EcFeIDbfNGAzkKZ159kdRRFBHBjm8efxMcXyEiSeUnCepqNET6nEMzdMprbRBWczd/EsWP0xt8ybL3k2hMGoYfa2pTtIiBnzd7bus3S99+wyFj/C21U7+ek40qa6qZhaTDBCgRJjJby41IvnPqZQ0t8d)
+  last-modified (1586510781600)
+}
+train (t-9nxc9skssohmmtjaj9rxfwd1l) {
+  utterance ("[g:FindLocation] (청기면)[v:Addr]에서 투표하기")
+  plan (Y2BhUCzISaxML8ovzUvRK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEkMz+PQR6PQseUlCIGTTwKYKZALWVmYGRgApIMQBoEIYAJLMoAAA==)
+  last-modified (1586331943136)
+}
+train (t-9rsb4krk1qipkjgpbhwl9vqwf) {
+  utterance ("[g:GetWinnerInfo] (강동구)[v:geo.SearchTerm] 당선자 보여줘")
+  plan (fYyxCsJAEETHRP0ArfwAwer+wUpsRDBgHc14OTC7cLkknd/uKkoacWHYx8wwmGN9DyqXGCpP11LFUwv1TDWjG4II415uis2f2o7pPDYXfeidxe5QNqyOGiRh+fW2XdK2855twuqH+RhskOPGiWW81gVjgxkmyJBjaoQP5/bx1usyI8ue)
+  last-modified (1587014578568)
+}
+train (t-9y2q9mdsynaj381400njz1w0g) {
+  utterance ("[g:FindLocation] (인천 논현동)[v:Addr] 투표소 정보")
+  plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
+  last-modified (1587088795536)
+}
+train (t-9ynvqsvncu6tq4nd7tihn3jcj) {
+  utterance ("[g:FindLocation] (사전투표소)[v:EvPs:evPs] (경상남도)[v:Addr] 어디서 할 수 있나 찾아봐")
+  plan (Y2BlUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIrwKXMsCihk08SiAWQN1FQsDIwMTAzOQZgCyIBAGmKFyDAA=)
+  last-modified (1586504596250)
+}

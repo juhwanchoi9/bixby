@@ -1,0 +1,55 @@
+train (t-d28mo4r9lef67gammx06dvmsi) {
+  utterance ("[g:FindLocation] (사전투표)[v:EvPs:evPs]하러 갈래")
+  plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9C17KAYgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
+  last-modified (1586500488355)
+}
+train (t-d9amzw6fp1ha89p6i1silni55) {
+  utterance ([g:GetWinnerInfo] 당선 정보 알고싶어)
+  plan (Y2BiUM3JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ivPzMtLLfLMS8tn0MCjzD21JByhkhEIGaAYSAIA)
+  last-modified (1586507308567)
+}
+train (t-da9r2btk6hrepga839pkgll3u) {
+  utterance ("[g:GetWinnerInfo] (횡성)[v:geo.SearchTerm] 당선자 띄워봐")
+  plan (fYyxCsJAEETHRP0ArfwAwer+wUpsRDBgHc14OTC7cLkknd/uKkoacWHYx8wwmGN9DyqXGCpP11LFUwv1TDWjG4II415uis2f2o7pPDYXfeidxe5QNqyOGiRh+fW2XdK2855twuqH+RhskOPGiWW81gVjgxkmyJBjaoQP5/bx1usyI8ue)
+  last-modified (1587085586878)
+}
+train (t-dacx42tvpwzm6cgsxroie6gi3) {
+  utterance ([g:GetWinnerInfo] 선거 당선 누가 됐어)
+  plan (Y2BiUM3JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ivPzMtLLfLMS8tn0MCjzD21JByhkhEIGaAYSAIA)
+  last-modified (1586507315052)
+}
+train (t-ddf2jw5294ts8lyfpo68z8uyx) {
+  utterance ("[g:FindLocation] (사전투표소)[v:EvPs:evPs] 장소 찾아봐")
+  plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9C17KAYgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
+  last-modified (1586500426104)
+}
+train (t-ddzjpjlw44gwrjkyh3zj94hhc) {
+  utterance ("[g:GetWinnerInfo] (서울시)[v:geo.SearchTerm] 선거 당선자 띄워봐")
+  plan (fYyxCsJAEETHRP0ArfwAwer+wUpsRDBgHc14OTC7cLkknd/uKkoacWHYx8wwmGN9DyqXGCpP11LFUwv1TDWjG4II415uis2f2o7pPDYXfeidxe5QNqyOGiRh+fW2XdK2855twuqH+RhskOPGiWW81gVjgxkmyJBjaoQP5/bx1usyI8ue)
+  last-modified (1586502349541)
+}
+train (t-den7vhzr4p4ubk5gel604o743) {
+  utterance ("[g:FindLocation] (옥천군 청성면)[v:Addr]에 투표소 있어")
+  plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
+  last-modified (1586504486283)
+}
+train (t-dmy5nlfzao62tlcvom18vaxf5) {
+  utterance ([g:VoteDday] 선거 언제하나요)
+  plan (Y2BiUM7JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktJSawsSS0uwasoLL8k1QWokIERCBmgGEgCAA==)
+  last-modified (1586507602381)
+}
+train (t-dtqxmq85839i0zrfjcvl7y0bb) {
+  utterance ("[g:GetWinnerInfo] (강원도)[v:viv.geo.SearchTerm] 당선자 정보 보여줘")
+  plan (fYyxCsJAEETHRP0ArfwAwer+wUpsRDBgHc14OTC7cLkknd/uKkoacWHYx8wwmGN9DyqXGCpP11LFUwv1TDWjG4II415uis2f2o7pPDYXfeidxe5QNqyOGiRh+fW2XdK2855twuqH+RhskOPGiWW81gVjgxkmyJBjaoQP5/bx1usyI8ue)
+  last-modified (1587446167384)
+}
+train (t-dtrzdcfmwhbfjs9k7ip0ay79l) {
+  utterance ("[g:GetWinnerInfo] (서귀포)[v:geo.SearchTerm] 당선자 보여줘")
+  plan (fYyxCsJAEETHRP0ArfwAwer+wUpsRDBgHc14OTC7cLkknd/uKkoacWHYx8wwmGN9DyqXGCpP11LFUwv1TDWjG4II415uis2f2o7pPDYXfeidxe5QNqyOGiRh+fW2XdK2855twuqH+RhskOPGiWW81gVjgxkmyJBjaoQP5/bx1usyI8ue)
+  last-modified (1586846528288)
+}
+train (t-dwyv3lyx63xql6q972yxhujyi) {
+  utterance ("[g:GetCandidateInfo] (부산 강서구)[v:geo.SearchTerm] 후보자 알려줘")
+  plan (fYxBCsIwEEW/rXoAXXkDQcgdxIW4EcFeIDbfNGAzkKZ159kdRRFBHBjm8efxMcXyEiSeUnCepqNET6nEMzdMprbRBWczd/EsWP0xt8ybL3k2hMGoYfa2pTtIiBnzd7bus3S99+wyFj/C21U7+ek40qa6qZhaTDBCgRJjJby41IvnPqZQ0t8d)
+  last-modified (1587088936163)
+}

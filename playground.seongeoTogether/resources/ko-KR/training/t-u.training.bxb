@@ -1,0 +1,55 @@
+train (t-u07ckuy4emblhsp5fdkcyh9kt) {
+  utterance ([g:ConnectUrl] 홈페이지에서 보고싶어)
+  plan (Y2BikMvJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gsN8mFQxSPvnJ+Xl5pcElqUw8AIhAxQDCQB)
+  last-modified (1587016910055)
+}
+train (t-u1i5ib4wdgz0bzithomr90rr6) {
+  utterance ([g:VoteDday] 이번 선거 정보 알려줘)
+  plan (Y2BiUM7JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktJSawsSS0uwasoLL8k1QWokIERCBmgGEgCAA==)
+  last-modified (1586503925149)
+}
+train (t-u3vqffvutx9nn7gjnlsppocq2) {
+  utterance ("[g:FindLocation] (전남 해남)[v:Addr] 투표소 위치 알려줘")
+  plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
+  last-modified (1587015962226)
+}
+train (t-u6wll3gxyqx9gpr7meumw6sbj) {
+  utterance ("[g:FindLocation] (용산구)[v:Addr]에 투표소 궁금해")
+  plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
+  last-modified (1586846182581)
+}
+train (t-ubghlsjxenfcvkoqrhu5chebt) {
+  utterance ("[g:GetCandidateInfo] (종로구)[v:geo.SearchTerm] 후보자 보여줘")
+  plan (fYxBCsIwEEW/rXoAXXkDQcgdxIW4EcFeIDbfNGAzkKZ159kdRRFBHBjm8efxMcXyEiSeUnCepqNET6nEMzdMprbRBWczd/EsWP0xt8ybL3k2hMGoYfa2pTtIiBnzd7bus3S99+wyFj/C21U7+ek40qa6qZhaTDBCgRJjJby41IvnPqZQ0t8d)
+  last-modified (1586503925184)
+}
+train (t-uc7jz0avb2afpwdv2kvmd1ala) {
+  utterance ([g:GetWinnerInfo] 이번 선거 당선자 궁금해)
+  plan (Y2BiUM3JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ivPzMtLLfLMS8tn0MCjzD21JByhkhEIGaAYSAIA)
+  last-modified (1586507296213)
+}
+train (t-uhflrqkvhtlrh1d5yjvebnfx7) {
+  utterance ("[g:FindLocation] (함양군)[v:Addr]에서 투표하기")
+  plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
+  last-modified (1586503925269)
+}
+train (t-ul06d283yq2eo1waaqaqplp87) {
+  utterance ("[g:FindLocation](사전 투표)[v:EvPs:evPs] 어디서 할 수 있어")
+  plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9C17KAYgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
+  last-modified (1586500507707)
+}
+train (t-utp5k6grmpc7tggpnpfyvz500) {
+  utterance ([g:GetCandidateInfo] 후보자 정보 찾아줘)
+  plan (Y2Bi0MjJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktOzEvJTEksSfXMS8tn0Maj0j21xBlFMSMQMkAxkAQA)
+  last-modified (1586505431670)
+}
+train (t-uu2bgb713b0ktp4mitn2kucap) {
+  utterance ("[g:FindLocation] (서울)[v:Addr]에서 투표 어디서 해")
+  plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
+  last-modified (1586503925224)
+}
+train (t-uxbpedys3smi7v1dbfvmnexuq) {
+  utterance ("[g:GetWinnerInfo] (경남)[v:geo.SearchTerm] 개표 결과 띄워줘")
+  plan (fYyxCsJAEETHRP0ArfwAwer+wUpsRDBgHc14OTC7cLkknd/uKkoacWHYx8wwmGN9DyqXGCpP11LFUwv1TDWjG4II415uis2f2o7pPDYXfeidxe5QNqyOGiRh+fW2XdK2855twuqH+RhskOPGiWW81gVjgxkmyJBjaoQP5/bx1usyI8ue)
+  last-modified (1587446750968)
+}

@@ -1,0 +1,55 @@
+structure (winnerInfo) {
+  description (winnerinfo)
+  property (name) {
+    type (name)
+    min (Optional) max (One)
+  }
+  property (sggName) {
+    type (sggName)
+    min (Optional) max (One)
+  }
+  property (sdName) {
+    type (sdName)
+    min (Optional) max (One)
+  }
+  property (wiwName) {
+    type (wiwName)
+    min (Optional) max (One)
+  }
+  property (gender) {
+    type (gender)
+    min (Optional) max (One)
+  }
+  property (age) {
+    type (age)
+    min (Optional) max (One)
+  }
+  property (jdNameResult) {
+    type (jdNameResult)
+    min (Optional) max (One)
+  }
+  property (job) {
+    type (job)
+    min (Optional) max (One)
+  } 
+  property (huboId) {
+    type (huboId)
+    min (Optional) max (One)
+  } 
+  property (num) {
+    type(num)
+    min (Optional) max (One)
+  }
+  property (giho) {
+    type(giho)
+    min (Optional) max (One)
+  }
+  property (dugyul) {
+    type(dugyul)
+    min (Optional) max (One)
+  }
+  property (checkCode){
+    type (CheckCode)
+    min(Optional) max (One)
+  }
+}

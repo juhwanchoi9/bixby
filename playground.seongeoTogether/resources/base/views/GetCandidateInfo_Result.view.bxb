@@ -1,0 +1,19 @@
+result-view {
+	match: candidateInfo(this) {
+		from-output : GetCandidateInfo(action)
+	}
+	message {
+		if (size(this) == 0 )	{
+			template ("등록된 후보자가 없네요.")
+		} else {
+			template ("선거에 출마한 후보자를 알려드릴게요.")
+		}
+	}
+	render {
+		layout-macro (candidateInfoList) {
+			param (candidateInfo) {
+				expression (this)
+			}
+		}	
+	}
+}

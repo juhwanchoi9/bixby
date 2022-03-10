@@ -1,0 +1,30 @@
+train (t-q5jmmz2taillj54gmz2dw2lo3) {
+  utterance ("[g:FindLocation] (서대문구)[v:Addr]에 투표소 보고싶어")
+  plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
+  last-modified (1586846150123)
+}
+train (t-qoekcifmql4hw6bqpa2fievhu) {
+  utterance ("[g:GetCandidateInfo] (경남)[v:geo.SearchTerm]에서 후보자 누구 나와")
+  plan (fYxBCsIwEEW/rXoAXXkDQcgdxIW4EcFeIDbfNGAzkKZ159kdRRFBHBjm8efxMcXyEiSeUnCepqNET6nEMzdMprbRBWczd/EsWP0xt8ybL3k2hMGoYfa2pTtIiBnzd7bus3S99+wyFj/C21U7+ek40qa6qZhaTDBCgRJjJby41IvnPqZQ0t8d)
+  last-modified (1586510684913)
+}
+train (t-qthk4rzobgktimq42s0fxhbqx) {
+  utterance ("[g:GetWinnerInfo] (염창동)[v:geo.SearchTerm] 후보자가 누군지 알려줘")
+  plan (fYyxCsJAEETHRP0ArfwAwer+wUpsRDBgHc14OTC7cLkknd/uKkoacWHYx8wwmGN9DyqXGCpP11LFUwv1TDWjG4II415uis2f2o7pPDYXfeidxe5QNqyOGiRh+fW2XdK2855twuqH+RhskOPGiWW81gVjgxkmyJBjaoQP5/bx1usyI8ue)
+  last-modified (1587087558937)
+}
+train (t-qunkkotbkmffxufbmuezg8tcz) {
+  utterance ([g:VoteDday] 투표 방법 알려줘)
+  plan (Y2BiUM7JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktJSawsSS0uwasoLL8k1QWokIERCBmgGEgCAA==)
+  last-modified (1586507607224)
+}
+train (t-qvepqrrica6w7t9vdmtlliduq) {
+  utterance ("[g:GetCandidateInfo] (동구)[v:geo.SearchTerm] 선거 후보자 찾아서 보여줘")
+  plan (fYxBCsIwEEW/rXoAXXkDQcgdxIW4EcFeIDbfNGAzkKZ159kdRRFBHBjm8efxMcXyEiSeUnCepqNET6nEMzdMprbRBWczd/EsWP0xt8ybL3k2hMGoYfa2pTtIiBnzd7bus3S99+wyFj/C21U7+ek40qa6qZhaTDBCgRJjJby41IvnPqZQ0t8d)
+  last-modified (1586510787646)
+}
+train (t-qwegz6tzrcd97aynanlaumryd) {
+  utterance ("[g:FindLocation] (사전투표소)[v:EvPs:evPs] (경은학교)[v:Addr] 근처로 알려줘")
+  plan (Y2BlUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIrwKXMsCihk08SiAWQN1FQsDIwMTAzOQZgCyIBAGmKFyDAA=)
+  last-modified (1586507607556)
+}

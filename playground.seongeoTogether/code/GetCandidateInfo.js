@@ -6,7 +6,7 @@ var fail = require('fail')
 /******************** Constant ********************/
 const KEY = secret.get('key')
 const BaseUrl = 'http://apis.data.go.kr/9760000/PofelcddInfoInqireService/getPofelcddRegistSttusInfoInqire?ServiceKey='
-const ServiceKey = '1ue1B%2F%2BAyZt6YT5FD9QwHPsG%2BIAXeOU0zhlXlNKevbrnJPbJ81zInGB0jcGQ2QJWfqdHMsZUudy4fPjX0%2F1flQ%3D%3D'
+const ServiceKey = 'eQ0IAR7m%2BdkRw3fKhm8tjYGaVM6CwJe18Pt4ztgBb%2BAkkGeZloUhMKfQYT7qtMibLDoW5cYXnaA2ihOXlH0yPg%3D%3D'
 const PageNo = 'pageNo=1'
 const SgID = 'sgId=20210407' //20200415
 //const SgTypecode = 'sgTypecode=3' //2  //기본값 시도지사 선거

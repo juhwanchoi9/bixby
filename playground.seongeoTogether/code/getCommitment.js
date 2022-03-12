@@ -7,7 +7,7 @@ var fail = require('fail')
 /******************** Constant ********************/
 const KEY = secret.get('key')
 const BaseUrl = 'http://apis.data.go.kr/9760000/ElecPrmsInfoInqireService/getCnddtElecPrmsInfoInqire?ServiceKey='
-const ServiceKey = 'k6b%2BV7YJOhFvkSxbt8v30o4w7TS%2BHKnjtg0xhbmnA6reKklNmILinrm18QU7kkXqo49LLAdXUMA8kCCrO2VAXw%3D%3D'
+const ServiceKey = 'eQ0IAR7m%2BdkRw3fKhm8tjYGaVM6CwJe18Pt4ztgBb%2BAkkGeZloUhMKfQYT7qtMibLDoW5cYXnaA2ihOXlH0yPg%3D%3D'
 const PageNo = 'pageNo=1'
 const SgID = 'sgId=20210407'
 const SgTypecode = 'sgTypecode=3'

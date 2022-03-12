@@ -54,7 +54,7 @@
   
   
 ## 
-20210407 선거 기준으로 작성
+Minor version 2부터 20210407 선거 기준으로 작성
 
 ### playground.seongeoTogether 0.2.0  
   재보궐 선거에 따른 분류 코드 추가

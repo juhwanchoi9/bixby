@@ -1,4 +1,4 @@
-vocab(EvPs) { //사전투표소
+vocab(EvPs) {
   "evPs" {
     "사전"
     "사전 투표"

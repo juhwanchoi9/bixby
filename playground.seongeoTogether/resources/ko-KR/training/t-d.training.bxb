@@ -38,6 +38,11 @@ train (t-dmy5nlfzao62tlcvom18vaxf5) {
   plan (Y2BiUM7JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktJSawsSS0uwasoLL8k1QWokIERCBmgGEgCAA==)
   last-modified (1586507602381)
 }
+train (t-dnzrm5kc550rwetln3cyjov9p) {
+  utterance ("[g:GetWinnerInfo] (서울)[v:geo.SearchTerm] 선거 당선자 알려줘")
+  plan (fYyxCsJAEEQnMWqvlR8gWN0/WImNCB5Yx9x6OTC3cndJsPHbXSKihWSbnTczDOZY3xz7S3DGkorE3hJrtpRqCqp33lPY+ytjM1LbUTp/m2OD0erHnSo2hEXnOiWZOpQNmSM7n7D8eNs2cWytpZiw+mM+e1n72ThRGapaU2gwQ4YcExSYioZQNlAhHwO/Lxcl+Qs=)
+  last-modified (1619761544934)
+}
 train (t-dtqxmq85839i0zrfjcvl7y0bb) {
   utterance ("[g:GetWinnerInfo] (강원도)[v:viv.geo.SearchTerm] 당선자 정보 보여줘")
   plan (fYyxCsJAEETHRP0ArfwAwer+wUpsRDBgHc14OTC7cLkknd/uKkoacWHYx8wwmGN9DyqXGCpP11LFUwv1TDWjG4II415uis2f2o7pPDYXfeidxe5QNqyOGiRh+fW2XdK2855twuqH+RhskOPGiWW81gVjgxkmyJBjaoQP5/bx1usyI8ue)
@@ -47,6 +52,11 @@ train (t-dtrzdcfmwhbfjs9k7ip0ay79l) {
   utterance ("[g:GetWinnerInfo] (서귀포)[v:geo.SearchTerm] 당선자 보여줘")
   plan (fYyxCsJAEETHRP0ArfwAwer+wUpsRDBgHc14OTC7cLkknd/uKkoacWHYx8wwmGN9DyqXGCpP11LFUwv1TDWjG4II415uis2f2o7pPDYXfeidxe5QNqyOGiRh+fW2XdK2855twuqH+RhskOPGiWW81gVjgxkmyJBjaoQP5/bx1usyI8ue)
   last-modified (1586846528288)
+}
+train (t-dw9c8s4ld12q0c4ehaob937j4) {
+  utterance ("[g:GetCandidateInfo:prompt] (시·도지사선거)[v:sgTypecode:sgTypecode3]")
+  plan (Y2Bm0MjJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktOzEvJTEksSfXMS8tn0Maj0j21xBlFsSoexcXpIZUFqcn5KakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1616663637554)
 }
 train (t-dwyv3lyx63xql6q972yxhujyi) {
   utterance ("[g:GetCandidateInfo] (부산 강서구)[v:geo.SearchTerm] 후보자 알려줘")

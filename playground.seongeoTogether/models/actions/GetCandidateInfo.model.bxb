@@ -10,6 +10,14 @@ action (GetCandidateInfo) {
       type (jdName)
       min (Optional) max (One)
     }
+    input (sgTypecode){
+      type (sgTypecode)
+      min (Required) max (One)
+      default-init{
+        intent{
+          goal:GetsgTypecode}
+      }
+    }
   }
   output (candidateInfo) {
     throws{
@@ -18,6 +26,24 @@ action (GetCandidateInfo) {
 					halt{
 						dialog{
 							template ("해당 데이터는 아직 준비되지 않았습니다. 빠르게 준비해드릴게요.")
+						}
+					}
+				}
+			}
+      error (NoData2){
+				on-catch{
+					halt{
+						dialog{
+							template ("이번 선거 지역이 아니네요.")
+						}
+					}
+				}
+			}
+      error (NoData3){
+				on-catch{
+					halt{
+						dialog{
+							template ("검색하신 지역은 참여 선거구가 아니네요. 다른 선거구를 검색해주세요.")
 						}
 					}
 				}

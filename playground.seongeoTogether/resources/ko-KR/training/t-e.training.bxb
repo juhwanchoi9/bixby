@@ -1,3 +1,8 @@
+train (t-e7n0a2icz515a01fe736z6iyw) {
+  utterance ("[g:GetWinnerInfo] (미래당)[v:jdName:makeourfuture] 당선자 보여줘")
+  plan (Y2BhUM3JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ivPzMtLLfLMS8tn0MCjzD21JByhUhGPyqwUv8TcVLx2FqeHVBakJuenpDIwMzAyMAFJBiANghDABBZlAAA=)
+  last-modified (1617848311004)
+}
 train (t-ecsq9y31ns0ykhn50a90e9pld) {
   utterance ([g:VoteDday:continue:*] 선거 정보 보여줘)
   plan (Y2BiUM7JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktJSawsSS0uwasoLL8k1QWokIERCBmgGEgCAA==)

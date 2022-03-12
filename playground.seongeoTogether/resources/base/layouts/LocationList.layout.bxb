@@ -1,0 +1,24 @@
+layout-macro-def (LocationList) {
+	params {
+		param (item) {
+			type (LocationResult)
+			min (Optional) max (Many)
+		}
+	}
+
+	content {
+		cell-card{
+			on-click{
+				intent{
+					goal {FindPoint @conversational} 
+					value {$expr(item.addr)}
+				}
+			}
+			slot2{
+				content{
+					primary("#{value(item.addr)}")
+				}
+			}
+		}
+	}
+}

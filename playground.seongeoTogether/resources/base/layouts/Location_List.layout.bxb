@@ -2,8 +2,8 @@ layout-macro-def(Location_List) {
 	params {
 		param (location) {
 			type (LocationResult)
-			min (Required)
-			max (One)
+			min (Optional)
+			max (Many)
 		}
 	}
 	

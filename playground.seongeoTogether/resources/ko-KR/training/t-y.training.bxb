@@ -8,3 +8,8 @@ train (t-ys4mw02j5tbraqcz7udn8t4a3) {
   plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
   last-modified (1587446323104)
 }
+train (t-yyu6tf4q225prgugzdg3mpz4n) {
+  utterance ("[g:FindLocation] (동래)[v:Addr] 투표소 보여줘")
+  plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
+  last-modified (1616983645362)
+}

@@ -16,6 +16,11 @@ capsule-info {
   dispatch-aliases {
     alias (선거투게더)
   }
+  privacy-policy-url (https://sajadari.github.io/2020-04-10-seongeoTogether-policy/)
+  website-url (http://sajadari.github.io)
+  terms-url ()
+  // Create and set a path for your icon asset
+  // icon-asset (images/icons/example.png)
 
   requested-permissions {
     permission (device-location-access) {

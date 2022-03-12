@@ -13,15 +13,24 @@ action (GetWinnerInfo) {
   }
   output (winnerInfo) {
     throws{
-			// error (NoData){
-			// 	on-catch{
-			// 		halt{
-			// 			dialog{
-			// 				template ("2020년 4월 15일 선거 당선자가 업데이트 되면 알려드릴게요.")
-			// 			}
-			// 		}
-			// 	}
-			// }
+			error (NoData){
+				on-catch{
+					halt{
+						dialog{
+							template ("2021년 4월 7일 선거 당선자가 업데이트 되면 알려드릴게요.")
+						}
+					}
+				}
+			}
+      error (NoData2){
+				on-catch{
+					halt{
+						dialog{
+							template ("참여 선거구가 아니네요. 다른 선거구를 검색해주세요.")
+						}
+					}
+				}
+			}
 			error (NojdName){
 				on-catch{
 					halt{

@@ -1,0 +1,30 @@
+layout-macro-def (sgTypeCode_list) {
+  params {
+    param (aa) {
+      type (sgTypecode)
+      max (One)
+      min (Required)
+    }
+  }
+
+  content{
+    cell-card {
+      slot2 {
+        content {
+          primary {
+            if(aa == "sgTypecode3"){
+              template ("시·도지사선거")
+            }else if(aa == "sgTypecode4"){
+              template ("구·시·군의 장선거")
+            }else if(aa == "sgTypecode5"){
+              template ("시·도의회의원선거")
+            }else if(aa == "sgTypecode6"){
+              template ("구·시·군의회의원선거")
+            }
+            
+          }
+        }
+      }
+    }
+  }
+}

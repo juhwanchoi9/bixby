@@ -1,7 +1,7 @@
 layout-macro-def (dDayAndVoteInfo) {
 	params {
-		param (dday) {
-			type (dday)
+		param (ddaytest) {
+			type (ddaytest)
 			min (Optional) max (Many)
 		}
 	}
@@ -12,13 +12,13 @@ layout-macro-def (dDayAndVoteInfo) {
       slot1 {
         image {
           url ("images/vote.png")
-          shape (Circle)
+          shape (Square)
         }
       }
       slot2{
         content {
           order (PrimarySecondary)
-          primary ("다음 선거까지 #{value(dday)}일 남았어요!")
+          primary ("재·보궐선거까지 #{value(ddaytest)}일!")
         }
       }
     }
@@ -51,14 +51,164 @@ layout-macro-def (dDayAndVoteInfo) {
                 single-line {
                   text {
                     style (Detail_M)
-                    value ("오전 6시부터 오후 6시까지")
+                    value ("오전 6시부터 오후 8시까지")
                   }
                 }
               }
             }
           }
         }
+        // hbox {
+        //   content {
+        //     vbox {
+        //       content {
+        //         single-line {
+        //           text {
+        //             style (Detail_M_Soft)
+        //             value ("선거권")
+        //           }
+        //         }
+        //       }
+        //     }
+        //     divider
+        //     vbox {
+        //       content {
+        //         single-line {
+        //           text {
+        //             style (Detail_M)
+        //             value ("선거일 현재 만 18세 이상의 국민")
+        //           }
+        //         }
+        //       }
+        //     }
+        //   }
+        // }
         hbox {
+          content {
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M_Soft)
+                    value ("사전 투표 기간")
+                  }
+                }
+              }
+            }
+            divider
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M)
+                    value ("2021.4.2.(금) ~ 4.3.(토)")
+                  }
+                }
+              }
+            }
+          }
+        }
+      // hbox {
+      //     content {
+      //       vbox {
+      //         content {
+      //           single-line {
+      //             text {
+      //               style (Detail_M_Soft)
+      //               value ("선출 인원")
+      //             }
+      //           }
+      //         }
+      //       }
+      //       divider
+      //       vbox {
+      //         content {
+      //           single-line {
+      //             text {
+      //               style (Detail_M)
+      //               value ("국회의원 300석 (지역구253/비례대표47)")
+      //             }
+      //           }
+      //         }
+      //       }
+      //     }
+      //   }
+      hbox {
+          content {
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M_Soft)
+                    value ("총 선거구")
+                  }
+                }
+              }
+            }
+            divider
+            vbox {
+              content {
+                single-line {
+                  text {
+                    style (Detail_M)
+                    value ("전국 총 21곳")
+                  }
+                }
+              }
+            }
+          }
+        }
+        // hbox {
+        //   content {
+        //     vbox {
+        //       content {
+        //         single-line {
+        //           text {
+        //             style (Detail_M_Soft)
+        //             value ("임기 기간")
+        //           }
+        //         }
+        //       }
+        //     }
+        //     divider
+        //     vbox {
+        //       content {
+        //         single-line {
+        //           text {
+        //             style (Detail_M)
+        //             value ("4년 (2020.5.30~ 2024.5.29)")
+        //           }
+        //         }
+        //       }
+        //     }
+        //   }
+        // }
+        // hbox {
+        //   content {
+        //     vbox {
+        //       content {
+        //         single-line {
+        //           text {
+        //             style (Detail_M_Soft)
+        //             value ("출마 자격")
+        //           }
+        //         }
+        //       }
+        //     }
+        //     divider
+        //     vbox {
+        //       content {
+        //         single-line {
+        //           text {
+        //             style (Detail_M)
+        //             value ("선거일 현재 25세 이상의 국민")
+        //           }
+        //         }
+        //       }
+        //     }
+        //   }
+        // }
+                hbox {
           content {
             vbox {
               content {
@@ -76,113 +226,38 @@ layout-macro-def (dDayAndVoteInfo) {
                 single-line {
                   text {
                     style (Detail_M)
-                    value ("선거일 현재 만 18세 이상의 국민")
+                    value ("2003.4.8. 이전 출생")
                   }
                 }
               }
             }
           }
         }
-      hbox {
-          content {
-            vbox {
-              content {
-                single-line {
-                  text {
-                    style (Detail_M_Soft)
-                    value ("선출 인원")
-                  }
-                }
-              }
-            }
-            divider
-            vbox {
-              content {
-                single-line {
-                  text {
-                    style (Detail_M)
-                    value ("20대 대통령")
-                  }
-                }
-              }
-            }
-          }
-        }
-        hbox {
-          content {
-            vbox {
-              content {
-                single-line {
-                  text {
-                    style (Detail_M_Soft)
-                    value ("임기 기간")
-                  }
-                }
-              }
-            }
-            divider
-            vbox {
-              content {
-                single-line {
-                  text {
-                    style (Detail_M)
-                    value ("5년 (2022.5.10~ 2027.529)")
-                  }
-                }
-              }
-            }
-          }
-        }
-        hbox {
-          content {
-            vbox {
-              content {
-                single-line {
-                  text {
-                    style (Detail_M_Soft)
-                    value ("출마 자격")
-                  }
-                }
-              }
-            }
-            divider
-            vbox {
-              content {
-                single-line {
-                  text {
-                    style (Detail_M)
-                    value ("선거일 현재 25세 이상의 국민")
-                  }
-                }
-              }
-            }
-          }
-        }
-        hbox {
-          content {
-            vbox {
-              content {
-                single-line {
-                  text {
-                    style (Detail_M_Soft)
-                    value ("선거 준비물")
-                  }
-                }
-              }
-            }
-            divider
-            vbox {
-              content {
-                single-line {
-                  text {
-                    style (Detail_M)
-                    value ("주민등록증/운전면허증/여권/학생증")
-                  }
-                }
-              }
-            }
-          }
-        }
+        // hbox {
+        //   content {
+        //     vbox {
+        //       content {
+        //         single-line {
+        //           text {
+        //             style (Detail_M_Soft)
+        //             value ("선거 준비물")
+        //           }
+        //         }
+        //       }
+        //     }
+        //     divider
+        //     vbox {
+        //       content {
+        //         single-line {
+        //           text {
+        //             style (Detail_M)
+        //             value ("주민등록증/운전면허증/여권/학생증")
+        //           }
+        //         }
+        //       }
+        //     }
+        //   }
+        // }
         title-area {
           slot2 {
             single-line {
@@ -203,19 +278,19 @@ layout-macro-def (dDayAndVoteInfo) {
         single-line {
           text {
             style (Detail_M)
-            value ("2. 투표용지 2장을 받습니다.")
+            value ("2. 투표용지를 받습니다.")
           }
         }
         single-line {
           text {
             style (Detail_M)
-            value ("3. 한 명의 후보자, 하나의 정당에 기표합니다.")
+            value ("3. 투표 용지에 기표용구를 찍고 반으로 접습니다.")
           }
         }
         single-line {
           text {
             style (Detail_M)
-            value ("4. 투표지 2장을 보이지 않게 접어 투표함에 넣습니다.")
+            value ("4. 투표지를 투표함에 넣습니다.")
           }
         }
       }  

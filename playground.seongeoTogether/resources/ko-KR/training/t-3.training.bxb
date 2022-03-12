@@ -3,6 +3,11 @@ train (t-31bug3xy9n4vpo29rentmh3j8) {
   plan (Y2Bi0MjJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktOzEvJTEksSfXMS8tn0Maj0j21xBlFMSMQMkAxkAQA)
   last-modified (1586505440946)
 }
+train (t-34k6pthslv4rain66vq0loojb) {
+  utterance ("[g:FindLocation] 우리 동네 (사전투표소)[v:EvPs:evPs] 어딨지")
+  plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9C17KAYgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
+  last-modified (1617670950714)
+}
 train (t-358v2gy7bwfvym6yca4fklp86) {
   utterance ("[g:FindLocation] (완산구)[v:Addr] (사전투표장소)[v:EvPs:evPs] 보여줘")
   plan (Y2BlUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIrwKXMsCihk08SiAWQN1FQsDIwMTAzOQZgCyIBAGmKFyDAA=)

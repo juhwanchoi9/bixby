@@ -8,6 +8,11 @@ train (t-a16rm0xz6xo7dbf26sg6nj7jp) {
   plan (fYyxCsJAEETHRP0ArfwAwer+wUpsRDBgHc14OTC7cLkknd/uKkoacWHYx8wwmGN9DyqXGCpP11LFUwv1TDWjG4II415uis2f2o7pPDYXfeidxe5QNqyOGiRh+fW2XdK2855twuqH+RhskOPGiWW81gVjgxkmyJBjaoQP5/bx1usyI8ue)
   last-modified (1587089397600)
 }
+train (t-a8sa083v5r8xfxit22q823ku9) {
+  utterance ([g:ConnectNaver] 2021년 재 보궐 선거 정보 확인하기)
+  plan (Y2BikMvJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gsN8mFQxyPvnJ+Xl5pc4pdYllrEwAiEDFAMJAE=)
+  last-modified (1617151045480)
+}
 train (t-abr2l86f6ihuxmhoym39kf4s7) {
   utterance ("[g:GetCandidateInfo] (양천구)[v:geo.SearchTerm] 후보자 보여줘")
   plan (Y2BjUMhKzcurLNYrSS0uSU4sKC7NSdVLTsxLyUxJLEn1zEvLZ1DGosI9tcQZRZFQWWaZXnpqvp5fYm5qSkB+Zl4JgzBMzLG0JL+4ND0daACDJBbBuvKM1KJUhBnBqYlFyRkhqUW5DKwMjAxMDMwMLEAWA5TNDKQZwBgEmIAsoBwA)
@@ -42,6 +47,11 @@ train (t-aoc88q5q2ml2r34ptbkncvhve) {
   utterance ([g:GetCandidateInfo] 후보 찾아봐)
   plan (Y2Bi0MjJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktOzEvJTEksSfXMS8tn0Maj0j21xBlFMSMQMkAxkAQA)
   last-modified (1586505390602)
+}
+train (t-aqohilr468rnr4nxv94host4y) {
+  utterance ([g:GetCandidateInfo] 2021년 재보궐 선거 후보자 알려줘)
+  plan (Y2Bm0MjJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktOzEvJTEksSfXMS8tn0Maj0j21xBlFsSoexcXpIZUFqcn5KakMTAyMQMwAJBkZGGA0AA==)
+  last-modified (1616984296206)
 }
 train (t-arkwhf9r2aup1a09z4yrzo15l) {
   utterance ("[g:FindLocation] (논현동)[v:Addr] (사전투표소)[v:EvPs:evPs] 어떻게 가")

@@ -1,0 +1,9 @@
+result-view {
+  match: URL (this)
+  
+  message("21대 선거 결과 조회 페이지로 이동합니다.")
+  
+  app-launch {
+    payload-uri ("#{value(this)}")
+  }
+}

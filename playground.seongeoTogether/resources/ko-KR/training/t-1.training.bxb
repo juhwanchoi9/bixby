@@ -8,6 +8,11 @@ train (t-186f8wr3tvy6ixe51rhgtsyez) {
   plan (Y2BmUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBE49CmCKomUwMjEDMACQZGRhgNAA=)
   last-modified (1587085226548)
 }
+train (t-1fduq2uesf3mfoggfhm1oxayp) {
+  utterance ([g:GetCandidateInfo] 선거 후보자 보여줘)
+  plan (Y2Bm0MjJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktOzEvJTEksSfXMS8tn0Maj0j21xBlFsSoexcXpIZUFqcn5KakMTAyMQMwAJBkZGGA0AA==)
+  last-modified (1616747002413)
+}
 train (t-1ic8zf8gtlhrfdze2ph5lw8um) {
   utterance ([g:VoteDday] 선거 언제 하는지 궁금해)
   plan (Y2BiUM7JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktJSawsSS0uwasoLL8k1QWokIERCBmgGEgCAA==)
@@ -16,10 +21,10 @@ train (t-1ic8zf8gtlhrfdze2ph5lw8um) {
 train (t-1llez9r1zkqktn90o4k8x8ru8) {
   utterance ([g:ConnectUrl] 중앙 선거 관리 위원회 홈페이지)
   plan (Y2BikMvJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gsN8mFQxSPvnJ+Xl5pcElqUw8AIhAxQDCQB)
-  last-modified (1586507596394)
+  last-modified (1616727757287)
 }
 train (t-1m3l0kxqqqxa78c1stqf3xnbf) {
   utterance ("[g:GetWinnerInfo] (서울시)[v:geo.SearchTerm] 선거 당선자 리스트 보여줘")
   plan (fYyxCsJAEETHRP0ArfwAwer+wUpsRDBgHc14OTC7cLkknd/uKkoacWHYx8wwmGN9DyqXGCpP11LFUwv1TDWjG4II415uis2f2o7pPDYXfeidxe5QNqyOGiRh+fW2XdK2855twuqH+RhskOPGiWW81gVjgxkmyJBjaoQP5/bx1usyI8ue)
-  last-modified (1587089910744)
+  last-modified (1618549126758)
 }

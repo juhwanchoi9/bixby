@@ -1,3 +1,13 @@
+train (t-q331us2yl04bssnmfxtpfxriq) {
+  utterance ([g:VoteDday] 서울시 보궐선거)
+  plan (Y2BiUM7JzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktJSawsSS0uwasoLL8k1QWokIERCBmgGEgCAA==)
+  last-modified (1616984228150)
+}
+train (t-q4pdoi8oir5oe7nl4fdl6gyix) {
+  utterance ("[g:GetCandidateInfo:prompt] (시장선거)[v:sgTypecode:sgTypecode3]")
+  plan (Y2Bm0MjJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktOzEvJTEksSfXMS8tn0Maj0j21xBlFsSoexcXpIZUFqcn5KakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1616662242674)
+}
 train (t-q5jmmz2taillj54gmz2dw2lo3) {
   utterance ("[g:FindLocation] (서대문구)[v:Addr]에 투표소 보고싶어")
   plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
@@ -24,7 +34,12 @@ train (t-qvepqrrica6w7t9vdmtlliduq) {
   last-modified (1586510787646)
 }
 train (t-qwegz6tzrcd97aynanlaumryd) {
-  utterance ("[g:FindLocation] (사전투표소)[v:EvPs:evPs] (경은학교)[v:Addr] 근처로 알려줘")
+  utterance ("[g:FindLocation] (사전투표소)[v:EvPs:evPs] (경인중학교)[v:Addr] 근처로 알려줘")
   plan (Y2BlUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIrwKXMsCihk08SiAWQN1FQsDIwMTAzOQZgCyIBAGmKFyDAA=)
-  last-modified (1586507607556)
+  last-modified (1616984756852)
+}
+train (t-qx3mjcixljpqx8dynd1peowo7) {
+  utterance ("[g:GetCandidateInfo] (부산)[v:geo.SearchTerm] (시장)[v:sgTypecode:sgTypecode3] 후보 누구야")
+  plan (fYxBCsIwEEV/bdW9rjyAIAi5g7gQNyKYC8RmTAM2I0lacePZDRFBQTqbmffn8THF6mrZnb3VhkQgdoZYsqHYkBe1ctpqFWnvLoz1gLmjuP2RlwNyMPJxo5o1YdbbXqSfOKiW9JGti5h/sk0XOXTGUIhY/Amf99T21XEi5etGkm8xQYERSlQYpxuJikxV2sj8njJ7yXgB)
+  last-modified (1616724650108)
 }

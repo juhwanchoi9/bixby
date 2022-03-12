@@ -13,6 +13,11 @@ train (t-i7gvduv1h5s5sg4cmigatq337) {
   plan (Y2BikCvISaxML8ovzUvRK07Nz0tPzQ/JT08tyUgt0gsN8mFQxSPvnJ+Xl5pcElqUw8AIhAxQDCQB)
   last-modified (1586496001907)
 }
+train (t-i93mzw5xfdicf24uw4mdvufe5) {
+  utterance ("[g:GetCandidateInfo] (도의회의원선거)[v:sgTypecode:sgTypecode5] 후보자 보여줘")
+  plan (Y2Bm0MjJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktOzEvJTEksSfXMS8tn0Maj0j21xBlFsSoexcXpIZUFqcn5KakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1616719441422)
+}
 train (t-iadccirorfovcs7v67ctn6m1n) {
   utterance ([g:ConnectUrl] 중앙 선거 관리위원회 홈페이지)
   plan (Y2BikCvISaxML8ovzUvRK07Nz0tPzQ/JT08tyUgt0gsN8mFQxSPvnJ+Xl5pcElqUw8AIhAxQDCQB)
@@ -38,10 +43,20 @@ train (t-imv2ddwmxleue0v5rjk953tyj) {
   plan (fYxBCsIwEEW/rXoAXXkDQcgdxIW4EcFeIDbfNGAzkKZ159kdRRFBHBjm8efxMcXyEiSeUnCepqNET6nEMzdMprbRBWczd/EsWP0xt8ybL3k2hMGoYfa2pTtIiBnzd7bus3S99+wyFj/C21U7+ek40qa6qZhaTDBCgRJjJby41IvnPqZQ0t8d)
   last-modified (1586505514693)
 }
+train (t-inf2az52ld1hm4fgcvl24wfsg) {
+  utterance ("[g:FindLocation] 우리 동네 (사전투표소)[v:EvPs:evPs] 어디에 있어")
+  plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9C17KAYgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
+  last-modified (1617670967753)
+}
 train (t-io5feivdoeq0y0eut63owqmhf) {
   utterance ([g:ConnectUrl] 선거 사이트 띄워줘)
   plan (Y2BikMvJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gsN8mFQxSPvnJ+Xl5pcElqUw8AIhAxQDCQB)
   last-modified (1587087787073)
+}
+train (t-iofktxcq0jtlvf17mfnt8hrs3) {
+  utterance ([g:GetCandidateInfo] 재보궐선거 후보자 알려줘)
+  plan (Y2Bi0MjJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktOzEvJTEksSfXMS8tn0Maj0j21xBlFMSMQMkAxkAQA)
+  last-modified (1616649583895)
 }
 train (t-iwa0k9ro8nyytqhuo2ugdtxc1) {
   utterance ("[g:GetWinnerInfo] (종로구)[v:geo.SearchTerm] 누가 뽑혔어")

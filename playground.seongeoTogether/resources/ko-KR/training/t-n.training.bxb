@@ -37,6 +37,11 @@ train (t-nloocc7lqlggijpecf8z6otgs) {
   plan (Y2BlUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIrwKXMsCihk08SiAWQN1FQsDIwMTAzOQZgCyIBAGmKFyDAA=)
   last-modified (1586507607114)
 }
+train (t-nmo63fe5908lywo3gasty29qu) {
+  utterance ("[g:FindLocation] 2021 재보궐 선거 (사전투표소)[v:EvPs:evPs] 알려줘")
+  plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9C17KAYgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
+  last-modified (1616984298240)
+}
 train (t-noujgnasqj4ew56rfxhrnlagx) {
   utterance ("[g:FindLocation] (전주)[v:Addr] (사전투표소)[v:EvPs:evPs]")
   plan (Y2BlUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIrwKXMsCihk08SiAWQN1FQsDIwMTAzOQZgCyIBAGmKFyDAA=)

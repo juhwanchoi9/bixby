@@ -1,22 +1,38 @@
 result-view {
-  match: winnerInfo(this) {
-    from-output : GetWinnerInfo(action)
-  }
-  message {
-    if (size(this) == 0 )	{
-      template ("등록된 당선인이 아직 없어요.")
-    }else-if(exists(this.checkCode)){
-      template ("당선자 리스트가 업데이트 되지 않았어요.")
-    } else {
-      template ("이번 선거 당선인을 알려드릴게요.")
+	match: winnerInfo(this) {
+		from-output : GetWinnerInfo(action)
+	}
+	message {
+		if (size(this) == 0 && !exists(this.checkCode))	{
+			template ("당선인 정보가 없어요.")
+		}else-if(exists(this.checkCode)){
+			//template ("당선자 리스트가 업데이트 되기 전에 먼저 아래 버튼을 눌러 확인해보세요.")
+      template ("아직 당선인 정보가 없어요. 업데이트 되는 대로 알려드릴게요.")
+		} else {
+			template ("이번 선거 당선인을 알려드릴게요.")
+		}
+	}
+	render {
+		if(!exists(this.checkCode)){
+			layout-macro (winnerInfoList) {
+				param (winnerInfo) {
+					expression (this)
+				}
+			}
     }
-  }
-  render {
-    layout-macro (winnerInfoList) {
-      param (winnerInfo) {
-        expression (this)
-      }
-    }
-  }
-  
+		// }else-if (exists(this.checkCode)){
+		// 	layout-macro (winnerPreInfo)
+		// }
+	}
+
+	conversation-drivers { 
+		// if(exists(this.checkCode)){
+		// 	conversation-driver {
+		// 		template ("21대 국회의원 당선자 바로 조회하기")
+		// 	}
+		// }
+    conversation-driver {
+				template ("중앙 선거 관리 위원회 홈페이지")
+			}
+	}
 }

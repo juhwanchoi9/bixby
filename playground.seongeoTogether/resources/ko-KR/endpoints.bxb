@@ -1,0 +1,56 @@
+endpoints {
+	action-endpoints {
+		action-endpoint (GetCandidateInfo) {
+			accepted-inputs (location, jdName, sgTypecode)
+			local-endpoint (GetCandidateInfo.js)
+		}
+		
+		action-endpoint (FindLocation) { //지역 찾기
+			accepted-inputs(addr, evPs, near, locationAddr, point)
+			local-endpoint (FindLocation.js)
+		}
+		
+		action-endpoint (FindPoint) { //주소로 좌표 받아오기
+			accepted-inputs(addr, evPs,countryDivision, near)
+			local-endpoint (FindPoint.js)
+		}
+
+		action-endpoint (MapPunchOut) { //지도에서 punchout
+			accepted-inputs(point, addr)
+			local-endpoint (mapPunchOut.js)
+		}
+				
+		action-endpoint (GetWinnerInfo) { //당선자
+			accepted-inputs (location, jdName)
+			local-endpoint (GetWinnerInfo.js)
+		}
+		
+		action-endpoint (VoteDday) { //dday
+			local-endpoint (VoteDday.js)
+		}
+
+		action-endpoint (ConnectUrl){
+      accepted-inputs (url)
+      local-endpoint (ConnectUrl.js)
+      }
+
+		action-endpoint (ConnectWinnerUrl){
+      accepted-inputs (url)
+      local-endpoint (connectWinnerUrl.js)
+      }	
+
+		action-endpoint (GetCommitment) {
+			accepted-inputs (huboId, name)
+			local-endpoint (getCommitment.js) {
+			}
+			}
+      action-endpoint (GetsgTypecode){
+      // accepted-inputs (url)
+      local-endpoint (GetsgTypecode.js)
+      }	
+    action-endpoint (ConnectNaver){
+      accepted-inputs (url)
+      local-endpoint (connectNaver.js)
+      }  
+	}
+}

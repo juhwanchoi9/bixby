@@ -33,6 +33,11 @@ train (t-shks6zo26tgvzrqepol3p4kxt) {
   plan (fYxBCsIwEEW/rXoAXXkDQcgdxIW4EcFeIDbfNGAzkKZ159kdRRFBHBjm8efxMcXyEiSeUnCepqNET6nEMzdMprbRBWczd/EsWP0xt8ybL3k2hMGoYfa2pTtIiBnzd7bus3S99+wyFj/C21U7+ek40qa6qZhaTDBCgRJjJby41IvnPqZQ0t8d)
   last-modified (1586510685754)
 }
+train (t-slr9c34843o508al35d51kpa7) {
+  utterance ("[g:GetCandidateInfo:prompt] (시·도의회의원선거)[v:sgTypecode:sgTypecode5]")
+  plan (Y2Bm0MjJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktOzEvJTEksSfXMS8tn0Maj0j21xBlFsSoexcXpIZUFqcn5KakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1616719014653)
+}
 train (t-so46p89zosr9k0ppnio88nxv9) {
   utterance ("[g:FindLocation] (계양구)[v:Addr] 투표소 어디")
   plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)

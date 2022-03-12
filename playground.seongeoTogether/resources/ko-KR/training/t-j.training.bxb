@@ -33,3 +33,8 @@ train (t-jrk9j303ipijbzae0xknfl5vs) {
   plan (Y2BhUMzJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0gtKLS7NKWFQx6PELTMvxSc/ObEEqIRBHo9Cx5SUIgZNPApgpkAtZWZgZGACkgxAGgQhgAksygAA)
   last-modified (1587013510787)
 }
+train (t-jwlw54yejfqzwqvqrvgauo5s2) {
+  utterance ("[g:GetCandidateInfo] 재보궐선거 (시장)[v:sgTypecode:sgTypecode3] 후보 알고 싶어")
+  plan (Y2Bm0MjJzM9LKspMSU/VK07Nz0tPzQ/JT08tyUgt0ktOzEvJTEksSfXMS8tn0Maj0j21xBlFsSoexcXpIZUFqcn5KakMTAyMQMwAJBkZQADKBwA=)
+  last-modified (1616719387662)
+}

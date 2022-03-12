@@ -4,7 +4,6 @@ var fail = require('fail')
 
 
 module.exports.function = function findLocation(addr, evPs, near, locationAddr, point) {
-  console.log(point)
 
   var point = {
     latitude: point.point.latitude,

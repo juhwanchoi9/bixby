@@ -10,7 +10,7 @@ train (t-b0zxsukv78uurt6nf3xhd345e) {
 train (t-b1jbu77xmmqyp8u6c9f7j7dmr) {
   utterance ([g:ConnectUrl] 선거 홈페이지)
   plan (Y2BikCvISaxML8ovzUvRK07Nz0tPzQ/JT08tyUgt0gsN8mFQxSPvnJ+Xl5pcElqUw8AIhAxQDCQB)
-  last-modified (1586496002529)
+  last-modified (1616727753834)
 }
 train (t-b64yogv8bdjb5o5caomfeu0xw) {
   utterance ("[g:GetWinnerInfo] (단원구)[v:geo.SearchTerm]는 누가 당선됐어")

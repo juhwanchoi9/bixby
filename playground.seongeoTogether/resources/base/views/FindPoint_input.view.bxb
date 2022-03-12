@@ -1,0 +1,27 @@
+input-view{
+	match: LocationResult (this)
+	
+	message{
+		if(size(this) != 0){
+			if(exists(this.checkCurLocation)){
+				template ("내 주변 투표소 검색 결과를 확인하세요.")
+			}else{
+				template ("투표소 검색 결과를 확인하세요.")
+			}
+		} else {
+			template ("투표소 정보가 존재하지 않습니다.")
+		}
+	}
+	
+	render{
+		selection-of (this) {
+			where-each (this) {
+				layout-macro (Location_List){
+					param (location){
+						expression (this)
+					}
+				}
+			}
+		}
+	}
+}

@@ -20,12 +20,13 @@ result-view {
 							slot1 {
 								text {
 									value ("#{value(this.locationResult.location)}")
-									style (Title_M)
+									style (Title_S)
 								}
 							}
 							slot2 {
 								single-line {
 									text {
+										// value ("확인확인")
 										value ("#{value(this.locationResult.addr)}")
 										style (Detail_L)
 									}
@@ -55,10 +56,7 @@ result-view {
 					}
 					
 					spacer
-					spacer
-					spacer
-					spacer
-					spacer
+			
 					
 					partitioned {
 						content {
@@ -181,6 +179,9 @@ result-view {
 		}
 	}
 	conversation-drivers {
+    // conversation-driver {
+    //   template ("2021년 재·보궐선거 정보 확인하기")
+    // }
 		conversation-driver {
 			template ("선거 정보 보여줘")
 		}

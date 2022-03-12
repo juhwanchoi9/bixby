@@ -1,7 +1,9 @@
 capsule {
   id (playground.seongeoTogether)
+
 	version (2.0.1) //210407 재보궐선거
 format (3)
+
   targets {
     target (bixby-mobile-ko-KR)
   }

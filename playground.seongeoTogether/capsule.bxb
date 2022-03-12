@@ -1,6 +1,6 @@
 capsule {
-  id (lionbridge.seongeoTogether)
-	version (2.0.0) //210407 재보궐선거
+  id (playground.seongeoTogether)
+	version (2.0.1) //210407 재보궐선거
 format (3)
   targets {
     target (bixby-mobile-ko-KR)
@@ -29,7 +29,7 @@ format (3)
 
   capsule-imports{
     import (viv.geo){
-      as (geo) version (9.27.21) // 2021/06/04
+      as (geo) version (9.28.2) // 2022/03/12
     }
   }
 
